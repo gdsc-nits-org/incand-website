@@ -9,7 +9,6 @@ const router = createBrowserRouter(routes);
 const App = () => {
   return (
     <>
-      <Navbar />
       <RouterProvider router={router} />
     </>
   );
