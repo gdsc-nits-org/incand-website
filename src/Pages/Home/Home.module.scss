@@ -4,4 +4,20 @@
   h1 {
     font-weight: bold;
   }
+
+  background: linear-gradient(45deg, #790529, #1E021E, #3730A3,#30043D,#12122A, #3A7CE0, #A855F7, #04B4FF);
+    background-size: 300% 300%;
+    animation: colorShift 20s ease-in-out infinite;
+
+    @keyframes colorShift {
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    }
 }

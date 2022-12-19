@@ -1,5 +1,5 @@
 {
-  "name": "guidance-grid",
+  "name": "incandescence-2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^2.2.0",
+    "framer-motion": "^7.10.2",
+    "granim": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
