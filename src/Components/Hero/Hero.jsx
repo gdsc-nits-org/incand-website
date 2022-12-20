@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import heroStyles from "./Hero.module.scss"
+import HALO from 'vanta/dist/vanta.halo.min.js'
+import * as THREE from 'three'
 
 const Hero = () => {
+  const [vantaEffect, setVantaEffect] = useState(null)
+  const myRef = useRef(null)
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(HALO({
+        el: myRef.current,
+        backgroundColor: 0x0c0e1d,
+        THREE
+      }))
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy()
+    }
+  }, [vantaEffect])
   return (
-    <>
+    <div ref={myRef}>
         <div className={heroStyles.heroSection}>
             <div className={heroStyles.socialHandle}>
                 <div className={heroStyles.socialIcon}>
@@ -22,7 +38,7 @@ const Hero = () => {
               <img src="/logos/heroMainLogo.svg" alt="heroMainLogo" />
             </div>
         </div>
-    </>
+    </div>
   )
 }
 
