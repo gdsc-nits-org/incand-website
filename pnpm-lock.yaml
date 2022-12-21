@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@lottiefiles/react-lottie-player': ^3.5.0
   '@types/react': ^18.0.24
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^2.2.0
@@ -27,6 +28,7 @@ specifiers:
   vite: ^3.2.3
 
 dependencies:
+  '@lottiefiles/react-lottie-player': 3.5.0_react@18.2.0
   '@vitejs/plugin-react': 2.2.0_vite@3.2.4
   framer-motion: 7.10.2_biqbaboplfbrettd7655fr4n2y
   granim: 2.0.0
@@ -442,6 +444,15 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: false
+
+  /@lottiefiles/react-lottie-player/3.5.0_react@18.2.0:
+    resolution: {integrity: sha512-RSlqcq9d204sqmG5ithFYQwxovLP96uj8yY+f2U8WPtdmv4zMvx1C4V4wv5nlcr2drSxvoyykM50YrVDpXjKwQ==}
+    peerDependencies:
+      react: 16 - 18
+    dependencies:
+      lottie-web: 5.10.0
+      react: 18.2.0
     dev: false
 
   /@motionone/animation/10.15.1:
@@ -2052,6 +2063,10 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+
+  /lottie-web/5.10.0:
+    resolution: {integrity: sha512-q2hfqKrGXNkwjSSZjKxf3fWMi0e3ZBc03qBkVWoGbwUJ7BcG+9YXjMPtmmhitzk8Nc6VQ5PRnh9yInPdfq0PZg==}
+    dev: false
 
   /magic-string/0.26.7:
     resolution: {integrity: sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==}
