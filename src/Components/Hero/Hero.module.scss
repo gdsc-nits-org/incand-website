@@ -14,8 +14,9 @@
 .heroSection{
     position: relative;
     display: flex;
+    flex-direction: column;
     width: 100%;
-    
+    height: 100vh;
 
     .socialHandle{
         position: fixed;
@@ -39,5 +40,10 @@
         display: flex;
         width: 100%;
         justify-content: center;
+
+        .mainText{
+            position: relative;
+            width: 60%;
+        }
     }
 }

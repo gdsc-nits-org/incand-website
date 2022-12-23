@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import heroStyles from "./Hero.module.scss"
 import HALO from 'vanta/dist/vanta.halo.min.js'
 import * as THREE from 'three'
+import Navbar from '../Navbar/Navbar'
 
 const Hero = () => {
   const [vantaEffect, setVantaEffect] = useState(null)
@@ -21,6 +22,7 @@ const Hero = () => {
   return (
     <div ref={myRef}>
         <div className={heroStyles.heroSection}>
+          <Navbar />
             <div className={heroStyles.socialHandle}>
                 <div className={heroStyles.socialIcon}>
                   <a href="https://www.linkedin.com/company/incandescence23/" target="_blank"><img src="/logos/linkedin.svg" alt="linkedin" /></a>
@@ -35,7 +37,7 @@ const Hero = () => {
             </div>
 
             <div className={heroStyles.heroAnim}>
-              <img src="/logos/heroMainLogo.svg" alt="heroMainLogo" />
+              <img src="/logos/heroMainLogo.svg" alt="heroMainLogo" className={heroStyles.mainText}/>
             </div>
         </div>
     </div>
