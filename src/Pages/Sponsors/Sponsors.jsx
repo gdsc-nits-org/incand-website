@@ -1,8 +1,13 @@
 import React from 'react'
-
+import {SponsorsCur, SponsorsHero,SponsorsWhy}from '../../Components'
+import style from './Sponsors.module.scss'
 const Sponsors = () => {
   return (
-    <div>Sponsors</div>
+   <div className={style.sponsors}>
+      <SponsorsHero />
+      <SponsorsWhy/>
+      <SponsorsCur/>
+    </div>
   )
 }
 
