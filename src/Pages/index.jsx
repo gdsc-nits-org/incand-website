@@ -1,3 +1,3 @@
 import Home from "./Home/Home";
-
-export { Home };
+import Sponsors from "./Sponsors/Sponsors";
+export { Home ,Sponsors};
