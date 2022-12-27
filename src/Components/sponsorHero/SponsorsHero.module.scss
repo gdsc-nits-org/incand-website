@@ -42,7 +42,7 @@
         display: flex;
         width: 100%;
         justify-content: center;
-
+        align-items: center;
         .mainText {
             position: absolute;
             font-family: KenedyItalic;
@@ -52,4 +52,15 @@
             font-weight: 100;
         }
     }
+}
+@media only screen and (max-width:500px){
+        .mainText{
+            font-size: 3.8rem !important;
+        }
+        .heroAnim>img{
+            width: 24rem;
+        }
+        .socialHandle{
+            display: none !important;
+        }
 }

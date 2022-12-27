@@ -58,6 +58,38 @@
             }
         }
 }
+@media only screen and (max-width:500px){
+    .text{
+        p{
+            font-size: 2rem !important;
+        }
+    }
+    .body{
+        height: 20rem !important;
+    }
+    .imgs{
+        width: 4rem;
+    }
+    .Spons{
+        width: 7rem !important;
+    }
+}
+@media only screen and (min-width:760px) and (max-width:1000px){
+    .text {
+            p {
+                font-size: 4rem !important;
+            }
+        }
+    .body {
+        height: 25rem !important;
+    }
+    .imgs {
+        width: 5rem;
+    }
+    .Spons{
+        width: 10rem !important;
+    }
+}
 // animations keyframes
  @keyframes m {
 
