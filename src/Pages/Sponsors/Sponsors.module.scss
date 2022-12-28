@@ -1,0 +1,80 @@
+
+.contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 100px;  
+}
+.contactus{
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 4rem;
+}
+
+.contact::after{
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: url("./images/cartoon.png") no-repeat ;
+background-size: cover;
+z-index: -1;
+}
+
+.contactbox{
+max-width: 890px;
+height: 60%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+justify-content: center;
+align-items:center ;
+text-align: center;
+
+}
+.contactbox .left{
+    height: 100%;
+    background: url("./images/Property\ 1=Variant2.png" ) no-repeat center ;
+    background-size: 200px;
+}
+.contactbox .right{
+    margin: 0;
+    height: 100%;
+ padding:60px 40px;
+ border-radius: 20PX;
+ background-color: black;
+
+}
+.contactbox .right .field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background: none;
+    font-size: medium;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    color: aliceblue;
+}
+.contactbox .right button{
+width: 90%;
+padding: 15px 50px;
+margin-top: 2%;
+border-radius: 3px;
+border: 2px solid silver;
+background: none;
+color: white;
+font-size: 1.1rem;
+}
+.contactbox .right button:hover{
+    font-size: large;
+    transition: 0.5s ease;
+    background: linear-gradient(to right top, #3f3f06, #686408, #958a08, #c8b205, #ffdb00);
+    border: none;
+}
