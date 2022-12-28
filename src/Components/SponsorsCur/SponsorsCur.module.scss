@@ -1,0 +1,262 @@
+@font-face {
+    font-family: KenedyItalic;
+    src: url(/fonts/KenedyItalic.ttf);
+}
+.container{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .text {
+            p {
+                color: whitesmoke;
+                font-family: kenedyItalic;
+                font-size: 5rem;
+                font-weight: 400;
+                user-select: none;
+            }
+            margin-bottom: 3%;
+        }
+        .body{
+            position: relative;
+            height: 35rem;
+            width: 100%;
+            .imgs{
+                position: absolute;
+                top: 35%;
+                left: 45%;
+            }
+            .Spons{
+                position: absolute;
+                width: 15rem;
+            }
+            .img1{
+                top: 0;
+                left: 40%;
+                animation: m 17s infinite cubic-bezier(.5, -0.2, .5, 1.2);
+            }
+            .img2{
+                top: 35%;
+                left: 15%;
+                animation: m1 17s infinite cubic-bezier(.5, -0.2, .5, 1.2);
+            }
+            .img3{
+                top: 35%;
+                left: 65%;
+                animation: m2 17s infinite cubic-bezier(.5, -0.2, .5, 1.2);
+            }
+            .img4{
+                top: 95%;
+                left: 20%;
+                animation: m3 17s infinite cubic-bezier(.5, -0.2, .5, 1.2);
+            }
+            .img5{
+                top: 95%;
+                left: 60%;
+                animation: m4 17s infinite cubic-bezier(.5, -0.2, .5, 1.2);
+            }
+        }
+}
+@media only screen and (max-width:500px){
+    .text{
+        p{
+            font-size: 2rem !important;
+        }
+    }
+    .body{
+        height: 17rem !important;
+    }
+    .imgs{
+        width: 3rem;
+    }
+    .Spons{
+        width: 5rem !important;
+    }
+}
+@media only screen and (min-width:501px) and (max-width:759px){
+    .text{
+        p{
+            font-size: 3rem !important;
+        }
+    }
+    .body{
+        height: 20rem !important;
+    }
+    .imgs{
+        width: 3rem;
+    }
+    .Spons{
+        width: 7rem !important;
+    }
+}
+@media only screen and (min-width:760px) and (max-width:1000px){
+    .text {
+            p {
+                font-size: 4rem !important;
+            }
+        }
+    .body {
+        height: 25rem !important;
+    }
+    .imgs {
+        width: 5rem;
+    }
+    .Spons{
+        width: 10rem !important;
+    }
+}
+// animations keyframes
+ @keyframes m {
+
+     0%,
+     3% {
+         top: 0%;
+         left: 40%;
+     }
+
+     20%,
+     25% {
+         top: 35%;
+         left: 65%;
+     }
+
+     40%,
+     45% {
+         top: 95%;
+         left: 60%;
+     }
+
+     60%,
+     65% {
+         top: 95%;
+         left: 20%;
+     }
+
+     80%,
+     85% {
+         top: 35%;
+         left: 15%;
+     }
+
+     98%,
+     100% {
+         top: 0;
+         left: 40%;
+     }
+ }
+@keyframes m1 {
+    0% ,3%{
+        top: 35%;
+        left: 15%;
+    }
+    20%,25% {
+        top: 0%;
+        left: 40%;
+    }
+    40%,45% {
+         top: 35%;
+         left: 65%;
+     }
+     60%,65%{
+         top: 95%;
+         left: 60%;
+     }
+
+     80% ,85%{
+         top: 95%;
+         left: 20%;
+     }
+     98%,100% {
+         top: 35;
+         left: 15%;
+     }
+ }
+  @keyframes m2 {
+      0%,3% {
+          top: 35%;
+          left: 65%;
+      }
+
+      20%,25%{
+          top: 95%;
+          left: 60%;
+      }
+
+      40%,45% {
+          top: 95%;
+          left: 20%;
+      }
+
+      60%,65% {
+          top: 35%;
+          left: 15%;
+      }
+
+      80%,85% {
+          top: 0;
+          left: 40%;
+      }
+          98%,100% {
+              top: 35%;
+              left: 65%;
+          }
+  }
+   @keyframes m3 {
+       0%,3% {
+           top: 95%;
+           left: 20%;
+        }
+        20%,25% {
+            top: 35%;
+            left: 15%;
+        }
+       40%,45% {
+           top: 0%;
+           left: 40%;
+       }
+
+       60%,65% {
+           top: 35%;
+           left: 65%;
+       }
+
+       80%,85% {
+           top: 95%;
+           left: 60%;
+       }
+       98%,100% {
+           top: 95;
+           left: 20%;
+       }
+   }
+@keyframes m4 {
+    0%,3% {
+        top: 95%;
+        left: 60%;
+    }
+    
+    20%,25% {
+        top: 95%;
+        left: 20%;
+    }
+    
+    40%,45% {
+        top: 35%;
+        left: 15%;
+    }
+    60%,65% {
+        top: 0%;
+        left: 40%;
+    }
+    80%,85% {
+        top: 35%;
+        left: 65%;
+    }
+
+    98%,100% {
+        top: 95%;
+        left: 60%;
+    }
+}

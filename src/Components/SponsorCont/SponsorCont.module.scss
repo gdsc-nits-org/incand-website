@@ -1,0 +1,66 @@
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // width: 100vw;
+  height: 100vh;
+  padding: 1.5rem;
+  margin: 7rem;
+}
+.contactus {
+  background: url("./images/Cus.png") no-repeat center;
+  overflow: hidden;
+  height: 59%;
+  width: 33%;
+  z-index: 6;
+  margin-top: 2rem;
+}
+
+.contactbox {
+  max-width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactbox .left {
+  height: 100%;
+  background: url("./images/Property\ 1=Variant2.png") no-repeat center;
+  background-size: 200px;
+}
+.contactbox .right {
+  margin: auto;
+  height: 80%;
+  padding: 2rem 1rem;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+}
+.contactbox .right .field {
+  width: 80%;
+  padding: 0.5rem 1rem;
+  background: none;
+  font-size: medium;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+  margin: 1rem 0rem;
+  transition: 0.4s;
+  color: aliceblue;
+}
+.contactbox .right button {
+  width: 75%;
+  border: 2px solid rgb(114, 114, 114);
+  padding: 1.5rem 1rem;
+  margin: 2rem;
+  border-radius: 5px;
+  background: none;
+  background: url("./images/send.png") no-repeat center;
+  filter: contrast(200%);
+  overflow: hidden;
+}
+
