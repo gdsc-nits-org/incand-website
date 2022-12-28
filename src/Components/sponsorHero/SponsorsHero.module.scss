@@ -54,6 +54,9 @@
     }
 }
 @media only screen and (max-width:500px){
+    .heroSection{
+        height:60vh;
+    }
         .mainText{
             font-size: 3.8rem !important;
         }
@@ -61,6 +64,23 @@
             width: 24rem;
         }
         .socialHandle{
+            display: none !important;
+        }
+}
+@media only screen and (min-width:501px) and (max-width:759px){
+    .heroSection {
+            height: 70vh;
+        }
+    
+        .mainText {
+            font-size: 4.2rem !important;
+        }
+    
+        .heroAnim>img {
+            width: 30rem;
+        }
+    
+        .socialHandle {
             display: none !important;
         }
 }

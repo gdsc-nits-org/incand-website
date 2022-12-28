@@ -30,6 +30,7 @@
             }
             .Spons{
                 position: absolute;
+                width: 15rem;
             }
             .img1{
                 top: 0;
@@ -65,10 +66,26 @@
         }
     }
     .body{
+        height: 17rem !important;
+    }
+    .imgs{
+        width: 3rem;
+    }
+    .Spons{
+        width: 5rem !important;
+    }
+}
+@media only screen and (min-width:501px) and (max-width:759px){
+    .text{
+        p{
+            font-size: 3rem !important;
+        }
+    }
+    .body{
         height: 20rem !important;
     }
     .imgs{
-        width: 4rem;
+        width: 3rem;
     }
     .Spons{
         width: 7rem !important;
