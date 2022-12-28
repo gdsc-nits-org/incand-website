@@ -1,0 +1,49 @@
+@font-face {
+    font-family: KenedyItalic;
+    src: url(/fonts/KenedyItalic.ttf);
+}
+
+.grandparent {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c0e1d;
+    margin:auto;
+    
+}
+
+.grandparent p {
+    font-size: 4rem;
+    margin-top: 7%;
+    padding: 40px 0;
+    text-align: center;
+    font-family: kenedyItalic;
+    font-weight: 400;
+
+}
+
+.parent {
+
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+.parent2 {
+
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+@media only screen and (max-width: 600px) {
+    .grandparent p{
+      font-size: 2.5rem;
+    }
+    
+  }

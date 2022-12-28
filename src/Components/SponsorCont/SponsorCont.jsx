@@ -4,14 +4,18 @@ const SponsorCont = () => {
   return (
     <div>
       <div className={contStyle.contact}>
-        <div className={contStyle.contactus}></div>
+            <p>Contact Us</p>
+        
         <div className={contStyle.contactbox}>
           <div className={contStyle.left}></div>
+
           <div className={contStyle.right}>
+            
             <input type="text" className={contStyle.field} placeholder="Name" />
             <input type="email" className={contStyle.field} placeholder="Email" />
             <input type="text" className={contStyle.field} placeholder="Query" />
-            <button></button>
+            <button>Send</button>
+            
           </div>
         </div>
         

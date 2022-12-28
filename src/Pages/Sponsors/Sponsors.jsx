@@ -1,6 +1,7 @@
 import React from 'react'
 import {SponsorsCur, SponsorsHero,SponsorsWhy}from '../../Components'
 import SponsorCont from '../../Components/SponsorCont/SponsorCont'
+import SponsorPrev from '../../Components/SponsorPrev/SponsorPrev'
 
 import style from './Sponsors.module.scss'
 const Sponsors = () => {
@@ -9,6 +10,7 @@ const Sponsors = () => {
       <SponsorsHero />
       <SponsorsWhy/>
       <SponsorsCur/> 
+      <SponsorPrev/>
       <SponsorCont/>
       
 
