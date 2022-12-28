@@ -12,6 +12,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "@iconify/react": "^4.0.1",
     "@lottiefiles/react-lottie-player": "^3.5.0",
     "@vitejs/plugin-react": "^2.2.0",
     "framer-motion": "^7.10.2",

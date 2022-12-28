@@ -1,34 +1,103 @@
-.navBar{
+@mixin flexDisplay($position, $direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: $position;
+}
+
+.navBar {
+  position: relative;
+  z-index: 9;
+  display: flex;
+  padding: 2% 0%;
+  width: 100%;
+
+  .navLeft {
     position: relative;
     display: flex;
-    padding: 2% 0%;
+  }
+  .navRight {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+
+    .navBtn {
+      position: relative;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      font-weight: 300;
+      font-size: 1.1rem;
+    }
+    .navLine {
+      position: relative;
+      width: 10%;
+      border-top: 1px solid white;
+    }
+  }
+}
+
+.toggleIcon {
+  display: none;
+  background-color: inherit;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  .navBar {
+    transition: 0.5s all ease-in-out;
+    position: relative;
+  }
+
+  .navBar.expanded {
+    height: 50vh;
+  }
+
+  .navBar.expanded .navRight {
+    @include flexDisplay(center, column);
+    position: absolute;
+    top: 7.5rem;
+    left: 0;
     width: 100%;
+    opacity: 1;
+  }
 
-    .navLeft{
-        position: relative;
-        display: flex;
-        width: 50%;
-    }
-    .navRight{
-        position: relative;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 50%;
+  .navBar.expanded .navRight .navBtn,
+  .navBar.expanded .navRight .navLine {
+    margin: 0.9375rem 0;
+    font-size: 1.2rem;
+  }
 
-        .navBtn{
-            position: relative;
-            display: flex;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            font-weight: 300;
-            font-size: 1.1rem;
-        }
-        .navLine{
-            position: relative;
-            width: 10%;
-            border-top: 1px solid white;
-        }
-    }
+  .toggleIcon {
+    display: block;
+    position: absolute;
+    top: 0.8rem;
+    right: 2.5rem;
+  }
+
+  .navLeft {
+    position: absolute;
+    top: 1rem;
+  }
+
+  .navRight {
+    @include flexDisplay(center, column);
+    position: absolute;
+    top: -18.75rem;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navRight .navBtn,
+  .navRight .navLine {
+    margin: 0.9375rem 0;
+    font-size: 1.1rem;
+  }
 }
