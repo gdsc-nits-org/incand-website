@@ -62,7 +62,7 @@
 
   .navBar.expanded .navRight {
     @include flexDisplay(center, column);
-    background-color: black;
+    // background-color: black;
     position: absolute;
     top: 7.5rem;
     left: 0;
