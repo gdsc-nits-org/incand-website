@@ -9,9 +9,9 @@
   position: relative;
   z-index: 9;
   display: flex;
-  padding: 2% 0%;
   width: 100%;
-
+  padding-top: 2%;
+  background-color: inherit;
   .navLeft {
     position: relative;
     display: flex;
@@ -44,7 +44,7 @@
 
 .toggleIcon {
   display: none;
-  background-color: inherit;
+  background-color: transparent;
   color: white;
   border: none;
 }
@@ -52,22 +52,22 @@
 @media (max-width: 1200px) {
   .navBar {
     transition: 0.5s all ease-in-out;
-    // position: relative;
-    height: 20vh;
+    padding-top: 0;
   }
 
   .navBar.expanded {
-    height: 50vh;
+    position: fixed;
+    height: 60vh;
+    background-color: #0c0e1d;
   }
 
   .navBar.expanded .navRight {
     @include flexDisplay(center, column);
-    // background-color: black;
-    position: absolute;
+    width: 100%;
     top: 7.5rem;
     left: 0;
-    width: 100%;
     opacity: 1;
+    padding: 2%;
   }
 
   .navBar.expanded .navRight .navBtn,
@@ -82,15 +82,9 @@
     top: 0.8rem;
     right: 2.5rem;
   }
-
-  .navLeft {
-    position: absolute;
-    top: 1rem;
-  }
-
   .navRight {
     @include flexDisplay(center, column);
-    position: absolute;
+    position: absolute !important;
     top: -18.75rem;
     left: 0;
     width: 100%;

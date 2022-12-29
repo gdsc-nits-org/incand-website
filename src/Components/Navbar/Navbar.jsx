@@ -43,7 +43,7 @@ const Navbar = (props) => {
         <div className={navStyles.navLeft}></div>
         <button className={navStyles.toggleIcon} onClick={handleToggle}>
           {toggle ? (
-            <Icon icon="maki:cross" width="37"></Icon>
+            <Icon icon="maki:cross" width="37" height="37"></Icon>
           ) : (
             <Icon icon="charm:menu-hamburger" width="37" height="37"></Icon>
           )}
