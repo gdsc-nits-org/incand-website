@@ -9,6 +9,7 @@
 
   .buttons {
     .btn1 {
+      cursor: pointer;
       box-sizing: border-box;
       // position: absolute;
       width: 455.835px;
@@ -46,6 +47,7 @@
     }
 
     .btn2 {
+      cursor: pointer;
       box-sizing: border-box;
       // position: absolute;
       width: 467px;
@@ -152,6 +154,7 @@
       order: 0;
       flex-grow: 0;
     }
+
     .social2 {
       width: 30px;
       height: 30px;
@@ -159,6 +162,7 @@
       order: 1;
       flex-grow: 0;
     }
+
     .social3 {
       width: 30px;
       height: 30px;
@@ -166,6 +170,7 @@
       order: 2;
       flex-grow: 0;
     }
+
     .social4 {
       width: 30px;
       height: 30px;
@@ -173,6 +178,7 @@
       order: 3;
       flex-grow: 0;
     }
+
     .social5 {
       width: 30px;
       height: 30px;
@@ -201,6 +207,7 @@
         width: 131px;
         margin: auto;
         height: 41px;
+
         .btn1son {
           display: flex;
           justify-content: center;
@@ -220,6 +227,7 @@
       .btn2 {
         width: 131px;
         margin: auto;
+
         .btn2son {
           width: 133px;
           display: flex;
