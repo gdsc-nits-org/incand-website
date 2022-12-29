@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className={style.home}>
-      <Navbar />
+      <Navbar handleClick={handleClick} handleClick2={handleClick2} />
       <Hero handleClick={handleClick} handleClick2={handleClick2} />
       <About reference={ref} />
       <Footer reference={ref2} />

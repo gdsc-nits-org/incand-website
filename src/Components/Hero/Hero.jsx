@@ -21,6 +21,40 @@ const Hero = () => {
     };
   }, [vantaEffect]);
 
+  function useEvent(event, handler, passive = false) {
+    useEffect(() => {
+      window.addEventListener(event, handler, passive);
+
+      return function cleanup() {
+        window.removeEventListener(event, handler);
+      };
+    });
+  }
+
+  const changeResize = () => {
+    if (window.innerWidth > 768) {
+      setVantaEffect(
+        HALO({
+          el: myRef.current,
+          backgroundColor: 0x0c0e1d,
+          THREE,
+          size: 1,
+        })
+      );
+    } else {
+      setVantaEffect(
+        HALO({
+          el: myRef.current,
+          backgroundColor: 0x0c0e1d,
+          THREE,
+          size: 0.5,
+        })
+      );
+    }
+  };
+
+  useEvent("resize", changeResize);
+
   return (
     <div ref={myRef}>
       <div className={heroStyles.heroSection}>
