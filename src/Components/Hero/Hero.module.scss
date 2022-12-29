@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Batsand;
+  src: url(/fonts/Batsand.ttf);
+}
+@font-face {
+  font-family: Elianto;
+  src: url(/fonts/Elianto-Regular.ttf);
+}
+@font-face {
+  font-family: KenedyItalic;
+  src: url(/fonts/KenedyItalic.ttf);
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  .socialHandle {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8% 4%;
+    height: 23rem;
+    z-index: 100;
+    justify-content: space-evenly;
+
+    .verticalLine {
+      position: relative;
+      height: 7rem;
+      border-left: 1px solid white;
+    }
+  }
+
+  .heroAnim {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    .mainText {
+      width: 60%;
+      transition: 0.5s all ease-in-out;
+    }
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .heroSection {
+    .socialHandle {
+      display: none;
+    }
+  }
+}
