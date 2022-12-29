@@ -24,7 +24,7 @@ const SponsorCont = () => {
       <p>Contact Us</p>
       <div className={contStyle.contactbox}>
         <div className={contStyle.left}>
-          <img src="/logos/adver.svg" alt="mdfc" style={{ display: "block" }} />
+          <img src="/logos/contactLogo.svg" alt="mdfc" style={{ display: "block" }} />
         </div>
         <div className={contStyle.right}>
           <form>

@@ -5,3 +5,10 @@
     padding: 2% 0;
     justify-content: center;
 }
+@media only screen and  (max-width:600px){
+    .footer{
+        img{
+            width:15rem;
+        }
+    }
+}
