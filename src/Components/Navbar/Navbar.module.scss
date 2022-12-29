@@ -1,0 +1,100 @@
+@mixin flexDisplay($position, $direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: $position;
+}
+
+.navBar {
+  position: relative;
+  z-index: 9;
+  display: flex;
+  width: 100%;
+  padding-top: 2%;
+  background-color:inherit;
+  .navLeft {
+    position: relative;
+    display: flex;
+  }
+  .navRight {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+
+    .navBtn {
+      position: relative;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      font-weight: 300;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+    .navLine {
+      position: relative;
+      width: 10%;
+      border-top: 1px solid white;
+    }
+  }
+}
+
+.toggleIcon {
+  display: none;
+  background-color:transparent;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  .navBar {
+    transition: 0.5s all ease-in-out;
+    padding-top: 0;
+  }
+
+  .navBar.expanded {
+    position: fixed;
+    height: 60vh;
+    background-color: #0c0e1d;
+  }
+
+  .navBar.expanded .navRight {
+    @include flexDisplay(center, column);
+    width: 100%;
+    top: 7.5rem;
+    left: 0;
+    opacity: 1;
+    padding: 2%;
+  }
+
+  .navBar.expanded .navRight .navBtn,
+  .navBar.expanded .navRight .navLine {
+    margin: 0.9375rem 0;
+    font-size: 1.2rem;
+  }
+
+  .toggleIcon {
+    display: block;
+    position: absolute;
+    top: 0.8rem;
+    right: 2.5rem;
+  }
+  .navRight {
+    @include flexDisplay(center, column);
+    position: absolute !important;
+    top: -18.75rem;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navRight .navBtn,
+  .navRight .navLine {
+    margin: 0.9375rem 0;
+    font-size: 1.1rem;
+  }
+}

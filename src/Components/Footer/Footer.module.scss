@@ -1,0 +1,262 @@
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2% 0;
+  justify-content: center;
+
+  .buttons {
+    .btn1 {
+      box-sizing: border-box;
+      // position: absolute;
+      width: 455.835px;
+      height: 80.09px;
+      margin: auto;
+      top: 231px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+
+      .btn1son {
+        margin-top: 15px;
+        // position: absolute;
+        border: 2px solid #06b6d4;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 8%;
+        border-top-right-radius: 40%;
+        width: 455.83px;
+        height: 40.04px;
+        left: 493.51px;
+        top: 256.91px;
+        background: transparent;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        /* or 145% */
+
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: #ffffff;
+      }
+    }
+
+    .btn2 {
+      box-sizing: border-box;
+      // position: absolute;
+      width: 467px;
+      height: 45.93px;
+      margin: auto;
+      top: 251.02px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-bottom: 30px;
+
+      .btn2son {
+        // position: absolute;
+        border: 2px solid #3b82f6;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 8%;
+        border-top-right-radius: 40%;
+        width: 455.83px;
+        height: 40.04px;
+        // left: 493.51px;
+        top: 256.91px;
+        background: transparent;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        /* or 145% */
+
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: #ffffff;
+      }
+    }
+  }
+
+  .contactUs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contact {
+      // position: absolute;
+      width: 125px;
+      height: 22px;
+      margin: auto;
+      bottom: 113px;
+
+      font-family: "LEMON MILK";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height */
+
+      letter-spacing: 0.28em;
+      text-transform: capitalize;
+
+      color: #ffffff;
+    }
+
+    .mail {
+      // position: absolute;
+      width: 460px;
+      height: 34px;
+      margin: auto;
+      top: 503px;
+
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 29px;
+      /* or 181% */
+
+      text-align: center;
+      letter-spacing: 0.05em;
+
+      color: #ffffff;
+    }
+  }
+
+  .footerSocials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 10px;
+    // left:628px;
+
+    position: absolute;
+    width: 190px;
+    height: 30px;
+    margin: auto;
+    top: 561px;
+
+    .social1 {
+      width: 30px;
+      height: 30px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .social2 {
+      width: 30px;
+      height: 30px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+    .social3 {
+      width: 30px;
+      height: 30px;
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+    }
+    .social4 {
+      width: 30px;
+      height: 30px;
+      flex: none;
+      order: 3;
+      flex-grow: 0;
+    }
+    .social5 {
+      width: 30px;
+      height: 30px;
+      flex: none;
+      order: 4;
+      flex-grow: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    .footerLogo {
+      img {
+        width: 125px;
+        height: 73.48px;
+      }
+    }
+
+    .footerSocials {
+      display: none;
+    }
+
+    .buttons {
+      .btn1 {
+        width: 131px;
+        margin: auto;
+        height: 41px;
+        .btn1son {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 20px;
+          width: 123px;
+          font-weight: 400;
+          font-size: 7px;
+          line-height: 29px;
+          /* or 414% */
+
+          text-align: center;
+          letter-spacing: 0.05em;
+        }
+      }
+
+      .btn2 {
+        width: 131px;
+        margin: auto;
+        .btn2son {
+          width: 133px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 20px;
+          font-weight: 400;
+          font-size: 7px;
+          line-height: 29px;
+          /* or 414% */
+
+          text-align: center;
+          letter-spacing: 0.05em;
+        }
+      }
+    }
+
+    .contactUs {
+      .contact {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.05em;
+      }
+
+      .mail {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.05em;
+      }
+    }
+  }
+}
