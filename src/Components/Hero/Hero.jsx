@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import HALO from "vanta/dist/vanta.halo.min";
 import * as THREE from "three";
+import HALO from "vanta/dist/vanta.halo.min";
 import Navbar from "../Navbar/Navbar";
 import heroStyles from "./Hero.module.scss";
 
-const Hero = () => {
+const Hero = (props) => {
   const [vantaEffect, setVantaEffect] = useState(null);
   const myRef = useRef(null);
   useEffect(() => {
@@ -21,10 +21,11 @@ const Hero = () => {
       if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
+
   return (
     <div ref={myRef}>
       <div className={heroStyles.heroSection}>
-        <Navbar />
+        <Navbar handleClick={props.handleClick} handleClick2={props.handleClick2} />
         <div className={heroStyles.socialHandle}>
           <div className={heroStyles.socialIcon}>
             <a href="https://www.linkedin.com/company/incandescence23/" target="_blank">

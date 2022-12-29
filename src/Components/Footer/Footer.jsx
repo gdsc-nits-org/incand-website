@@ -2,16 +2,12 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import footerStyles from "./Footer.module.scss";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <div className={footerStyles.footer}>
+    <div className={footerStyles.footer} ref={props.reference}>
       <div className={footerStyles.footerLogo}>
         <img src="/logos/footerLogo.svg" alt="" />
       </div>
-
-      {/* <div className={footerStyles.footerAnim}>
-              <img src="/logos/Butterfly" alt="footerMainLogo" className={footerStyles.mainText}/>
-            </div> */}
 
       <div className={footerStyles.buttons}>
         <div className={footerStyles.btn1}>

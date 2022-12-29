@@ -1,8 +1,10 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
 import navStyles from "./Navbar.module.scss";
-const Navbar = () => {
+const Navbar = (props) => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
@@ -49,8 +51,12 @@ const Navbar = () => {
         <div className={navStyles.navRight}>
           <div className={navStyles.navBtn}>SEE WHAT'S HAPPENING</div>
           <div className={navStyles.navLine}></div>
-          <div className={navStyles.navBtn}>ABOUT US</div>
-          <div className={navStyles.navBtn}>CONTACT US</div>
+          <div className={navStyles.navBtn} onClick={props.handleClick}>
+            ABOUT US
+          </div>
+          <div className={navStyles.navBtn} onClick={props.handleClick2}>
+            CONTACT US
+          </div>
         </div>
       </div>
     </>
