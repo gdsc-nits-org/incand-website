@@ -134,59 +134,87 @@
 
   .footerSocials {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    padding: 0px;
-    gap: 10px;
-    // left:628px;
-
-    position: absolute;
-    width: 190px;
-    height: 30px;
+    flex-wrap: wrap;
     margin: auto;
-    top: 561px;
 
     .social1 {
       width: 30px;
       height: 30px;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
     }
-
     .social2 {
       width: 30px;
       height: 30px;
-      flex: none;
-      order: 1;
-      flex-grow: 0;
     }
-
     .social3 {
       width: 30px;
       height: 30px;
-      flex: none;
-      order: 2;
-      flex-grow: 0;
     }
-
     .social4 {
       width: 30px;
       height: 30px;
-      flex: none;
-      order: 3;
-      flex-grow: 0;
     }
-
     .social5 {
       width: 30px;
       height: 30px;
-      flex: none;
-      order: 4;
-      flex-grow: 0;
     }
   }
+
+  // .footerSocials {
+  //   display: flex;
+  //   flex-direction: row;
+  //   align-items: center;
+  //   justify-content: center;
+  //   padding: 0px;
+  //   gap: 10px;
+  //   // left:628px;
+
+  //   position: absolute;
+  //   width: 190px;
+  //   height: 30px;
+  //   margin: auto;
+  //   top: 561px;
+
+  //   .social1 {
+  //     width: 30px;
+  //     height: 30px;
+  //     flex: none;
+  //     order: 0;
+  //     flex-grow: 0;
+  //   }
+
+  //   .social2 {
+  //     width: 30px;
+  //     height: 30px;
+  //     flex: none;
+  //     order: 1;
+  //     flex-grow: 0;
+  //   }
+
+  //   .social3 {
+  //     width: 30px;
+  //     height: 30px;
+  //     flex: none;
+  //     order: 2;
+  //     flex-grow: 0;
+  //   }
+
+  //   .social4 {
+  //     width: 30px;
+  //     height: 30px;
+  //     flex: none;
+  //     order: 3;
+  //     flex-grow: 0;
+  //   }
+
+  //   .social5 {
+  //     width: 30px;
+  //     height: 30px;
+  //     flex: none;
+  //     order: 4;
+  //     flex-grow: 0;
+  //   }
+  // }
 }
 
 @media screen and (max-width: 990px) {
@@ -198,9 +226,10 @@
       }
     }
 
-    .footerSocials {
-      display: none;
-    }
+    // .footerSocials {
+    //   display: none;
+
+    // }
 
     .buttons {
       .btn1 {
