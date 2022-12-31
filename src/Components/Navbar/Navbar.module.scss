@@ -7,16 +7,20 @@
 
 .navBar {
   background-color: transparent !important;
+  backdrop-filter: blur(5px);
   position: fixed !important;
   top: 0;
   z-index: 9;
   display: flex;
   width: 100%;
-  padding-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
   .navLeft {
     position: relative;
     display: flex;
   }
+
   .navRight {
     position: relative;
     display: flex;
@@ -35,6 +39,7 @@
       font-size: 1.1rem;
       cursor: pointer;
     }
+
     .navLine {
       position: relative;
       width: 10%;
@@ -87,6 +92,7 @@
     top: 0.8rem;
     right: 2.5rem;
   }
+
   .navRight {
     @include flexDisplay(center, column);
     position: absolute !important;
