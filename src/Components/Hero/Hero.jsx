@@ -77,6 +77,8 @@ const Hero = () => {
           <div className={heroStyles.verticalLine}></div>
         </div>
 
+        <div className={heroStyles.heroFade}></div>
+
         <div className={heroStyles.heroAnim}>
           <img
             src="/logos/heroMainLogo.svg"
