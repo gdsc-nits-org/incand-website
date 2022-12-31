@@ -6,12 +6,13 @@
 }
 
 .navBar {
-  position: relative;
+  background-color: transparent !important;
+  position: fixed !important;
+  top: 0;
   z-index: 9;
   display: flex;
   width: 100%;
   padding-top: 2%;
-  background-color: inherit;
   .navLeft {
     position: relative;
     display: flex;
@@ -42,6 +43,10 @@
   }
 }
 
+.navBarbg {
+  background-color: #0c0e1d !important;
+}
+
 .toggleIcon {
   display: none;
   background-color: transparent;
@@ -58,7 +63,7 @@
   .navBar.expanded {
     position: fixed;
     height: 60vh;
-    background-color: #0c0e1d;
+    background-color: #0c0e1d !important;
   }
 
   .navBar.expanded .navRight {

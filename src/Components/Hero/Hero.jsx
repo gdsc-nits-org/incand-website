@@ -3,7 +3,7 @@ import * as THREE from "three";
 import HALO from "vanta/dist/vanta.halo.min";
 import heroStyles from "./Hero.module.scss";
 
-const Hero = () => {
+const Hero = (props) => {
   const [vantaEffect, setVantaEffect] = useState(null);
   const myRef = useRef(null);
   useEffect(() => {
@@ -57,7 +57,7 @@ const Hero = () => {
 
   return (
     <div ref={myRef}>
-      <div className={heroStyles.heroSection}>
+      <div className={heroStyles.heroSection} ref={props.reference}>
         <div className={heroStyles.socialHandle}>
           <div className={heroStyles.socialIcon}>
             <a href="https://www.linkedin.com/company/incandescence23/" target="_blank">
