@@ -88,7 +88,7 @@ const Hero = (props) => {
           />
         </div>
 
-        <Marquee gradient={false} speed={120} className={heroStyles.marqueeBox}>
+        {/* <Marquee gradient={false} speed={120} className={heroStyles.marqueeBox}>
           <div className={heroStyles.comingSoonString}>
             Coming Soon!!
           </div>
@@ -98,7 +98,7 @@ const Hero = (props) => {
           <div className={heroStyles.comingSoonString}>
             Coming Soon!!
           </div>
-        </Marquee>
+        </Marquee> */}
       </div>
     </div>
   );
