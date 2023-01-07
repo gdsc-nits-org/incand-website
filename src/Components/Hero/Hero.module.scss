@@ -58,6 +58,21 @@
       transition: 0.5s all ease-in-out;
     }
   }
+
+  .marqueeBox{
+    position: absolute;
+    z-index: 200;
+    top: 85vh;
+    height: 3rem;
+    transform: rotate(-3deg);
+    background-color: rgba(255, 255, 255, 0.2);
+    .comingSoonString{
+      font-family: Elianto;
+      font-size: 1.8rem;
+      color: white;
+      margin-left: 20%;
+    }
+  }
 }
 
 @media screen and (max-width: 1230px) {

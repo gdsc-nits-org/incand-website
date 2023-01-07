@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import * as THREE from "three";
 import HALO from "vanta/dist/vanta.halo.min";
 import heroStyles from "./Hero.module.scss";
+import Marquee from "react-fast-marquee";
 
 const Hero = (props) => {
   const [vantaEffect, setVantaEffect] = useState(null);
@@ -86,6 +87,18 @@ const Hero = (props) => {
             className={heroStyles.mainText}
           />
         </div>
+
+        <Marquee gradient={false} speed={120} className={heroStyles.marqueeBox}>
+          <div className={heroStyles.comingSoonString}>
+            Coming Soon!!
+          </div>
+          <div className={heroStyles.comingSoonString}>
+            Coming Soon!!
+          </div>
+          <div className={heroStyles.comingSoonString}>
+            Coming Soon!!
+          </div>
+        </Marquee>
       </div>
     </div>
   );
