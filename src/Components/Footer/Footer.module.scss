@@ -8,32 +8,35 @@
   justify-content: center;
 
   .buttons {
+    position: relative;
+    height: 8rem;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .btn1 {
+      position: relative;
       cursor: pointer;
       box-sizing: border-box;
-      // position: absolute;
-      width: 455.835px;
-      height: 80.09px;
-      margin: auto;
-      top: 231px;
-      margin-top: 30px;
-      margin-bottom: 20px;
+      width: 100%;
+      height: max-content;
 
+      .brochureLink{
+        text-decoration: none;
+      }
+      
       .btn1son {
-        margin-top: 15px;
-        // position: absolute;
+        position: relative;
         border: 2px solid #06b6d4;
         border-bottom-left-radius: 40%;
         border-bottom-right-radius: 8%;
         border-top-right-radius: 40%;
-        width: 455.83px;
-        height: 40.04px;
-        left: 493.51px;
-        top: 256.91px;
+        width: 100%;
         background: transparent;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: "Montserrat";
         font-style: normal;
+        padding: 1% 0;
         font-weight: 400;
         font-size: 18px;
         line-height: 29px;
@@ -48,26 +51,26 @@
 
     .btn2 {
       cursor: pointer;
+      position: relative;
       box-sizing: border-box;
-      // position: absolute;
-      width: 467px;
-      height: 45.93px;
+      width: 100%;
+      height: max-content;
       margin: auto;
-      top: 251.02px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      margin-bottom: 30px;
+
+      .ambassadorLink{
+        text-decoration: none;
+      }
 
       .btn2son {
-        // position: absolute;
+        position: relative;
         border: 2px solid #3b82f6;
         border-bottom-left-radius: 40%;
         border-bottom-right-radius: 8%;
         border-top-right-radius: 40%;
-        width: 455.83px;
-        height: 40.04px;
-        // left: 493.51px;
-        top: 256.91px;
         background: transparent;
+        width: 100%;
+        padding: 1% 0;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: "Montserrat";
         font-style: normal;

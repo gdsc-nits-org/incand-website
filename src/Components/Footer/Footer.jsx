@@ -11,13 +11,13 @@ const Footer = (props) => {
 
       <div className={footerStyles.buttons}>
         <div className={footerStyles.btn1}>
-          <a href="https://drive.google.com/file/d/1wIqo4KKqjLbHMHFyT46_0gnIZbfuXWdV/view">
-            <button className={footerStyles.btn1son}>Download Brochure</button>
+          <a href="https://drive.google.com/file/d/1wIqo4KKqjLbHMHFyT46_0gnIZbfuXWdV/view" className={footerStyles.brochureLink}>
+            <div className={footerStyles.btn1son}>Download Brochure</div>
           </a>
         </div>
         <div className={footerStyles.btn2}>
-          <a href="https://forms.gle/LZY5VWCWhHFDU84X9">
-            <button className={footerStyles.btn2son}>Become our Campus Ambassador</button>
+          <a href="https://forms.gle/LZY5VWCWhHFDU84X9" className={footerStyles.ambassadorLink} >
+            <div className={footerStyles.btn2son}>Become our Campus Ambassador</div>
           </a>
         </div>
       </div>
