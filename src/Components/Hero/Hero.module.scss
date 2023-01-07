@@ -80,5 +80,12 @@
     .socialHandle {
       display: none;
     }
+    .marqueeBox{
+      top: 70vh;
+      .comingSoonString{
+        font-size: 1.2rem;
+        margin-left: 5%;
+      }
+    }
   }
 }
