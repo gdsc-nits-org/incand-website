@@ -63,7 +63,24 @@ input {
   padding: .5rem;
   cursor: pointer;
 }
-
+textarea{
+  width: 80%;
+  font-size: larger;
+  height: 60px;
+  max-height: 150px;
+  outline: none;
+  color: aliceblue;
+  background-color: #000000;
+  border: none;
+  resize: none;
+  border-bottom: 2px solid grey;
+   &::-webkit-scrollbar{
+    width: 1px;
+   }
+  &::-webkit-scrollbar-thumb{
+    background-color: grey;
+  }
+}
 .contactbox button:hover {
   background-color: rgb(255, 255, 255);
   color: black;

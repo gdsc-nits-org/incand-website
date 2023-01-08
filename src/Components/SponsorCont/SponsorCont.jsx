@@ -11,10 +11,10 @@ const SponsorCont = () => {
   const handleChange = (e) => {
     setdata({
       ...data,
-      [e.target.name]: e.target.value.trim(),
+      [e.target.name]: e.target.value,
     });
   };
-  const handleClick = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     console.log(data);
     setdata(formdata);
@@ -27,7 +27,7 @@ const SponsorCont = () => {
           <img src="/logos/contactLogo.svg" alt="mdfc" style={{ display: "block" }} />
         </div>
         <div className={contStyle.right}>
-          <form>
+          <form onSubmit={handleSubmit}>
             <input
               type="text"
               name="name"
@@ -44,15 +44,15 @@ const SponsorCont = () => {
               onChange={handleChange}
               required
             />
-            <input
+            <textarea
               type="text"
               name="query"
               className={contStyle.field}
-              placeholder="Query"
+              placeholder="Type you Query here...."
               onChange={handleChange}
               required
             />
-            <button onClick={handleClick}>Send</button>
+            <button type="submit">Send</button>
           </form>
         </div>
       </div>
