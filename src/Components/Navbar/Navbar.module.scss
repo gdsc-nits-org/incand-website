@@ -1,36 +1,36 @@
 .navBar {
+  position: relative;
+  display: flex;
+  padding: 2% 0%;
+  width: 100%;
+  overflow: hidden;
+  .navLeft {
     position: relative;
     display: flex;
-    padding: 2% 0%;
-    width: 100%;
-    overflow: hidden;
-    .navLeft {
-        position: relative;
-        display: flex;
-        width: 50%;
+    width: 50%;
+  }
+
+  .navRight {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+
+    .navBtn {
+      position: relative;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      font-weight: 300;
+      font-size: 1.1rem;
     }
 
-    .navRight {
-        position: relative;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 50%;
-
-        .navBtn {
-            position: relative;
-            display: flex;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            font-weight: 300;
-            font-size: 1.1rem;
-        }
-
-        .navLine {
-            position: relative;
-            width: 10%;
-            border-top: 1px solid white;
-        }
+    .navLine {
+      position: relative;
+      width: 10%;
+      border-top: 1px solid white;
     }
+  }
 }
