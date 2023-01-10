@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+
 import contStyle from "./SponsorCont.module.scss";
 const SponsorCont = () => {
   const formdata = {
@@ -16,7 +16,6 @@ const SponsorCont = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(data);
     setdata(formdata);
   };
   return (
