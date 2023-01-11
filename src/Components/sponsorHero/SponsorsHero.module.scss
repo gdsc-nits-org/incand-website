@@ -1,86 +1,87 @@
 @font-face {
-    font-family: Batsand;
-    src: url(/fonts/Batsand.ttf);
+  font-family: Batsand;
+  src: url(/fonts/Batsand.ttf);
 }
 
 @font-face {
-    font-family: Elianto;
-    src: url(/fonts/Elianto-Regular.ttf);
+  font-family: Elianto;
+  src: url(/fonts/Elianto-Regular.ttf);
 }
 
 @font-face {
-    font-family: KenedyItalic;
-    src: url(/fonts/KenedyItalic.ttf);
+  font-family: KenedyItalic;
+  src: url(/fonts/KenedyItalic.ttf);
 }
 
 .heroSection {
-    position: relative;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  .socialHandle {
+    position: fixed;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 8% 4%;
+    height: 23rem;
+    z-index: 100;
+    justify-content: space-evenly;
+
+    .verticalLine {
+      position: relative;
+      height: 7rem;
+      border-left: 1px solid white;
+    }
+  }
+
+  .heroAnim {
+    position: relative;
+    display: flex;
     width: 100%;
-    height: 100vh;
-
-    .socialHandle {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 8% 4%;
-        height: 23rem;
-        z-index: 100;
-        justify-content: space-evenly;
-
-        .verticalLine {
-            position: relative;
-            height: 7rem;
-            border-left: 1px solid white;
-        }
+    justify-content: center;
+    align-items: center;
+    .mainText {
+      position: absolute;
+      font-family: KenedyItalic;
+      color: white;
+      font-size: 6rem;
+      top: 20%;
+      font-weight: 100;
     }
-
-    .heroAnim {
-        position: relative;
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        .mainText {
-            position: absolute;
-            font-family: KenedyItalic;
-            color: white;
-            font-size: 6rem;
-            top: 20%;
-            font-weight: 100;
-        }
-    }
+  }
 }
-@media only screen and (max-width:500px){
-    .heroSection{
-        height:60vh;
-    }
-        .mainText{
-            font-size: 3.8rem !important;
-        }
-        .heroAnim>img{
-            width: 24rem;
-        }
-        .socialHandle{
-            display: none !important;
-        }
+
+@media only screen and (max-width: 500px) {
+  .heroSection {
+    height: 60vh;
+  }
+  .mainText {
+    font-size: 3.8rem !important;
+  }
+  .heroAnim > img {
+    width: 24rem;
+  }
+  .socialHandle {
+    display: none !important;
+  }
 }
-@media only screen and (min-width:501px) and (max-width:759px){
-    .heroSection {
-            height: 70vh;
-        }
-    
-        .mainText {
-            font-size: 4.2rem !important;
-        }
-    
-        .heroAnim>img {
-            width: 30rem;
-        }
-    
-        .socialHandle {
-            display: none !important;
-        }
+@media only screen and (min-width: 501px) and (max-width: 759px) {
+  .heroSection {
+    height: 70vh;
+  }
+
+  .mainText {
+    font-size: 4.2rem !important;
+  }
+
+  .heroAnim > img {
+    width: 30rem;
+  }
+
+  .socialHandle {
+    display: none !important;
+  }
 }
