@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import contStyle from "./SponsorCont.module.scss";
 const SponsorCont = () => {
-  const formdata = {
+  const form = useRef();
+  const [data, setdata] = useState({
     name: "",
     email: "",
     query: "",
-  };
-  const [data, setdata] = useState(formdata);
+  });
   const handleChange = (e) => {
     setdata({
       ...data,
@@ -16,7 +16,21 @@ const SponsorCont = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setdata(formdata);
+    console.log(form.current);
+    console.log(data);
+    emailjs.send("service_imlmxww", "template_dazbaqs", data, "0dLaIvWYVhoSEIJ_A").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+    setdata({
+      name: "",
+      email: "",
+      query: "",
+    });
   };
   return (
     <div className={contStyle.contact}>
@@ -26,10 +40,11 @@ const SponsorCont = () => {
           <img src="/logos/contactLogo.svg" alt="mdfc" style={{ display: "block" }} />
         </div>
         <div className={contStyle.right}>
-          <form onSubmit={handleSubmit}>
+          <form ref={form} onSubmit={handleSubmit}>
             <input
               type="text"
               name="name"
+              value={data.name}
               className={contStyle.field}
               placeholder="Name"
               onChange={handleChange}
@@ -38,6 +53,7 @@ const SponsorCont = () => {
             <input
               type="email"
               name="email"
+              value={data.email}
               className={contStyle.field}
               placeholder="Email"
               onChange={handleChange}
@@ -46,6 +62,7 @@ const SponsorCont = () => {
             <textarea
               type="text"
               name="query"
+              value={data.query}
               className={contStyle.field}
               placeholder="Type you Query here...."
               onChange={handleChange}
