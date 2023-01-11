@@ -29,7 +29,6 @@
         position: relative;
         border: 2px solid #06b6d4;
         border-bottom-left-radius: 40%;
-        border-bottom-right-radius: 8%;
         border-top-right-radius: 40%;
         width: 100%;
         background: transparent;
@@ -46,7 +45,17 @@
         letter-spacing: 0.05em;
 
         color: #ffffff;
+        transition: all 0.3s ease-in-out;
       }
+    }
+
+    .btn1:hover .btn1son{
+      border-bottom-right-radius: 40%;
+      border-top-left-radius: 40%;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 0;
+      background-color: #06b6d4;
+      transition: all 0.3s ease-in-out;
     }
 
     .btn2 {
@@ -66,7 +75,6 @@
         position: relative;
         border: 2px solid #3b82f6;
         border-bottom-left-radius: 40%;
-        border-bottom-right-radius: 8%;
         border-top-right-radius: 40%;
         background: transparent;
         width: 100%;
@@ -81,9 +89,18 @@
 
         text-align: center;
         letter-spacing: 0.05em;
-
+        transition: all 0.3s ease-in-out;
         color: #ffffff;
       }
+    }
+
+    .btn2:hover .btn2son{
+      border-bottom-right-radius: 40%;
+      border-top-left-radius: 40%;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 0;
+      background-color: #3b82f6;
+      transition: all 0.3s ease-in-out;
     }
   }
 
