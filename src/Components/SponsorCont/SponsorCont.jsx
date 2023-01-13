@@ -3,33 +3,37 @@ import emailjs from "@emailjs/browser";
 import contStyle from "./SponsorCont.module.scss";
 const SponsorCont = () => {
   const form = useRef();
-  const [data, setdata] = useState({
+  const [data, setData] = useState({
     name: "",
     email: "",
     query: "",
   });
+  const [querySuccessful, setQuerySuccessful] = useState(0);
   const handleChange = (e) => {
-    setdata({
+    setData({
       ...data,
       [e.target.name]: e.target.value,
     });
   };
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(form.current);
-    console.log(data);
-    emailjs.send("service_imlmxww", "template_dazbaqs", data, "0dLaIvWYVhoSEIJ_A").then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-    setdata({
-      name: "",
-      email: "",
-      query: "",
+    await emailjs
+      .send("service_75opwm9", "template_rdxye6i", data, "oRWuR17yfPxda0e5L")
+      .then(
+        () => {
+          setQuerySuccessful(1);
+        },
+        () => {
+          setQuerySuccessful(-1);
+        }
+      );
+
+    setData(() => {
+      return {
+        name: "",
+        email: "",
+        query: "",
+      };
     });
   };
   return (
@@ -70,6 +74,12 @@ const SponsorCont = () => {
             />
             <button type="submit">Send</button>
           </form>
+          {querySuccessful === 1 && (
+            <div className={contStyle.queryStatus}>Query Sent Successfully!</div>
+          )}
+          {querySuccessful === -1 && (
+            <div className={contStyle.queryStatus}>Query Failed to Send!</div>
+          )}
         </div>
       </div>
     </div>
