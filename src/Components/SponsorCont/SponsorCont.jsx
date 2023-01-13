@@ -5,6 +5,7 @@ const SponsorCont = () => {
   const form = useRef();
   const [data, setData] = useState({
     name: "",
+    number: "",
     email: "",
     query: "",
   });
@@ -31,6 +32,7 @@ const SponsorCont = () => {
     setData(() => {
       return {
         name: "",
+        number: "",
         email: "",
         query: "",
       };
@@ -45,6 +47,16 @@ const SponsorCont = () => {
         </div>
         <div className={contStyle.right}>
           <form ref={form} onSubmit={handleSubmit}>
+            <input
+              type="tel"
+              name="number"
+              value={data.number}
+              className={contStyle.field}
+              placeholder="Phone Number"
+              pattern="^[0-9]{10}$"
+              onChange={handleChange}
+              required
+            />
             <input
               type="text"
               name="name"
