@@ -48,16 +48,6 @@ const SponsorCont = () => {
         <div className={contStyle.right}>
           <form ref={form} onSubmit={handleSubmit}>
             <input
-              type="tel"
-              name="number"
-              value={data.number}
-              className={contStyle.field}
-              placeholder="Phone Number"
-              pattern="^[0-9]{10}$"
-              onChange={handleChange}
-              required
-            />
-            <input
               type="text"
               name="name"
               value={data.name}
@@ -72,6 +62,16 @@ const SponsorCont = () => {
               value={data.email}
               className={contStyle.field}
               placeholder="Email"
+              onChange={handleChange}
+              required
+            />
+            <input
+              type="tel"
+              name="number"
+              value={data.number}
+              className={contStyle.field}
+              placeholder="Phone Number"
+              pattern="^[0-9]{10}$"
               onChange={handleChange}
               required
             />
