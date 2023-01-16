@@ -1,0 +1,117 @@
+@font-face {
+  font-family: KenedyItalic;
+  src: url(/fonts/KenedyItalic.ttf);
+}
+@font-face {
+  font-family: Kenedy;
+  src: url(/fonts/Kenedy.ttf);
+}
+
+.aboutIncand {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  .aboutUs,
+  .aboutNIT {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 5% 27%;
+
+    .aboutHeading {
+      font-family: Kenedy;
+      font-size: 3rem;
+      padding: 3% 0;
+    }
+    .aboutDesc {
+      font-weight: 200;
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .aboutIncand {
+    .aboutUs {
+      .aboutHeading {
+        width: 118px;
+        height: 43px;
+
+        font-family: Kenedy;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 43px;
+        color: #ffffff;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .aboutDesc {
+        width: 268.9px;
+        height: 157px;
+
+        /* body text mobile */
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 145%;
+        /* or 145% */
+
+        color: rgba(255, 255, 255, 0.82);
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+
+    .aboutNIT {
+      .aboutHeading {
+        width: 243px;
+        height: 43px;
+
+        font-family: Kenedy;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 43px;
+        color: #ffffff;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .aboutDesc {
+        width: 268.9px;
+        height: 174px;
+
+        /* body text mobile */
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+
+        color: rgba(255, 255, 255, 0.82);
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
+}
