@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import navStyles from "./Navbar.module.scss";
 
@@ -81,7 +82,9 @@ const Navbar = (props) => {
           <div className={navStyles.navBtn} onClick={handleChange3}>
             SEE WHAT'S HAPPENING
           </div>
-          {/* <div className={navStyles.navLine}></div> */}
+          <div className={navStyles.navBtn}>
+            <Link to="/sponsors" className={navStyles.navLink}>SPONSORS</Link>
+          </div>
           <div className={navStyles.navBtn} onClick={handleChange}>
             ABOUT US
           </div>

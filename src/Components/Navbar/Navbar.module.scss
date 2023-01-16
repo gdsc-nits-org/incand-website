@@ -38,6 +38,18 @@
       font-weight: 300;
       font-size: 1.1rem;
       cursor: pointer;
+
+      .navLink {
+        position: relative;
+        display: flex;
+        color: white;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 1.1rem;
+        cursor: pointer;
+      }
     }
 
     .navLine {
