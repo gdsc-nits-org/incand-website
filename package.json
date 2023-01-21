@@ -1,5 +1,5 @@
 {
-  "name": "guidance-grid",
+  "name": "incandescence-2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,11 +12,19 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@vitejs/plugin-react": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
-    "vite": "^3.2.3"
+    "vite": "^3.2.3",
+    "@iconify/react": "^4.0.1",
+    "@lottiefiles/react-lottie-player": "^3.5.0",
+    "framer-motion": "^7.10.2",
+    "granim": "^2.0.0",
+    "react-fast-marquee": "^1.3.5",
+    "three": "^0.147.0",
+    "vanta": "^0.5.24"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",

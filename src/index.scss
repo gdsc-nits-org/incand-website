@@ -1,12 +1,11 @@
-:root {
-  // Theme colours
-  --theme-1-100: rgb(237, 214, 86);
-  --theme-1-040: rgba(237, 214, 86, 0.4);
-}
-
-* {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--theme-1-040);
+  background: #0c0e1d;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
