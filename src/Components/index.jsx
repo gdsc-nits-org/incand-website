@@ -8,6 +8,8 @@ import SponsorsWhy from "./SponsorsWhy/SponsorsWhy";
 import SponsorsCur from "./SponsorsCur/SponsorsCur";
 import SponsorCont from "./SponsorCont/SponsorCont";
 import SponsorPrev from "./SponsorPrev/SponsorPrev";
+import TeamHero from "./TeamHero/TeamHero";
+import TeamCard from "./TeamCard/TeamCard";
 export {
   SponsorsHero,
   SponsorsWhy,
@@ -18,6 +20,8 @@ export {
   Button,
   Navbar, 
   Hero, 
-  About
+  About,
+  TeamHero,
+  TeamCard,
 };
 
