@@ -4,7 +4,7 @@ const SponsorsWhy = () => {
   return (
     <section className={styles.container}>
       <div className={styles.text}>
-        <p>Why sponsors us?</p>
+        <p>Why sponsor us?</p>
       </div>
       <div className={styles.body}>
         <div className={styles.row}>
