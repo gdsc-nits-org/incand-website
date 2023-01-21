@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import * as THREE from "three";
 import HALO from "vanta/dist/vanta.halo.min";
 import heroStyles from "./Hero.module.scss";
-import Marquee from "react-fast-marquee";
 
 const Hero = (props) => {
   const [vantaEffect, setVantaEffect] = useState(null);
