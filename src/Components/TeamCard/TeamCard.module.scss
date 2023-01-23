@@ -1,0 +1,137 @@
+.teamSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5rem;
+}
+
+.teamCard {
+  background-color: white;
+  width: 30%;
+  border-radius: 0.5rem;
+}
+.coreMem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardImages img {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.teamCard:hover{
+  background-color: rgb(190, 235, 235);
+}
+.teamCard:hover img {
+  margin-top: 1.5rem;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  transition: all 0.35s ease-in-out;
+}
+.core_mem_text {
+  visibility: hidden;
+  color: #232323;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.teamCard:hover .core_mem_text {
+  visibility: visible;
+}
+.teamTitle {
+  text-align: center;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  visibility: hidden;
+}
+
+.teamCard:hover .socialMedia {
+  visibility: visible;
+  margin: 1rem;
+}
+
+.SocialLogo {
+  color: #232323 !important;
+}
+@media only screen and (max-width: 660px) {
+  .container {
+    overflow: hidden;
+  }
+  .core_heading h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .coreMem {
+    height: 408px;
+    width: 300px;
+    transition-duration: 0.3 sec;
+  }
+
+  .images img {
+    width: 300px;
+    height: 350px;
+  }
+
+  .coreMem:hover .images img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .core_mem_text {
+    font-size: 2rem;
+  }
+
+  .coreMem:hover .core_mem_text {
+    font-size: 20px;
+  }
+
+  .socialMedia {
+    position: relative;
+    right: 40px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 661px) {
+  .jr_heading h1 {
+    font-size: 3.5rem;
+  }
+  .coreMem {
+    height: 408px;
+    width: 300px;
+  }
+
+  .images img {
+    width: 300px;
+    height: 350px;
+  }
+
+  .coreMem:hover .images img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .core_mem_text {
+    font-size: 2rem;
+  }
+
+  .coreMem:hover .core_mem_text {
+    font-size: 20px;
+    margin-bottom: 0rem;
+  }
+
+  .socialMedia {
+    position: relative;
+    right: 40px;
+    margin-top: 1.5rem;
+  }
+}

@@ -9,7 +9,10 @@ import SponsorsCur from "./SponsorsCur/SponsorsCur";
 import SponsorCont from "./SponsorCont/SponsorCont";
 import SponsorPrev from "./SponsorPrev/SponsorPrev";
 import TeamHero from "./TeamHero/TeamHero";
-import TeamCard from "./TeamCard/TeamCard";
+import TeamCard2 from "./TeamCard/TeamCard2";
+import TeamCard3 from "./TeamCard/TeamCard3";
+import TeamCard4 from "./TeamCard/TeamCard4";
+import TeamTab from "./TeamTab/TeamTab";
 export {
   SponsorsHero,
   SponsorsWhy,
@@ -22,6 +25,9 @@ export {
   Hero, 
   About,
   TeamHero,
-  TeamCard,
+  TeamCard2,
+  TeamCard3,
+  TeamCard4,
+  TeamTab,
 };
 
