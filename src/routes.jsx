@@ -1,5 +1,6 @@
 import { Home } from "./Pages";
 import { Sponsors } from "./Pages";
+import { Events } from "./Pages";
 
 const routes = [
   {
@@ -9,6 +10,10 @@ const routes = [
   {
     path: "/sponsors",
     element: <Sponsors />,
+  },
+  {
+    path: "/events",
+    element: <Events />,
   },
 ];
 

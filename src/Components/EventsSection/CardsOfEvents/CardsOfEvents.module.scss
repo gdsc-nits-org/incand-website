@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Batsand;
+    src: url(/fonts/Batsand.ttf);
+  }
+  
+  @font-face {
+    font-family: Elianto;
+    src: url(/fonts/Elianto-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: KenedyItalic;
+    src: url(/fonts/KenedyItalic.ttf);
+  }
+
+  @font-face {
+    font-family: Kenedy;
+    src: url(/fonts/Kenedy.ttf);
+  }
+
+.CardsOfEvents {
+    color : white;
+    width: 60vw;
+    margin: auto;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: black;
+
+    .Card_body {
+        .Card_header {
+            font-family: "Bitter";
+        }
+
+        .Card_subheader {
+            font-family: kenedy;
+            font-size: 15px;
+            width: 80%;
+        }
+        
+        .Card_text {
+            font-family: 'Rakkas';
+            font-size: 15px;
+        }
+    }
+
+    .Card_body_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .Card_header_2 {
+            font-family: Elianto;
+        }
+
+        .Card_images {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                margin: 2rem 4rem;
+            }
+        }
+    }
+}
