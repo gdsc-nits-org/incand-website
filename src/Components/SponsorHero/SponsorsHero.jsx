@@ -1,6 +1,6 @@
 import React from "react";
 import heroStyles from "./SponsorsHero.module.scss";
-const SponsorsHero = () => {
+const SponsorsHero = (props) => {
   return (
     <div className={heroStyles.heroSection}>
       <div className={heroStyles.socialHandle}>
@@ -24,7 +24,7 @@ const SponsorsHero = () => {
 
       <div className={heroStyles.heroAnim}>
         <img src="/logos/Butterfly.svg" alt="heroMainLogo" />
-        <h1 className={heroStyles.mainText}>Sponsors</h1>
+        <h1 className={heroStyles.mainText}>{props.name}</h1>
       </div>
     </div>
   );

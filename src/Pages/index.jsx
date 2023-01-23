@@ -1,3 +1,5 @@
 import Home from "./Home/Home";
 import Sponsors from "./Sponsors/Sponsors";
-export { Home, Sponsors };
+import Gallery from "./Gallery/Gallery";
+
+export { Home, Sponsors, Gallery };

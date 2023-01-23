@@ -8,6 +8,8 @@ import SponsorsWhy from "./SponsorsWhy/SponsorsWhy";
 import SponsorsCur from "./SponsorsCur/SponsorsCur";
 import SponsorCont from "./SponsorCont/SponsorCont";
 import SponsorPrev from "./SponsorPrev/SponsorPrev";
+import Slider from "./Photos/Slider";
+
 export {
   SponsorsHero,
   SponsorsWhy,
@@ -18,6 +20,7 @@ export {
   Button,
   Navbar, 
   Hero, 
-  About
+  About,
+  Slider
 };
 

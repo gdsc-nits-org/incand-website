@@ -1,5 +1,4 @@
-import { Home } from "./Pages";
-import { Sponsors } from "./Pages";
+import { Home, Sponsors, Gallery } from "./Pages";
 
 const routes = [
   {
@@ -9,6 +8,10 @@ const routes = [
   {
     path: "/sponsors",
     element: <Sponsors />,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />,
   },
 ];
 
