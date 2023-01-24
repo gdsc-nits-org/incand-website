@@ -10,12 +10,12 @@ const CardsOfEvents = () => {
   return (
     <div className={styles.CardsOfEvents}>
       <div className={styles.Card_body}>
-        <h1 className={styles.Card_header}>Thunder March</h1>
-        <p className={styles.Card_subheader}>Someone aptly said “If heavy metal bands ruled the world, we had be a lot better off.” and we cannot headbang to it more!</p>
-        <p className={styles.Card_text}> Rock music consists of a number of virtuoso, aggressive, and strong styles. Propelled by the ferocious sounds of the electric guitar in distortion, heavy metal is one of those ear splitting styles that creates a rhapsody among its listeners, whether it be “Hallowed by thy name” or </p>
+        <h1 className={styles.Card_header}>The Thespian Rhapsody</h1>
+        <p className={styles.Card_subheader}>“Acting is magical. Change your look and your attitude, and you can be anyone.”</p>
+        <p className={styles.Card_text}>Acting is not about being famous, it is about finding the message behind stories. It is also about expressing yourself and the character that is being played. No matter how well you try to interpret a character, there will always be an essence of you in the character, that is what makes it acting, you are essaying a role with a hint of your personality.</p>
       </div>
       <div className={styles.Card_body_2}>
-        <h1 className={styles.Card_header_2}>“Heaven and Hell”</h1>
+        <h1 className={styles.Card_header_2}></h1>
         <div className={styles.Card_images}>
             <img src={platform1} alt="" />
             <img src={platform3} alt="" />
@@ -24,6 +24,7 @@ const CardsOfEvents = () => {
             <img src={platform2} alt="" />
         </div>
       </div>
+      <div className={styles.triangle}></div>
     </div>
   )
 }
