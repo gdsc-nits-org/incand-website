@@ -1,14 +1,7 @@
-import styles from "./ImageCard.module.scss"
+import "./slider.css";
 
 const Card = ({ src }) => {
-    return(
-        <img
-        className={styles.image}
-        src={src}
-        draggable="false"
-        alt="pictures"
-      />
-    )
-}
+  return <img className="image" src={src} draggable="false" alt="pictures" />;
+};
 
-export default Card
+export default Card;

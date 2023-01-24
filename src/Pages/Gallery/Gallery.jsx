@@ -1,13 +1,20 @@
-import { SponsorsHero, Footer, Slider } from "../../Components";
+import { SponsorsHero, Slider, Navbar } from "../../Components";
 import style from "./Gallery.module.scss";
-
+import footerStyles from "../../Components/Footer/Footer.module.scss";
 const Gallery = () => {
   return (
-    <div className={style.main}>
-      <SponsorsHero name="Gallery" />
-      <Slider />
-      <Footer />
-    </div>
+    <>
+      <Navbar />
+      <div className={style.main}>
+        <SponsorsHero name="Gallery" />
+        <Slider />
+        <div className={footerStyles.footer}>
+          <div className={footerStyles.footerLogo}>
+            <img src="/logos/footerLogo.svg" alt="footer logo" />
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
