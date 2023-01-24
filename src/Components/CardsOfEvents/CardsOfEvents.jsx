@@ -1,5 +1,10 @@
+/* eslint-disable import/no-absolute-path */
+/* eslint-disable import/no-unresolved */
 import React from 'react'
 import styles from "./CardsOfEvents.module.scss";
+import platform1 from "/src/images/platform1.png";
+import platform2 from "/src/images/platform2.png";
+import platform3 from "/src/images/platform3.png";
 
 const CardsOfEvents = () => {
   return (
@@ -12,11 +17,11 @@ const CardsOfEvents = () => {
       <div className={styles.Card_body_2}>
         <h1 className={styles.Card_header_2}>“Heaven and Hell”</h1>
         <div className={styles.Card_images}>
-            <img src="https://i.ibb.co/9t1Lv7X/platform1-2.png" alt="" />
-            <img src="https://i.ibb.co/TMpF9SL/platform3-1.png" alt="" />
+            <img src={platform1} alt="" />
+            <img src={platform3} alt="" />
         </div>
         <div className={styles.Card_images}>
-            <img src="https://i.ibb.co/WVZ3h61/platform2-1.png" alt="" />
+            <img src={platform2} alt="" />
         </div>
       </div>
     </div>

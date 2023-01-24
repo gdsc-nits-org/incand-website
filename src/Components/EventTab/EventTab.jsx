@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import React, { useState } from "react";
+import React from "react";
 import styles from "./EventTab.module.scss"
 
-const TeamTab = () => {
-  const [active, setActive] = useState("Events");
+const TeamTab = (props) => {
+  const {active, setActive} = props
   return (
     <div className={styles.tab_main}>
       <div

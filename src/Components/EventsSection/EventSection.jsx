@@ -1,12 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from "./EventSection.module.scss"
 import EventTab from "../EventTab/EventTab"
-import CardsOfEvents from './CardsOfEvents/CardsOfEvents'
+import CardsOfEvents from '../CardsOfEvents/CardsOfEvents'
 
 const EventSec = () => {
+  const [active, setActive] = useState("Events");
   return (
-    <div className={styles.eventSec}>
-      <EventTab />
+    <div className={`${active === "Concerts" ? `${styles.concertBackground} ${styles.eventSec}` : styles.eventSec}`}>
+      <EventTab active={active} setActive={setActive}/>
       <CardsOfEvents />
     </div>
   )
