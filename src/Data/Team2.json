@@ -26,5 +26,61 @@
        "fb": "#",
        "linkdln": "#",
        "git": "#"
+    },
+    {
+        "id": 4,
+        "name": "Name 2nd",
+        "rank": "Designation",
+        "image": "https://www.linkpicture.com/q/Photo_1.png",
+        "fb": "#",
+        "linkdln": "#",
+        "git": "#"
+    },
+    {
+       "id": 5,
+       "name": "Name 2nd",
+       "rank": "Designation",
+       "image": "https://www.linkpicture.com/q/Photo_1.png",
+       "fb": "#",
+       "linkdln": "#",
+       "git": "#"
+ 
+    },
+    {
+       "id": 6,
+       "name": "Name 2nd",
+       "rank": "Designation",
+       "image": "https://www.linkpicture.com/q/Photo_1.png",
+       "fb": "#",
+       "linkdln": "#",
+       "git": "#"
+    },
+    {
+        "id": 7,
+        "name": "Name 2nd",
+        "rank": "Designation",
+        "image": "https://www.linkpicture.com/q/Photo_1.png",
+        "fb": "#",
+        "linkdln": "#",
+        "git": "#"
+    },
+    {
+       "id": 8,
+       "name": "Name 2nd",
+       "rank": "Designation",
+       "image": "https://www.linkpicture.com/q/Photo_1.png",
+       "fb": "#",
+       "linkdln": "#",
+       "git": "#"
+ 
+    },
+    {
+       "id": 9,
+       "name": "Name 2nd",
+       "rank": "Designation",
+       "image": "https://www.linkpicture.com/q/Photo_1.png",
+       "fb": "#",
+       "linkdln": "#",
+       "git": "#"
     }
  ]

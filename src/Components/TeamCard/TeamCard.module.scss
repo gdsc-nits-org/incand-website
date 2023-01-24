@@ -1,137 +1,164 @@
 .teamSection {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 5rem;
+  justify-content: center;
+  margin: 2rem;
 }
 
 .teamCard {
-  background-color: white;
-  width: 30%;
-  border-radius: 0.5rem;
-}
-.coreMem {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  background-color: white;
+  width: 30%;
+  height: 75vh;
+  border-radius: 0.5rem;
+  margin: 5rem 1rem;
 }
-.cardImages img {
-  width: 100%;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-.teamCard:hover{
+.teamCard:hover {
   background-color: rgb(190, 235, 235);
 }
+.cardImages img {
+  vertical-align: middle;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  transition: all 0.2s ease-in;
+}
 .teamCard:hover img {
-  margin-top: 1.5rem;
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  transition: all 0.35s ease-in-out;
+}
+.teamTitle {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-top: 2rem;
 }
 .core_mem_text {
   visibility: hidden;
-  color: #232323;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-  margin: 0;
+  transition: all 0.3s ease-in;
 }
 
 .teamCard:hover .core_mem_text {
   visibility: visible;
-}
-.teamTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
   text-align: center;
+  margin: 0.1rem;
+  color: #232323;
 }
 
 .socialMedia {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
 }
 
 .teamCard:hover .socialMedia {
   visibility: visible;
-  margin: 1rem;
 }
 
-.SocialLogo {
+.SocialLogo svg {
   color: #232323 !important;
+  padding: 0 2rem;
 }
-@media only screen and (max-width: 660px) {
-  .container {
-    overflow: hidden;
-  }
-  .core_heading h1 {
-    font-size: 2.5rem;
-    text-align: center;
+@media only screen and (max-width: 836px) {
+  .teamCard {
+    width: 45%;
+    height: 80vh;
   }
 
-  .coreMem {
-    height: 408px;
-    width: 300px;
-    transition-duration: 0.3 sec;
-  }
-
-  .images img {
-    width: 300px;
-    height: 350px;
-  }
-
-  .coreMem:hover .images img {
-    height: 250px;
-    width: 250px;
-  }
-
-  .core_mem_text {
-    font-size: 2rem;
-  }
-
-  .coreMem:hover .core_mem_text {
-    font-size: 20px;
-  }
-
-  .socialMedia {
-    position: relative;
-    right: 40px;
+  .cardImages img {
+    width: 100%;
   }
 }
-
-@media only screen and (max-width: 1200px) and (min-width: 661px) {
-  .jr_heading h1 {
-    font-size: 3.5rem;
+@media only screen and (max-width: 704px) {
+  .teamCard {
+    width: 40%;
+    height: 65vh;
   }
-  .coreMem {
-    height: 408px;
-    width: 300px;
+  .teamCard:hover img {
+    height: 8rem;
+    width: 8rem;
   }
-
-  .images img {
-    width: 300px;
-    height: 350px;
+  .teamTitle {
+    margin-top: 3rem;
   }
-
-  .coreMem:hover .images img {
-    height: 250px;
-    width: 250px;
-  }
-
-  .core_mem_text {
-    font-size: 2rem;
-  }
-
-  .coreMem:hover .core_mem_text {
-    font-size: 20px;
-    margin-bottom: 0rem;
-  }
-
   .socialMedia {
-    position: relative;
-    right: 40px;
-    margin-top: 1.5rem;
+    margin: 0.3rem;
+  }
+  .teamCard:hover .teamTitle {
+    margin-top: 1rem;
+  }
+  .SocialLogo svg {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .teamSection{
+    margin: 1rem;
+  }
+  .teamCard {
+    height: 50vh;
+  }
+  .teamTitle {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+  }
+  .teamCard:hover .core_mem_text{
+    font-size: 1rem;
+  }
+  .teamCard:hover .teamTitle {
+    margin-top: 0.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .teamSection{
+    margin: 0.2rem;
+  }
+  .teamCard {
+    width: 80%;
+    height: 40vh;
+  }
+  .teamCard:hover img {
+    height: 12rem;
+    width: 12rem;
+  }
+  .teamTitle {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .teamCard:hover .core_mem_text{
+    font-size: 1.2rem;
+  }
+  .socialMedia {
+    margin: 0.3rem;
+  }
+  .teamCard:hover .teamTitle {
+    margin-top: 1rem;
+  }
+  .SocialLogo svg {
+    padding: 1.2rem;
+  }
+}
+@media only screen and (max-width: 500px){
+  .teamCard {
+    width: 80%;
+    height: 50vh;
+  }
+  .teamCard:hover img {
+    height: 15rem;
+    width: 15rem;
+  }
+  .teamTitle {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
   }
 }
