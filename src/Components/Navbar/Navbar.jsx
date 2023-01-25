@@ -80,10 +80,19 @@ const Navbar = (props) => {
         </button>
         <div className={navStyles.navRight}>
           <div className={navStyles.navBtn} onClick={handleChange3}>
-            SEE WHAT'S HAPPENING
+            <Link to="/" className={navStyles.navLink}>
+              HOME
+            </Link>
           </div>
           <div className={navStyles.navBtn}>
-            <Link to="/sponsors" className={navStyles.navLink}>SPONSORS</Link>
+            <Link to="/sponsors" className={navStyles.navLink}>
+              SPONSORS
+            </Link>
+          </div>
+          <div className={navStyles.navBtn}>
+            <Link to="/gallery" className={navStyles.navLink}>
+              GALLERY
+            </Link>
           </div>
           <div className={navStyles.navBtn} onClick={handleChange}>
             ABOUT US
