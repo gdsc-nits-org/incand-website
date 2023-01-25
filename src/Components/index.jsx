@@ -8,6 +8,8 @@ import SponsorsWhy from "./SponsorsWhy/SponsorsWhy";
 import SponsorsCur from "./SponsorsCur/SponsorsCur";
 import SponsorCont from "./SponsorCont/SponsorCont";
 import SponsorPrev from "./SponsorPrev/SponsorPrev";
+import EventTimeline from "./Timeline/EventTimeline";
+import ConcertTimeline from "./Timeline/ConcertTimeline";
 export {
   SponsorsHero,
   SponsorsWhy,
@@ -18,6 +20,8 @@ export {
   Button,
   Navbar, 
   Hero, 
-  About
+  About,
+  EventTimeline,
+  ConcertTimeline
 };
 

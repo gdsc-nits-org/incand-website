@@ -24,7 +24,6 @@ const CardsOfEvents = () => {
             <img src={platform2} alt="" />
         </div>
       </div>
-      <div className={styles.triangle}></div>
     </div>
   )
 }
