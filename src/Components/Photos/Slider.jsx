@@ -30,7 +30,6 @@ const Slider = () => {
       },
       { duration: 1200, fill: "forwards" }
     );
-
     for (const image of track.current.getElementsByClassName("image")) {
       image.animate(
         {
@@ -55,8 +54,6 @@ const Slider = () => {
       container.current.ontouchmove = (e) => handleOnMove(e.touches[0]);
     }
   }, []);
-  console.log(container);
-  console.log(track);
   return (
     <div className="slider-container" ref={container}>
       <div id="image-track" ref={track} data-mouse-down-at="0" data-prev-percentage="0">

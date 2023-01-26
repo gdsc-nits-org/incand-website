@@ -8,13 +8,17 @@ const Card = ({ src }) => {
     });
   };
   return (
-    <img
-      onClick={handleClick}
-      className={active === true ? "image image-clicked" : "image"}
-      src={src}
-      draggable="false"
-      alt="pictures"
-    />
+    <div
+      className={active === true ? "image-container image-clicked" : "image-container"}
+    >
+      <img
+        onClick={handleClick}
+        className={active === true ? "image image-clicked" : "image"}
+        src={src}
+        draggable="false"
+        alt="pictures"
+      />
+    </div>
   );
 };
 

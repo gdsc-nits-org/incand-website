@@ -7,6 +7,13 @@ const Gallery = () => {
       <Navbar />
       <div className={style.main}>
         <SponsorsHero name="Gallery" />
+        <div className={style.text}>
+          <p>Day 1</p>
+        </div>
+        <Slider />
+        <div className={style.text}>
+          <p>Day 2</p>
+        </div>
         <Slider />
         <div className={footerStyles.footer}>
           <div className={footerStyles.footerLogo}>
