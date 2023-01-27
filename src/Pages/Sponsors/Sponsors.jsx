@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  SponsorsCur,
   SponsorsHero,
   SponsorsWhy,
   Footer,
@@ -15,7 +16,7 @@ const Sponsors = () => {
       <div className={style.sponsors}>
         <SponsorsHero name="Sponsors" />
         <SponsorsWhy />
-        {/* <SponsorsCur /> */}
+        <SponsorsCur />
         <SponsorPrev />
         <SponsorCont />
         <Footer />

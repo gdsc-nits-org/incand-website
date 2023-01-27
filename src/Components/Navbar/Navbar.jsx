@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
@@ -8,7 +5,6 @@ import navStyles from "./Navbar.module.scss";
 
 const Navbar = (props) => {
   const [toggle, setToggle] = useState(false);
-  // const [color, setColor] = useState(false);
 
   const handleToggle = () => {
     setToggle((prevToggleValue) => !prevToggleValue);
@@ -57,10 +53,10 @@ const Navbar = (props) => {
     handleToggle();
   };
 
-  const handleChange3 = () => {
-    props.handleClick3();
-    handleToggle();
-  };
+  // const handleChange3 = () => {
+  //   props.handleClick3();
+  //   handleToggle();
+  // };
 
   return (
     // eslint-disable-next-line react/jsx-no-useless-fragment
@@ -79,7 +75,8 @@ const Navbar = (props) => {
           )}
         </button>
         <div className={navStyles.navRight}>
-          <div className={navStyles.navBtn} onClick={handleChange3}>
+          <div className={navStyles.navBtn}>
+            {/* onClick={handleChange3} */}
             <Link to="/" className={navStyles.navLink}>
               HOME
             </Link>
