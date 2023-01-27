@@ -21,9 +21,10 @@
 .CardsOfEvents {
     position: relative;
     color : white;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
     background-color: #04102F;
 
     .Card_body {
@@ -35,7 +36,6 @@
             font-family: kenedy;
             font-size: 15px;
             width: 80%;
-
         }
         
         .Card_text {
@@ -61,8 +61,29 @@
 
             img {
                 margin: 2rem 4rem;
-                height: 200px;
+                height: 150px;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    .CardsOfEvents {
+        .Card_body_2 {
+            .Card_images {
+                img {
+                    margin: 1rem;
+                    height: 100px;
+                }
+            }
+        }
+
+        h1 {
+            font-size: 1.2rem;
+        }
+    
+        p {
+            font-size: 7px;
         }
     }
 }

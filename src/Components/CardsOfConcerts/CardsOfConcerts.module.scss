@@ -21,9 +21,10 @@
 .CardsOfConcerts {
     position: relative;
     color : white;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
     background-color: #04102F;
 
     .Card_body {
@@ -35,7 +36,6 @@
             font-family: kenedy;
             font-size: 15px;
             width: 80%;
-
         }
         
         .Card_text {
@@ -63,6 +63,115 @@
                 margin: 2rem 4rem;
                 height: 200px;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    .CardsOfConcerts {
+        .Card_body_2 {
+            .Card_images {
+                img {
+                    margin: 1rem;
+                    height: 100px;
+                }
+            }
+        }
+
+        h1 {
+            font-size: 1.2rem;
+        }
+    
+        p {
+            font-size: 7px;
+        }
+    }
+}@font-face {
+    font-family: Batsand;
+    src: url(/fonts/Batsand.ttf);
+  }
+  
+  @font-face {
+    font-family: Elianto;
+    src: url(/fonts/Elianto-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: KenedyItalic;
+    src: url(/fonts/KenedyItalic.ttf);
+  }
+
+  @font-face {
+    font-family: Kenedy;
+    src: url(/fonts/Kenedy.ttf);
+  }
+
+.CardsOfConcerts {
+    position: relative;
+    color : white;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #04102F;
+
+    .Card_body {
+        .Card_header {
+            font-family: "Bitter";
+        }
+
+        .Card_subheader {
+            font-family: kenedy;
+            font-size: 15px;
+            width: 80%;
+        }
+        
+        .Card_text {
+            font-family: 'Rakkas';
+            font-size: 15px;
+        }
+    }
+
+    .Card_body_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .Card_header_2 {
+            font-family: Elianto;
+        }
+
+        .Card_images {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                margin: 2rem 4rem;
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    .CardsOfConcerts {
+        .Card_body_2 {
+            .Card_images {
+                img {
+                    margin: 1rem;
+                    height: 100px;
+                }
+            }
+        }
+
+        h1 {
+            font-size: 1.2rem;
+        }
+    
+        p {
+            font-size: 7px;
         }
     }
 }

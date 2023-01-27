@@ -1,25 +1,44 @@
-import React from 'react'
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { FaGraduationCap } from 'react-icons/fa';
-import CardsOfEvents from '../CardsOfEvents/CardsOfEvents';
-import style from "./EventTimeline.module.scss";
+import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import CardsOfEvents from "../CardsOfEvents/CardsOfEvents";
+import Styles from "./ConcertTimeline.module.scss";
+import Data from "../../Data/EventsData.json";
+
 const EventTimeline = () => {
   return (
-    <div className={style.timelineContainer}>
-      <VerticalTimeline lineColor='#fff' className={style.timeline} layout='1-column-left'>
-        <VerticalTimelineElement className={style.verticalTimeline} iconStyle={{ background: '#04102F', color: '#fff' }} icon={<FaGraduationCap />} contentStyle = {{ background : '#04102F', width : '80%', padding : '0rem'}} contentArrowStyle={{background:'#04102F'}}>
-        <CardsOfEvents />
-        </VerticalTimelineElement>
-        <VerticalTimelineElement className={style.verticalTimeline} iconStyle={{ background: '#04102F', color: '#fff' }} icon={<FaGraduationCap />} contentStyle = {{ background : '#04102F', width : '80%', padding : '0rem'}} contentArrowStyle={{background:'#04102F'}}>
-        <CardsOfEvents />
-        </VerticalTimelineElement>
-        <VerticalTimelineElement className={style.verticalTimeline} iconStyle={{ background: '#04102F', color: '#fff' }} icon={<FaGraduationCap />} contentStyle = {{ background : '#04102F', width : '80%', padding : '0rem'}} contentArrowStyle={{background:'#04102F'}}>
-        <CardsOfEvents />
-        </VerticalTimelineElement>
+    <div>
+      <VerticalTimeline className={Styles.verticalTimeline} layout="1-column-left">
+        {Data.map((data) => {
+          return (
+            <VerticalTimelineElement
+              key={data.id}
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "#04102F" }}
+              contentArrowStyle={{ borderRight: "7px solid  #04102F" }}
+              iconStyle={{
+                background: "#04102F",
+                color: "#fff",
+                width: "20px",
+                height: "20px",
+                transform: "translateX(50%)",
+              }}
+            >
+              <CardsOfEvents
+                header={data.header}
+                subheader={data.subheader}
+                text={data.text}
+                header2={data.header2}
+              />
+            </VerticalTimelineElement>
+          );
+        })}
       </VerticalTimeline>
     </div>
-  )
+  );
 };
 
-export default EventTimeline
+export default EventTimeline;
