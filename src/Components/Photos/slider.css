@@ -18,6 +18,7 @@
     width: 40vmin;
     height: 56vmin;
     border-radius: 1rem;
+    user-select: none;
 }
 .image-container>.image{
     width: 100%;
@@ -27,6 +28,7 @@
     object-position: 100% center;
     transition: width 400ms ease-in-out;
     filter: grayscale(100%);
+    
 }
 .image-clicked{
     transition: width 400ms ease-in-out;
