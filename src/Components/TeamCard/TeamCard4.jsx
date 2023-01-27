@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebook, FaLinkedin } from 'react-icons/fa'
-import { BsGithub } from 'react-icons/bs'
+import { FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { BsGithub } from 'react-icons/bs';
 import Data from '../../Data/Team4.json'
 import style from "./TeamCard.module.scss";
 const TeamCard = () => {

@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2rem;
+  margin: 4rem;
 }
 
 .teamCard {
@@ -102,7 +102,7 @@
   }
 }
 @media only screen and (max-width: 640px) {
-  .teamSection{
+  .teamSection {
     margin: 1rem;
   }
   .teamCard {
@@ -112,7 +112,7 @@
     margin-top: 3rem;
     font-size: 1.4rem;
   }
-  .teamCard:hover .core_mem_text{
+  .teamCard:hover .core_mem_text {
     font-size: 1rem;
   }
   .teamCard:hover .teamTitle {
@@ -120,7 +120,7 @@
   }
 }
 @media only screen and (max-width: 500px) {
-  .teamSection{
+  .teamSection {
     margin: 0.2rem;
   }
   .teamCard {
@@ -135,7 +135,7 @@
     margin-top: 2rem;
     font-size: 1.5rem;
   }
-  .teamCard:hover .core_mem_text{
+  .teamCard:hover .core_mem_text {
     font-size: 1.2rem;
   }
   .socialMedia {
@@ -148,17 +148,22 @@
     padding: 1.2rem;
   }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
+  .teamSection {
+    margin: 0.5rem;
+  }
   .teamCard {
     width: 80%;
-    height: 50vh;
+    height: 30vh;
+    margin: 1rem;
   }
+
   .teamCard:hover img {
-    height: 15rem;
-    width: 15rem;
+    height: 7rem;
+    width: 7rem;
   }
   .teamTitle {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
   }
 }
