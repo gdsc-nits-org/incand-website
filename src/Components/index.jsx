@@ -11,6 +11,8 @@ import SponsorPrev from "./SponsorPrev/SponsorPrev";
 import EventTimeline from "./Timeline/EventTimeline";
 import ConcertTimeline from "./Timeline/ConcertTimeline";
 import Loader from "./Loader/Loader";
+import EventHero from "./EventHero/EventHero";
+import EventSection from "./EventsSection/EventSection";
 
 export {
   SponsorsHero,
@@ -20,10 +22,12 @@ export {
   SponsorCont,
   SponsorPrev,
   Button,
-  Navbar, 
-  Hero, 
+  Navbar,
+  Hero,
   About,
   EventTimeline,
   ConcertTimeline,
   Loader,
+  EventHero,
+  EventSection,
 };

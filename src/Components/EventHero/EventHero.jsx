@@ -1,5 +1,4 @@
-import React from 'react'
-import heroStyle from "./EventHero.module.scss"
+import heroStyle from "./EventHero.module.scss";
 
 const EventHero = () => {
   return (
@@ -28,7 +27,7 @@ const EventHero = () => {
         <h1 className={heroStyle.mainText}>Events</h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default EventHero
+export default EventHero;

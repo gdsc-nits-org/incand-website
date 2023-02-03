@@ -1,4 +1,3 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import footerStyles from "./Footer.module.scss";
 
@@ -11,12 +10,18 @@ const Footer = (props) => {
 
       <div className={footerStyles.buttons}>
         <div className={footerStyles.btn1}>
-          <a href="https://drive.google.com/file/d/1wIqo4KKqjLbHMHFyT46_0gnIZbfuXWdV/view" className={footerStyles.brochureLink}>
+          <a
+            href="https://drive.google.com/file/d/1wIqo4KKqjLbHMHFyT46_0gnIZbfuXWdV/view"
+            className={footerStyles.brochureLink}
+          >
             <div className={footerStyles.btn1son}>Download Brochure</div>
           </a>
         </div>
         <div className={footerStyles.btn2}>
-          <a href="https://forms.gle/LZY5VWCWhHFDU84X9" className={footerStyles.ambassadorLink} >
+          <a
+            href="https://forms.gle/LZY5VWCWhHFDU84X9"
+            className={footerStyles.ambassadorLink}
+          >
             <div className={footerStyles.btn2son}>Become our Campus Ambassador</div>
           </a>
         </div>
@@ -29,7 +34,11 @@ const Footer = (props) => {
 
       <div className={footerStyles.footerSocials}>
         <a href="https://www.instagram.com/incandescence_nitsilchar/">
-          <Icon className={footerStyles.social1} icon="lucide:instagram" color="#d62976" />
+          <Icon
+            className={footerStyles.social1}
+            icon="lucide:instagram"
+            color="#d62976"
+          />
         </a>
 
         {/* <Icon

@@ -1,5 +1,4 @@
-import { useRef } from "react";
-import { Hero, About, Footer, Navbar } from "../../Components";
+import { Hero, About, Footer } from "../../Components";
 import style from "./Home.module.scss";
 
 const Home = () => {
