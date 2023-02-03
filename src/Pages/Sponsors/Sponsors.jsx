@@ -5,6 +5,7 @@ import {
   Footer,
   SponsorCont,
   SponsorPrev,
+  SponsorsCur,
 } from "../../Components";
 import style from "./Sponsors.module.scss";
 const Sponsors = () => {
@@ -12,7 +13,7 @@ const Sponsors = () => {
     <div className={style.sponsors}>
       <SponsorsHero />
       <SponsorsWhy />
-      {/* <SponsorsCur /> */}
+      <SponsorsCur />
       <SponsorPrev />
       <SponsorCont />
       <Footer />

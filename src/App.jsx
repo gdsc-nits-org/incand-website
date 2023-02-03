@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components
-import { Loader } from "./Components";
+import { Loader, Navbar } from "./Components";
 
 // Pages
 import { Events, Home, Sponsors } from "./Pages";
@@ -28,11 +28,14 @@ const App = () => {
   return isLoading ? (
     <Loader />
   ) : (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/sponsors" element={<Sponsors />} />
-      <Route path="/events" element={<Events />} />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/events" element={<Events />} />
+      </Routes>
+    </>
   );
 };
 
