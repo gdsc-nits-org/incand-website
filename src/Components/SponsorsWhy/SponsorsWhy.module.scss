@@ -70,6 +70,30 @@ p {
     }
   }
 }
+@media only screen and (max-width: 400px) {
+  .container {
+    margin-top: -17%;
+    .text {
+      p {
+        font-size: 2rem !important;
+      }
+    }
+    .body {
+      margin-inline: 10%;
+      gap: 3rem;
+      .row {
+        gap: 5rem;
+        p {
+          font-size: 0.8rem !important;
+        }
+        .imgs {
+          display: block;
+          width: 5rem;
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-width: 760px) and (max-width: 1000px) {
   .container {
     margin-top: -13%;
