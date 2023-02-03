@@ -1,17 +1,15 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { useEffect, Suspense, lazy } from "react";
+import { Routes, Route } from "react-router-dom";
 
-import { Navbar } from "./Components";
-import { useEffect, useState } from "react";
-import { Player } from "@lottiefiles/react-lottie-player";
+// Components
+import { Loader } from "./Components";
 
-import routes from "./routes";
-
-const router = createBrowserRouter(routes);
+// Pages
+const Home = lazy(() => import("./Pages/Home/Home"));
+const Sponsors = lazy(() => import("./Pages/Sponsors/Sponsors"));
 
 const App = () => {
-  const [isLoading, setisLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setisLoading(false), 4000);
     const threeScript = document.createElement("script");
     threeScript.setAttribute("id", "threeScript");
     threeScript.setAttribute(
@@ -26,29 +24,12 @@ const App = () => {
     };
   }, []);
   return (
-    <div>
-      {isLoading ? (
-        <div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "100vh",
-            }}
-          >
-            <Player
-              loop
-              autoplay
-              src="/lottie/Incand.json"
-              style={{ height: "300px", width: "300px" }}
-            />
-          </div>
-        </div>
-      ) : (
-        <RouterProvider router={router} />
-      )}
-    </div>
+    <Suspense fallback={<Loader />}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+      </Routes>
+    </Suspense>
   );
 };
 
