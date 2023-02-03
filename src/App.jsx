@@ -1,15 +1,17 @@
-import { useEffect, Suspense, lazy } from "react";
+import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components
 import { Loader } from "./Components";
 
 // Pages
-const Home = lazy(() => import("./Pages/Home/Home"));
-const Sponsors = lazy(() => import("./Pages/Sponsors/Sponsors"));
+import { Home, Sponsors } from "./Pages";
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
+    setTimeout(() => setIsLoading(false), 3000);
+
     const threeScript = document.createElement("script");
     threeScript.setAttribute("id", "threeScript");
     threeScript.setAttribute(
@@ -23,13 +25,13 @@ const App = () => {
       }
     };
   }, []);
-  return (
-    <Suspense fallback={<Loader />}>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-      </Routes>
-    </Suspense>
+  return isLoading ? (
+    <Loader />
+  ) : (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/sponsors" element={<Sponsors />} />
+    </Routes>
   );
 };
 
