@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
@@ -8,7 +5,6 @@ import navStyles from "./Navbar.module.scss";
 
 const Navbar = (props) => {
   const [toggle, setToggle] = useState(false);
-  // const [color, setColor] = useState(false);
 
   const handleToggle = () => {
     setToggle((prevToggleValue) => !prevToggleValue);
@@ -17,8 +13,6 @@ const Navbar = (props) => {
   function useEvent(event, handler, passive = false) {
     useEffect(() => {
       window.addEventListener(event, handler, passive);
-
-      // this will clean up the event every time the component is re-rendered
       return function cleanup() {
         window.removeEventListener(event, handler);
       };
@@ -33,18 +27,6 @@ const Navbar = (props) => {
     }
   };
   useEvent("scroll", changeToggle);
-  // useEvent("scroll", changeColor);
-
-  const handleChange = () => {
-    props.handleClick();
-    handleToggle();
-  };
-
-  const handleChange2 = () => {
-    props.handleClick2();
-    handleToggle();
-  };
-
   return (
     <>
       <div
@@ -71,12 +53,8 @@ const Navbar = (props) => {
               SPONSORS
             </Link>
           </div>
-          <div className={navStyles.navBtn} onClick={handleChange}>
-            ABOUT US
-          </div>
-          <div className={navStyles.navBtn} onClick={handleChange2}>
-            CONTACT US
-          </div>
+          <div className={navStyles.navBtn}>ABOUT US</div>
+          <div className={navStyles.navBtn}>CONTACT US</div>
         </div>
       </div>
     </>
