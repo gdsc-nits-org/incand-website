@@ -1,4 +1,5 @@
-import { Hero, About, Footer} from "../../Components";
+import { Hero, About, Footer } from "../../Components";
+
 import style from "./Home.module.scss";
 
 const Home = () => {

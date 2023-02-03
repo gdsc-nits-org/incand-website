@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Navbar,
   SponsorsHero,
@@ -8,7 +7,9 @@ import {
   SponsorPrev,
   SponsorsCur,
 } from "../../Components";
+
 import style from "./Sponsors.module.scss";
+
 const Sponsors = () => {
   return (
     <div className={style.sponsors}>

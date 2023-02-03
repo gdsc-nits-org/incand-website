@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import * as THREE from "three";
 import HALO from "vanta/dist/vanta.halo.min";
 import heroStyles from "./Hero.module.scss";

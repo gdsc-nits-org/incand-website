@@ -1,7 +1,4 @@
-import React from 'react'
-import { Navbar, Footer} from "../../Components";
-import EventHero from '../../Components/EventHero/EventHero';
-import EventSection from '../../Components/EventsSection/EventSection';
+import { Navbar, Footer, EventHero, EventSection } from "../../Components";
 
 import style from "./Events.module.scss";
 
@@ -13,7 +10,7 @@ const Events = () => {
       <EventSection />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default Events;
