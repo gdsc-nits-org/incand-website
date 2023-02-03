@@ -5,8 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import { Loader, Navbar } from "./Components";
 
 // Pages
-import { Events, Home, Sponsors } from "./Pages";
-
+import { Home, Sponsors, Team, Events} from "./Pages";
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -33,6 +32,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/events" element={<Events />} />
       </Routes>
     </>
