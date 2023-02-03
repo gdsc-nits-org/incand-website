@@ -1,14 +1,24 @@
-import { Home } from "./Pages";
-import { Sponsors } from "./Pages";
+import { Navbar } from "./Components";
+import { Home, Sponsors } from "./Pages";
 
 const routes = [
   {
     path: "/",
-    element: <Home />,
+    element: (
+      <>
+        <Navbar />
+        <Home />
+      </>
+    ),
   },
   {
     path: "/sponsors",
-    element: <Sponsors />,
+    element: (
+      <>
+        <Navbar />
+        <Sponsors />
+      </>
+    ),
   },
 ];
 

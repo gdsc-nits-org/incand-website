@@ -11,7 +11,7 @@ import style from "./Sponsors.module.scss";
 const Sponsors = () => {
   return (
     <div className={style.sponsors}>
-      <Navbar />
+      {/* <Navbar /> */}
       <SponsorsHero />
       <SponsorsWhy />
       {/* <SponsorsCur /> */}
