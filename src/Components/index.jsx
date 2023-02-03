@@ -25,8 +25,5 @@ export {
   About,
   EventTimeline,
   ConcertTimeline,
-  Navbar,
-  Hero,
-  About,
   Loader,
 };

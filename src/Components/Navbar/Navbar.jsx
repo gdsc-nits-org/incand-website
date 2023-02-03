@@ -83,13 +83,10 @@ const Navbar = (props) => {
             SEE WHAT'S HAPPENING
           </div>
           <div className={navStyles.navBtn}>
+            <Link to="/events" className={navStyles.navLink}>EVENTS</Link>
+          </div>
+          <div className={navStyles.navBtn}>
             <Link to="/sponsors" className={navStyles.navLink}>SPONSORS</Link>
-          </div>
-          <div className={navStyles.navBtn} onClick={handleChange}>
-            ABOUT US
-          </div>
-          <div className={navStyles.navBtn} onClick={handleChange2}>
-            CONTACT US
           </div>
         </div>
       </div>
