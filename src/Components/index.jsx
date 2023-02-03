@@ -10,6 +10,8 @@ import SponsorCont from "./SponsorCont/SponsorCont";
 import SponsorPrev from "./SponsorPrev/SponsorPrev";
 import EventTimeline from "./Timeline/EventTimeline";
 import ConcertTimeline from "./Timeline/ConcertTimeline";
+import Loader from "./Loader/Loader";
+
 export {
   SponsorsHero,
   SponsorsWhy,
@@ -22,6 +24,9 @@ export {
   Hero, 
   About,
   EventTimeline,
-  ConcertTimeline
+  ConcertTimeline,
+  Navbar,
+  Hero,
+  About,
+  Loader,
 };
-
