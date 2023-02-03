@@ -1,7 +1,7 @@
 import React from "react";
 import aboutStyles from "./About.module.scss";
 
-import { aboutIncand, aboutUs } from "../WebsiteContent/Content";
+import { aboutIncand, aboutUs } from "../Data/WebsiteContent.json";
 
 const About = (props) => {
   return (
