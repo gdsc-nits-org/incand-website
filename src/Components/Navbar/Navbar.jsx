@@ -49,9 +49,10 @@ const Navbar = (props) => {
             </Link>
           </div>
           <div className={navStyles.navBtn}>
-            <Link to="/sponsors" className={navStyles.navLink}>
-              SPONSORS
-            </Link>
+            <Link to="/events" className={navStyles.navLink}>EVENTS</Link>
+          </div>
+          <div className={navStyles.navBtn}>
+            <Link to="/sponsors" className={navStyles.navLink}>SPONSORS</Link>
           </div>
         </div>
       </div>
