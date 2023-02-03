@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./SponsorsWhy.module.scss";
 const SponsorsWhy = () => {
   return (

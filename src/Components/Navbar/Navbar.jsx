@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import navStyles from "./Navbar.module.scss";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
@@ -28,35 +28,37 @@ const Navbar = (props) => {
   };
   useEvent("scroll", changeToggle);
   return (
-    <>
-      <div
-        className={
-          toggle ? `${navStyles.navBar} ${navStyles.expanded}` : `${navStyles.navBar}`
-        }
-      >
-        <div className={navStyles.navLeft}></div>
-        <button className={navStyles.toggleIcon} onClick={handleToggle}>
-          {toggle ? (
-            <Icon icon="maki:cross" width="37" height="37"></Icon>
-          ) : (
-            <Icon icon="charm:menu-hamburger" width="37" height="37"></Icon>
-          )}
-        </button>
-        <div className={navStyles.navRight}>
-          <div className={navStyles.navBtn}>
-            <Link to="/" className={navStyles.navLink}>
-              HOME
-            </Link>
-          </div>
-          <div className={navStyles.navBtn}>
-            <Link to="/events" className={navStyles.navLink}>EVENTS</Link>
-          </div>
-          <div className={navStyles.navBtn}>
-            <Link to="/sponsors" className={navStyles.navLink}>SPONSORS</Link>
-          </div>
+    <div
+      className={
+        toggle ? `${navStyles.navBar} ${navStyles.expanded}` : `${navStyles.navBar}`
+      }
+    >
+      <div className={navStyles.navLeft}></div>
+      <button className={navStyles.toggleIcon} onClick={handleToggle}>
+        {toggle ? (
+          <Icon icon="maki:cross" width="37" height="37"></Icon>
+        ) : (
+          <Icon icon="charm:menu-hamburger" width="37" height="37"></Icon>
+        )}
+      </button>
+      <div className={navStyles.navRight}>
+        <div className={navStyles.navBtn}>
+          <Link to="/" className={navStyles.navLink}>
+            HOME
+          </Link>
+        </div>
+        <div className={navStyles.navBtn}>
+          <Link to="/events" className={navStyles.navLink}>
+            EVENTS
+          </Link>
+        </div>
+        <div className={navStyles.navBtn}>
+          <Link to="/sponsors" className={navStyles.navLink}>
+            SPONSORS
+          </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

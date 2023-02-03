@@ -1,26 +1,38 @@
 [
-    {
-        "id" : 1,
-        "header" : "Thunder March",
-        "subheader": "Someone aptly said “If heavy metal bands ruled the world, we had be a lot better off.” and we cannot headbang to it more!",
-        "text" : "Incandescence 2023 brings you one of the most awaited and biggest metal fests of the country, 'Thundermarch'.\nThe culmination of face-melting strums, trembling, thunders, and death growls, as the top-notch metal bands across the nation fight it out to the way to ultimate glory.\nGet ready to scream at the top of your lungs, cry out all the pent-up anger,  frustration, and suppressed feelings and witness the royal demons of rhythm slaughter their path to grandeur.",
-        "header2" : "Heaven and Hell",
-        "imgUrls": ["https://res.cloudinary.com/resyfer/image/upload/v1674550258/Incand/37_f37toi.png", "https://res.cloudinary.com/resyfer/image/upload/v1674550216/Incand/36_tah2if.png", "https://res.cloudinary.com/resyfer/image/upload/v1674550253/Incand/38_bimzuz.png", "https://res.cloudinary.com/resyfer/image/upload/v1674550183/Incand/35_aw8mie.png"]
-    },
-    {
-        "id" : 2,
-        "header" : "Carpe Diem",
-        "subheader": "",
-        "text" : "Incandescence 2023 presents to you its long awaited night which marks the finale of North East's biggest cultural fest - 'Carpe Diem'. A night which promises to engender an atmosphere of excitement and exuberance, enough to blow your minds out and leave you bedazzled. Extraordinary craze and bass is sure to hit your chest as the music and rhythm penetrates to the core of your being. In the past years, performers like Papon, Prateek Kuhad, The Local Train, Nikhil D' Souza, Gajendra Verma etc have ablazed the stage with their presence. So, get ready to scream and cheer for your favourite musicians and bands, and create some of your best memories!",
-        "header2" : "",
-        "imgUrls": ["https://res.cloudinary.com/resyfer/image/upload/v1674550229/Incand/39_cz5uly.png", "https://res.cloudinary.com/resyfer/image/upload/v1674550804/Incand/41_chuh8x.png"]
-    },
-    {
-        "id": 3,
-        "header": "Indie Unplugged",
-        "subheader": "",
-        "text": "To welcome someone into the melodic world of Indie, all you need is a ukulele and your singing voice.\nINCANDESCENCE 2023 offers you a night with your favourite independent musicians. In the company of your loved ones, experience the incredible aura for yourself. With a cool breeze blowing in your face, we have the ideal talents to drop you into a vibrant and soulful sundowner by the lake. the presence of virtuosos like Prateek Kuhad, Tejas Menon, and Dhruv Vishwanath in the past. You will remember Indie Unplugged for the rest of your lives, without a doubt.",
-        "header2":"",
-        "imgUrls":["https://res.cloudinary.com/resyfer/image/upload/v1674550579/Incand/3_zbwqit.png", "https://res.cloudinary.com/resyfer/image/upload/v1674550795/Incand/27_sb6pey.png", "https://res.cloudinary.com/resyfer/image/upload/v1674550800/Incand/25_cjx9jm.png"]
-    }
+  {
+    "id": 1,
+    "header": "Thunder March",
+    "subheader": "Someone aptly said “If heavy metal bands ruled the world, we had be a lot better off.” and we cannot headbang to it more!",
+    "text": "Incandescence 2023 brings you one of the most awaited and biggest metal fests of the country, 'Thundermarch'.\nThe culmination of face-melting strums, trembling, thunders, and death growls, as the top-notch metal bands across the nation fight it out to the way to ultimate glory.\nGet ready to scream at the top of your lungs, cry out all the pent-up anger,  frustration, and suppressed feelings and witness the royal demons of rhythm slaughter their path to grandeur.",
+    "header2": "Heaven and Hell",
+    "imgUrls": [
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550258/Incand/37_f37toi.png",
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550216/Incand/36_tah2if.png",
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550253/Incand/38_bimzuz.png",
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550183/Incand/35_aw8mie.png"
+    ]
+  },
+  {
+    "id": 2,
+    "header": "Carpe Diem",
+    "subheader": "",
+    "text": "Incandescence 2023 presents to you its long awaited night which marks the finale of North East's biggest cultural fest - 'Carpe Diem'. A night which promises to engender an atmosphere of excitement and exuberance, enough to blow your minds out and leave you bedazzled. Extraordinary craze and bass is sure to hit your chest as the music and rhythm penetrates to the core of your being. In the past years, performers like Papon, Prateek Kuhad, The Local Train, Nikhil D' Souza, Gajendra Verma etc have ablazed the stage with their presence. So, get ready to scream and cheer for your favourite musicians and bands, and create some of your best memories!",
+    "header2": "",
+    "imgUrls": [
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550229/Incand/39_cz5uly.png",
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550804/Incand/41_chuh8x.png"
+    ]
+  },
+  {
+    "id": 3,
+    "header": "Indie Unplugged",
+    "subheader": "",
+    "text": "To welcome someone into the melodic world of Indie, all you need is a ukulele and your singing voice.\nINCANDESCENCE 2023 offers you a night with your favourite independent musicians. In the company of your loved ones, experience the incredible aura for yourself. With a cool breeze blowing in your face, we have the ideal talents to drop you into a vibrant and soulful sundowner by the lake. the presence of virtuosos like Prateek Kuhad, Tejas Menon, and Dhruv Vishwanath in the past. You will remember Indie Unplugged for the rest of your lives, without a doubt.",
+    "header2": "",
+    "imgUrls": [
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550579/Incand/3_zbwqit.png",
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550795/Incand/27_sb6pey.png",
+      "https://res.cloudinary.com/resyfer/image/upload/v1674550800/Incand/25_cjx9jm.png"
+    ]
+  }
 ]

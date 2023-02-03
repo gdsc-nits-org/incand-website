@@ -1,6 +1,9 @@
-import React from "react";
 import SponsorC from "./SponsorC";
+
 import styles from "./SponsorsCur.module.scss";
+
+import data from "../../Data/CurrentSponsors.json";
+
 const SponsorsCur = () => {
   return (
     <section className={styles.container}>
@@ -9,7 +12,9 @@ const SponsorsCur = () => {
       </div>
       <div className={styles.body}>
         <div className={styles.gallery}>
-          <SponsorC src={"/logos/unstop.png"} text={"Online Hosting Partner"} />
+          {data.map((d) => (
+            <SponsorC key={d.text} src={d.imgUrl} text={d.text} />
+          ))}
         </div>
       </div>
     </section>
