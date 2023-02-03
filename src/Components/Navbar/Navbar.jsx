@@ -48,14 +48,10 @@ const Navbar = () => {
             </Link>
           </div>
           <div className={navStyles.navBtn}>
-            <Link to="/sponsors" className={navStyles.navLink}>
-              SPONSORS
-            </Link>
+            <Link to="/events" className={navStyles.navLink}>EVENTS</Link>
           </div>
           <div className={navStyles.navBtn}>
-            <Link to="/team" className={navStyles.navLink}>
-              OUR TEAM
-            </Link>
+            <Link to="/sponsors" className={navStyles.navLink}>SPONSORS</Link>
           </div>
         </div>
       </div>

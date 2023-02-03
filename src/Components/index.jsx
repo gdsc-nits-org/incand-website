@@ -13,6 +13,8 @@ import TeamCard2 from "./TeamCard/TeamCard2";
 import TeamCard3 from "./TeamCard/TeamCard3";
 import TeamCard4 from "./TeamCard/TeamCard4";
 import TeamTab from "./TeamTab/TeamTab";
+import EventTimeline from "./Timeline/EventTimeline";
+import ConcertTimeline from "./Timeline/ConcertTimeline";
 import Loader from "./Loader/Loader";
 
 export {
@@ -23,13 +25,15 @@ export {
   SponsorCont,
   SponsorPrev,
   Button,
-  Navbar,
-  Hero,
+  Navbar, 
+  Hero, 
   About,
   TeamHero,
   TeamCard2,
   TeamCard3,
   TeamCard4,
   TeamTab,
+  EventTimeline,
+  ConcertTimeline,
   Loader,
 };
