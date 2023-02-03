@@ -1,4 +1,5 @@
 import React from "react";
+import SponsorC from "./SponsorC";
 import styles from "./SponsorsCur.module.scss";
 const SponsorsCur = () => {
   return (
@@ -7,12 +8,8 @@ const SponsorsCur = () => {
         <p>Current Sponsors</p>
       </div>
       <div className={styles.body}>
-        {/* <img src="/logos/fireLogo.svg" alt="fire logo " className={styles.imgs} /> */}
         <div className={styles.gallery}>
-          <div className={styles.glass}>
-            <img src="/logos/unstop.png" alt="sponosr " />
-            <p>Online Hosting Partner</p>
-          </div>
+          <SponsorC src={"/logos/unstop.png"} text={"Online Hosting Partner"} />
         </div>
       </div>
     </section>
