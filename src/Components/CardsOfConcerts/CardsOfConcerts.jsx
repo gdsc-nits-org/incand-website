@@ -2,9 +2,9 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react'
 import styles from "./CardsOfConcerts.module.scss";
-import platform1 from "/src/images/platform1.png";
-import platform2 from "/src/images/platform2.png";
-import platform3 from "/src/images/platform3.png";
+import platform1 from "/images/platform1.png";
+import platform2 from "/images/platform2.png";
+import platform3 from "/images/platform3.png";
 
 const CardsOfConcerts = () => {
   return (
