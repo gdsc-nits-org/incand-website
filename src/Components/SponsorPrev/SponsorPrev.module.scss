@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 80%;
 }
 .Spons {
@@ -34,6 +35,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-basis: calc(18% - 0.3rem);
   border: 1px solid rgba(2, 2, 2, 0.25);
   padding: 0.1rem;
   margin: 0.3rem;
@@ -47,6 +49,7 @@
   }
   .glass {
     width: 7rem !important;
+    flex-basis: calc(40% - 0.3rem);
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 759px) {
@@ -56,6 +59,7 @@
 
   .glass {
     width: 11rem !important;
+    flex-basis: calc(30% - 0.3rem);
   }
 }
 @media only screen and (min-width: 760px) and (max-width: 1000px) {
@@ -65,5 +69,6 @@
 
   .glass {
     width: 13rem !important;
+    flex-basis: calc(22% - 0.3rem);
   }
 }
