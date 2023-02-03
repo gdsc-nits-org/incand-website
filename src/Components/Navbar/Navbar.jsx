@@ -32,18 +32,6 @@ const Navbar = (props) => {
       setToggle(false);
     }
   };
-
-  // const changeColor = () => {
-  //   if (window.innerWidth > 100) {
-  //     if(window.scrollY >= 50){
-  //       setColor(true);
-  //     }
-
-  //   } else {
-  //     setColor(false);
-  //   }
-  // };
-
   useEvent("scroll", changeToggle);
   // useEvent("scroll", changeColor);
 
@@ -57,13 +45,7 @@ const Navbar = (props) => {
     handleToggle();
   };
 
-  const handleChange3 = () => {
-    props.handleClick3();
-    handleToggle();
-  };
-
   return (
-    // eslint-disable-next-line react/jsx-no-useless-fragment
     <>
       <div
         className={
@@ -79,11 +61,15 @@ const Navbar = (props) => {
           )}
         </button>
         <div className={navStyles.navRight}>
-          <div className={navStyles.navBtn} onClick={handleChange3}>
-          <Link to="/" className={navStyles.navLink}>HOME</Link>
+          <div className={navStyles.navBtn}>
+            <Link to="/" className={navStyles.navLink}>
+              HOME
+            </Link>
           </div>
           <div className={navStyles.navBtn}>
-            <Link to="/sponsors" className={navStyles.navLink}>SPONSORS</Link>
+            <Link to="/sponsors" className={navStyles.navLink}>
+              SPONSORS
+            </Link>
           </div>
           <div className={navStyles.navBtn} onClick={handleChange}>
             ABOUT US
