@@ -9,7 +9,7 @@ const SponsorsCur = () => {
       </div>
       <div className={styles.body}>
         <div className={styles.gallery}>
-          <SponsorC src={"/logos/unstop.png"} text={"Online Hosting Partner"} />
+          <SponsorC src="/logos/unstop.png" text="Online Hosting Partner" />
         </div>
       </div>
     </section>

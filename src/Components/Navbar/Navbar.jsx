@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import navStyles from "./Navbar.module.scss";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
@@ -28,7 +28,6 @@ const Navbar = (props) => {
   };
   useEvent("scroll", changeToggle);
   return (
-    <>
       <div
         className={
           toggle ? `${navStyles.navBar} ${navStyles.expanded}` : `${navStyles.navBar}`
@@ -55,7 +54,6 @@ const Navbar = (props) => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 
