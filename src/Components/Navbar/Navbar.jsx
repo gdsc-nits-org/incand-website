@@ -53,8 +53,6 @@ const Navbar = (props) => {
               SPONSORS
             </Link>
           </div>
-          <div className={navStyles.navBtn}>ABOUT US</div>
-          <div className={navStyles.navBtn}>CONTACT US</div>
         </div>
       </div>
     </>
