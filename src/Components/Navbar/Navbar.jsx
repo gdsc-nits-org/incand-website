@@ -57,6 +57,11 @@ const Navbar = () => {
             SPONSORS
           </Link>
         </div>
+        <div className={navStyles.navBtn}>
+          <Link to="/team" className={navStyles.navLink}>
+            TEAM
+          </Link>
+        </div>
       </div>
     </div>
   );
