@@ -1,4 +1,4 @@
-import { SponsorsHero, Slider, Navbar } from "../../Components";
+import { SponsorsHero, Slider } from "../../Components";
 import style from "./Gallery.module.scss";
 import footerStyles from "../../Components/Footer/Footer.module.scss";
 const Gallery = () => {

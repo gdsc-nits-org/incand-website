@@ -29,18 +29,6 @@ const Navbar = (props) => {
     }
   };
   useEvent("scroll", changeToggle);
-  // useEvent("scroll", changeColor);
-
-  const handleChange = () => {
-    props.handleClick();
-    handleToggle();
-  };
-
-  const handleChange2 = () => {
-    props.handleClick2();
-    handleToggle();
-  };
-
   return (
     <>
       <div
@@ -67,11 +55,10 @@ const Navbar = (props) => {
               SPONSORS
             </Link>
           </div>
-          <div className={navStyles.navBtn} onClick={handleChange}>
-            ABOUT US
-          </div>
-          <div className={navStyles.navBtn} onClick={handleChange2}>
-            CONTACT US
+          <div className={navStyles.navBtn}>
+            <Link to="/gallery" className={navStyles.navLink}>
+              GALLERY
+            </Link>
           </div>
         </div>
       </div>
