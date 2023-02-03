@@ -1,17 +1,33 @@
+import { Navbar } from "./Components";
 import { Home, Sponsors, Gallery } from "./Pages";
 
 const routes = [
   {
     path: "/",
-    element: <Home />,
+    element: (
+      <>
+        <Navbar />
+        <Home />
+      </>
+    ),
   },
   {
     path: "/sponsors",
-    element: <Sponsors />,
+    element: (
+      <>
+        <Navbar />
+        <Sponsors />
+      </>
+    ),
   },
   {
     path: "/gallery",
-    element: <Gallery />,
+    element: (
+      <>
+        <Navbar />
+        <Gallery />
+      </>
+    ),
   },
 ];
 

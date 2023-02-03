@@ -19,11 +19,11 @@ const Home = () => {
 
   return (
     <div className={style.home}>
-      <Navbar
+      {/* <Navbar
         handleClick={handleClick}
         handleClick2={handleClick2}
         // handleClick3={handleClick3}
-      />
+      /> */}
       <Hero />
       <About reference={ref} />
       <Footer reference={ref2} />

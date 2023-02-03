@@ -12,7 +12,7 @@ import style from "./Sponsors.module.scss";
 const Sponsors = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={style.sponsors}>
         <SponsorsHero name="Sponsors" />
         <SponsorsWhy />

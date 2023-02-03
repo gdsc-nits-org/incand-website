@@ -4,7 +4,7 @@ import footerStyles from "../../Components/Footer/Footer.module.scss";
 const Gallery = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={style.main}>
         <SponsorsHero name="Gallery" />
         <div className={style.text}>
