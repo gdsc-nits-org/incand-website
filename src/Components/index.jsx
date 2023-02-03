@@ -8,7 +8,7 @@ import SponsorsWhy from "./SponsorsWhy/SponsorsWhy";
 import SponsorsCur from "./SponsorsCur/SponsorsCur";
 import SponsorCont from "./SponsorCont/SponsorCont";
 import SponsorPrev from "./SponsorPrev/SponsorPrev";
-import Slider from "./Photos/Slider";
+import Loader from "./Loader/Loader";
 
 export {
   SponsorsHero,
@@ -18,9 +18,8 @@ export {
   SponsorCont,
   SponsorPrev,
   Button,
-  Navbar, 
-  Hero, 
+  Navbar,
+  Hero,
   About,
-  Slider
+  Loader,
 };
-

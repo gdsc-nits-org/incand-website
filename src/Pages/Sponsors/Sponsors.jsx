@@ -6,22 +6,19 @@ import {
   Footer,
   SponsorCont,
   SponsorPrev,
-  Navbar,
+  SponsorsCur,
 } from "../../Components";
 import style from "./Sponsors.module.scss";
 const Sponsors = () => {
   return (
-    <>
-      {/* <Navbar /> */}
-      <div className={style.sponsors}>
-        <SponsorsHero name="Sponsors" />
-        <SponsorsWhy />
-        <SponsorsCur />
-        <SponsorPrev />
-        <SponsorCont />
-        <Footer />
-      </div>
-    </>
+    <div className={style.sponsors}>
+      <SponsorsHero />
+      <SponsorsWhy />
+      <SponsorsCur />
+      <SponsorPrev />
+      <SponsorCont />
+      <Footer />
+    </div>
   );
 };
 
