@@ -12,3 +12,8 @@
     ),
     url(/images/bgimage1.png);
 }
+@media only screen and (max-width: 540px) {
+  .eventSec{
+    padding: 1rem 1rem;
+  }
+}

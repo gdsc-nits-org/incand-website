@@ -94,7 +94,7 @@
     display: none !important;
   }
 }
-@media only screen and (min-width: 501px) and (max-width: 759px) {
+@media only screen and (max-width: 540px) {
   .heroSection {
     height: 70vh;
   }
@@ -109,5 +109,10 @@
 
   .socialHandle {
     display: none !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .heroSection {
+    height: 40vh;
   }
 }

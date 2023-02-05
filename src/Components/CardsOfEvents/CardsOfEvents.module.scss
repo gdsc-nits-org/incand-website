@@ -88,3 +88,25 @@
     }
   }
 }
+@media only screen and (max-width: 540px) {
+  .CardsOfEvents{
+    padding: 0.5rem 0.5rem;
+    .Card_body_2{
+      .Card_images{
+        img {
+          margin: 0.2rem;
+          height: 100px;
+        }
+      }
+    }
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 5px;
+  }
+
+}
