@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components
-import { Loader, Navbar } from "./Components";
-import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+import { Loader, Navbar, ScrollToTop } from "./Components";
 
 // Pages
 import { Home, Sponsors, Events } from "./Pages";
