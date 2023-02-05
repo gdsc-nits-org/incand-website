@@ -1,0 +1,117 @@
+@font-face {
+  font-family: KenedyItalic;
+  src: url(/fonts/KenedyItalic.ttf);
+}
+p {
+  color: white;
+  display: block;
+}
+
+.container {
+  overflow: hidden;
+  margin-top: -10%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .text p {
+  color: whitesmoke;
+  font-family: kenedyItalic;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 120px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.container .body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.container .body .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30rem;
+}
+.container .body .row p {
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 43px;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    margin-top: -17%;
+  }
+  .container .text p {
+    font-size: 2rem !important;
+  }
+  .container .body {
+    margin-inline: 10%;
+    gap: 3rem;
+  }
+  .container .body .row {
+    gap: 5rem;
+  }
+  .container .body .row p {
+    font-size: 1rem !important;
+  }
+  .container .body .row .imgs {
+    display: block;
+    width: 7rem;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  .container {
+    margin-top: -13%;
+  }
+  .container .text p {
+    font-size: 4rem !important;
+  }
+  .container .body {
+    margin-inline: 10%;
+    gap: 3rem;
+  }
+  .container .body .row {
+    gap: 12rem;
+  }
+  .container .body .row p {
+    font-size: 1.2rem !important;
+  }
+  .container .body .row .imgs {
+    display: block;
+    width: 10rem;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 759px) {
+  .container {
+    margin-top: -10%;
+  }
+  .container .text p {
+    font-size: 3rem !important;
+  }
+  .container .body {
+    margin-inline: 6%;
+    gap: 3.4rem;
+  }
+  .container .body .row {
+    gap: 15rem;
+  }
+  .container .body .row p {
+    font-size: 1rem !important;
+  }
+  .container .body .row .imgs {
+    display: block;
+    width: 7.5rem;
+  }
+}/*# sourceMappingURL=SponsorsWhy.module.css.map */

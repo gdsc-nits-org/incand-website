@@ -1,0 +1,230 @@
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2% 0;
+  justify-content: center;
+}
+.footer .buttons {
+  position: relative;
+  height: 8rem;
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .buttons .btn1 {
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.footer .buttons .btn1 .brochureLink {
+  text-decoration: none;
+}
+.footer .buttons .btn1 .btn1son {
+  position: relative;
+  border: 2px solid #06b6d4;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%;
+  width: 100%;
+  background: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Montserrat";
+  font-style: normal;
+  padding: 1% 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 145% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.footer .buttons .btn1:hover .btn1son {
+  border-bottom-right-radius: 40%;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #06b6d4;
+  transition: all 0.3s ease-in-out;
+}
+.footer .buttons .btn2 {
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer .buttons .btn2 .ambassadorLink {
+  text-decoration: none;
+}
+.footer .buttons .btn2 .btn2son {
+  position: relative;
+  border: 2px solid #3b82f6;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%;
+  background: transparent;
+  width: 100%;
+  padding: 1% 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 145% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+}
+.footer .buttons .btn2:hover .btn2son {
+  border-bottom-right-radius: 40%;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #3b82f6;
+  transition: all 0.3s ease-in-out;
+}
+.footer .contactUs {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contactUs .contact {
+  width: 125px;
+  height: 22px;
+  margin: auto;
+  bottom: 113px;
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.28em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.footer .contactUs .mail {
+  width: 460px;
+  height: 34px;
+  margin: auto;
+  top: 503px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.footer .footerSocials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.footer .footerSocials .social1 {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer .footerSocials .social2 {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+.footer .footerSocials .social3 {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+.footer .footerSocials .social4 {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+.footer .footerSocials .social5 {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 990px) {
+  .footer .footerLogo img {
+    width: 125px;
+    height: 73.48px;
+  }
+  .footer .buttons .btn1 {
+    width: 131px;
+    margin: auto;
+    height: 41px;
+  }
+  .footer .buttons .btn1 .btn1son {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 123px;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 29px;
+    /* or 414% */
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .footer .buttons .btn2 {
+    width: 131px;
+    margin: auto;
+  }
+  .footer .buttons .btn2 .btn2son {
+    width: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 29px;
+    /* or 414% */
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .footer .contactUs .contact {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .footer .contactUs .mail {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */
