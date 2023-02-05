@@ -1,4 +1,3 @@
-import React from "react";
 import heroStyles from "./SponsorsHero.module.scss";
 const SponsorsHero = (props) => {
   return (

@@ -43,7 +43,11 @@
     width: 100vw;
     margin-top: 51vh;
     height: 50vh;
-    background-image: linear-gradient(to bottom, rgba(12, 14, 29, 0), rgba(12, 14, 29, 1));
+    background-image: linear-gradient(
+      to bottom,
+      rgba(12, 14, 29, 0),
+      rgba(12, 14, 29, 1)
+    );
   }
 
   .heroAnim {
@@ -59,14 +63,14 @@
     }
   }
 
-  .marqueeBox{
+  .marqueeBox {
     position: absolute;
     z-index: 200;
     top: 85vh;
     height: 3rem;
     transform: rotate(-3deg);
     background-color: rgba(255, 255, 255, 0.2);
-    .comingSoonString{
+    .comingSoonString {
       font-family: Elianto;
       font-size: 1.8rem;
       color: white;
@@ -80,9 +84,9 @@
     .socialHandle {
       display: none;
     }
-    .marqueeBox{
+    .marqueeBox {
       top: 70vh;
-      .comingSoonString{
+      .comingSoonString {
         font-size: 1.2rem;
         margin-left: 5%;
       }

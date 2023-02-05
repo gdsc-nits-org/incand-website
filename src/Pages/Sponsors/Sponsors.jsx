@@ -1,17 +1,20 @@
-import React from "react";
 import {
   SponsorsCur,
+  Navbar,
   SponsorsHero,
   SponsorsWhy,
   Footer,
   SponsorCont,
   SponsorPrev,
 } from "../../Components";
+
 import style from "./Sponsors.module.scss";
+
 const Sponsors = () => {
   return (
     <div className={style.sponsors}>
-      <SponsorsHero name={"Sponsors"} />
+      <Navbar />
+      <SponsorsHero />
       <SponsorsWhy />
       <SponsorsCur />
       <SponsorPrev />
