@@ -3,9 +3,10 @@ import { Routes, Route } from "react-router-dom";
 
 // Components
 import { Loader, Navbar } from "./Components";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 // Pages
-import { Home, Sponsors, Events} from "./Pages";
+import { Home, Sponsors, Events } from "./Pages";
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -29,12 +30,14 @@ const App = () => {
   ) : (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        {/* <Route path="/team" element={<Team />} /> */}
-        <Route path="/events" element={<Events />} />
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          {/* <Route path="/team" element={<Team />} /> */}
+          <Route path="/events" element={<Events />} />
+        </Routes>
+      </ScrollToTop>
     </>
   );
 };
