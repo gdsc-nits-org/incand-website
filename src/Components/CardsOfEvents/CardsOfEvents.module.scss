@@ -67,12 +67,12 @@
     }
   }
 }
-.buttonSec{
+.buttonSec {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
-.eventButton{
+.eventButton {
   height: 3rem;
   width: 7.5rem;
   background-color: rgb(22, 42, 65);
@@ -83,13 +83,14 @@
   font-weight: 600;
   text-align: center;
   text-decoration: none;
-  align-items: end;
   font-size: 1rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.eventButton:hover{
+.eventButton:hover {
   background-color: #04102f;
-  
 }
 
 @media only screen and (max-width: 759px) {

@@ -1,6 +1,13 @@
 import styles from "./CardsOfEvents.module.scss";
 
-const CardsOfEvents = ({ header, subheader, text, header2, imgUrls }) => {
+const CardsOfEvents = ({
+  header,
+  subheader,
+  text,
+  header2,
+  imgUrls,
+  registrationLink,
+}) => {
   return (
     <div className={styles.CardsOfEvents}>
       <div className={styles.Card_body}>
@@ -16,7 +23,18 @@ const CardsOfEvents = ({ header, subheader, text, header2, imgUrls }) => {
           ))}
         </div>
       </div>
-      <div className={styles.buttonSec}><button type="button" className={styles.eventButton}>Register Now!</button></div>
+      {registrationLink.length !== 0 && (
+        <div className={styles.buttonSec}>
+          <a
+            href={registrationLink}
+            target="_blank"
+            rel="noreferrer"
+            className={styles.eventButton}
+          >
+            Register Now!
+          </a>
+        </div>
+      )}
     </div>
   );
 };
