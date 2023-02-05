@@ -16,6 +16,7 @@ const CardsOfEvents = ({ header, subheader, text, header2, imgUrls }) => {
           ))}
         </div>
       </div>
+      <div className={styles.buttonSec}><button type="button" className={styles.eventButton}>Register Now!</button></div>
     </div>
   );
 };
