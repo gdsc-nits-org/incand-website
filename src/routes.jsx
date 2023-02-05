@@ -1,6 +1,6 @@
 import { Home } from "./Pages";
 import { Sponsors } from "./Pages";
-import { Team } from "./Pages"
+import { Team } from "./Pages";
 
 const routes = [
   {
@@ -14,7 +14,7 @@ const routes = [
   {
     path: "/team",
     element: <Team />,
-  }
+  },
 ];
 
 export default routes;

@@ -12,9 +12,7 @@ const TeamCard = () => {
             <div className={style.cardImages}>
               <img src={data.image} alt="" />
             </div>
-            <div className={style.teamTitle}>
-              {data.name}
-            </div>
+            <div className={style.teamTitle}>{data.name}</div>
             <div className={style.core_mem_text}>{data.rank}</div>
             <div className={style.socialMedia}>
               <div className={style.SocialLogo}>

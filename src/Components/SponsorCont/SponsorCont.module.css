@@ -17,9 +17,9 @@
   font-family: kenedyItalic;
   font-weight: 400;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .contactbox {
@@ -137,4 +137,4 @@ textarea::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-}/*# sourceMappingURL=SponsorCont.module.css.map */
+} /*# sourceMappingURL=SponsorCont.module.css.map */

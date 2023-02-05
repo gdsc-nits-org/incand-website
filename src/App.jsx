@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import { Loader, Navbar } from "./Components";
 
 // Pages
-import { Home, Sponsors, Events} from "./Pages";
+import { Home, Sponsors, Events } from "./Pages";
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {

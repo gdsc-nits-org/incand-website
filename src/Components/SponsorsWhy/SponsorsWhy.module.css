@@ -23,9 +23,9 @@ p {
   font-weight: 400;
   line-height: 120px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .container .body {
   position: relative;
@@ -114,4 +114,4 @@ p {
     display: block;
     width: 7.5rem;
   }
-}/*# sourceMappingURL=SponsorsWhy.module.css.map */
+} /*# sourceMappingURL=SponsorsWhy.module.css.map */

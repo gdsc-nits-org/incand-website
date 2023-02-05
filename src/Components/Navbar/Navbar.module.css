@@ -1,7 +1,7 @@
 .navBar {
   background-color: transparent !important;
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   position: fixed !important;
   top: 0;
   z-index: 9;
@@ -82,7 +82,7 @@
     padding: 2%;
   }
   .navBar.expanded .navRight .navBtn,
-.navBar.expanded .navRight .navLine {
+  .navBar.expanded .navRight .navLine {
     margin: 0.9375rem 0;
     font-size: 1.2rem;
   }
@@ -106,8 +106,8 @@
     transition: all 0.5s ease-in-out;
   }
   .navRight .navBtn,
-.navRight .navLine {
+  .navRight .navLine {
     margin: 0.9375rem 0;
     font-size: 1.1rem;
   }
-}/*# sourceMappingURL=Navbar.module.css.map */
+} /*# sourceMappingURL=Navbar.module.css.map */
