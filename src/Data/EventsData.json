@@ -9,7 +9,8 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550032/Incand/14_dkpdyh.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674549944/Incand/16_ab7pl4.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674549938/Incand/15_zvs8rs.png"
-    ]
+    ],
+    "registrationLink": ""
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550109/Incand/28_d8qs31.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550800/Incand/29_j5lak4.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550790/Incand/30_pmgjbz.png"
-    ]
+    ],
+    "registrationLink": ""
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550024/Incand/22_kwojnx.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550116/Incand/24_pjsi9z.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550140/Incand/23_wptgsh.png"
-    ]
+    ],
+    "registrationLink": ""
   },
   {
     "id": 4,
@@ -44,7 +47,8 @@
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1674550775/Incand/10_dqmsoa.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550804/Incand/9_voh3ua.png"
-    ]
+    ],
+    "registrationLink": ""
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "subheader": "",
     "text": "We dance for laughter, we dance for tears, we dance for madness, we dance for fears, we dance for hopes, we dance for screams, we are the dancers, we create the dreams.\nIncandescence 2023 brings to you a flash mob wherein  a group of people suddenly gather in a bustling public place like mall etc, typically for a brief period of time, to perform a pre-arranged dance routine and performances with the intention to surprise and delight unsuspecting observers, creating a memorable event as well as promoting the cause of event.\nSo put on your dancing sneakers on  and get ready  to have fun swaying to the energetic beats.",
     "header2": "",
-    "imgUrls": []
+    "imgUrls": [],
+    "registrationLink": ""
   },
   {
     "id": 6,
@@ -64,7 +69,8 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550760/Incand/6_btqck9.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550681/Incand/5_bbdvpu.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550780/Incand/7_zokz4j.png"
-    ]
+    ],
+    "registrationLink": ""
   },
   {
     "id": 7,
@@ -74,6 +80,7 @@
     "header2": "",
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1674549971/Incand/17_mwc8fo.png"
-    ]
+    ],
+    "registrationLink": ""
   }
 ]

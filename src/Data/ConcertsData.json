@@ -10,7 +10,8 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550216/Incand/36_tah2if.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550253/Incand/38_bimzuz.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550183/Incand/35_aw8mie.png"
-    ]
+    ],
+    "registrationLink": ""
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1674550229/Incand/39_cz5uly.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550804/Incand/41_chuh8x.png"
-    ]
+    ],
+    "registrationLink": ""
   },
   {
     "id": 3,
@@ -33,6 +35,7 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550579/Incand/3_zbwqit.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550795/Incand/27_sb6pey.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550800/Incand/25_cjx9jm.png"
-    ]
+    ],
+    "registrationLink": ""
   }
 ]

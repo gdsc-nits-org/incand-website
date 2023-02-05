@@ -1,6 +1,13 @@
 import styles from "./CardsOfConcerts.module.scss";
 
-const CardsOfConcerts = ({ header, subheader, text, header2, imgUrls }) => {
+const CardsOfConcerts = ({
+  header,
+  subheader,
+  text,
+  header2,
+  imgUrls,
+  registrationLink,
+}) => {
   return (
     <div className={styles.CardsOfConcerts}>
       <div className={styles.Card_body}>
@@ -16,6 +23,18 @@ const CardsOfConcerts = ({ header, subheader, text, header2, imgUrls }) => {
           ))}
         </div>
       </div>
+      {registrationLink.length !== 0 && (
+        <div className={styles.buttonSec}>
+          <a
+            href={registrationLink}
+            target="_blank"
+            rel="noreferrer"
+            className={styles.eventButton}
+          >
+            Register Now!
+          </a>
+        </div>
+      )}
     </div>
   );
 };
