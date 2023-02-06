@@ -3,7 +3,7 @@ import About from "./About/About";
 import Footer from "./Footer/Footer";
 import Button from "./Button/Button";
 import Navbar from "./Navbar/Navbar";
-import SponsorsHero from "./SponsorHero/SponsorsHero";
+import MainHero from "./MainHero/MainHero";
 import SponsorsWhy from "./SponsorsWhy/SponsorsWhy";
 import SponsorsCur from "./SponsorsCur/SponsorsCur";
 import SponsorCont from "./SponsorCont/SponsorCont";
@@ -16,12 +16,13 @@ import TeamTab from "./TeamTab/TeamTab";
 import EventTimeline from "./Timeline/EventTimeline";
 import ConcertTimeline from "./Timeline/ConcertTimeline";
 import Loader from "./Loader/Loader";
+import Slider from "./Photos/Slider";
 import EventHero from "./EventHero/EventHero";
 import EventSection from "./EventsSection/EventSection";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 
 export {
-  SponsorsHero,
+  MainHero,
   SponsorsWhy,
   SponsorsCur,
   Footer,
@@ -39,6 +40,7 @@ export {
   EventTimeline,
   ConcertTimeline,
   Loader,
+  Slider,
   EventHero,
   EventSection,
   ScrollToTop,

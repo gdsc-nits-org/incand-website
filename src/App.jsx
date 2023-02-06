@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import { Loader, Navbar, ScrollToTop } from "./Components";
 
 // Pages
-import { Home, Sponsors, Events } from "./Pages";
+import { Home, Sponsors, Events, Gallery } from "./Pages";
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -33,7 +33,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sponsors" element={<Sponsors />} />
-          {/* <Route path="/team" element={<Team />} /> */}
+          <Route path="/gallery" element={<Gallery />} />
+        {/* <Route path="/team" element={<Team />} /> */}
           <Route path="/events" element={<Events />} />
         </Routes>
       </ScrollToTop>
