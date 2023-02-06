@@ -34,6 +34,7 @@ const EventTimeline = () => {
               text={data.text}
               header2={data.header2}
               imgUrls={data.imgUrls}
+              registrationLink={data.registrationLink}
             />
           </VerticalTimelineElement>
         ))}
