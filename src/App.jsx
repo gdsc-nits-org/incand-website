@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components
-import { Loader, Navbar } from "./Components";
+import { Loader, Navbar, ScrollToTop } from "./Components";
 
 // Pages
 import { Home, Sponsors, Events, Gallery } from "./Pages";
@@ -29,13 +29,15 @@ const App = () => {
   ) : (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/gallery" element={<Gallery />} />
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/gallery" element={<Gallery />} />
         {/* <Route path="/team" element={<Team />} /> */}
-        <Route path="/events" element={<Events />} />
-      </Routes>
+          <Route path="/events" element={<Events />} />
+        </Routes>
+      </ScrollToTop>
     </>
   );
 };

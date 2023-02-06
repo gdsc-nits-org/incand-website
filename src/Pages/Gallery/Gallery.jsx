@@ -1,6 +1,6 @@
-import { SponsorsHero, Slider } from "../../Components";
+import { MainHero, Slider } from "../../Components";
 
-import images from "../../Data/Images.json";
+import gallery from "../../Data/Gallery.json";
 
 import style from "./Gallery.module.scss";
 
@@ -9,15 +9,18 @@ import footerStyles from "../../Components/Footer/Footer.module.scss";
 const Gallery = () => {
   return (
     <div className={style.main}>
-      <SponsorsHero name="Gallery" />
-      <div className={style.text}>
-        <p>Day 1</p>
-      </div>
-      <Slider images={images} />
-      <div className={style.text}>
-        <p>Day 2</p>
-      </div>
-      <Slider images={images} />
+      <MainHero name="Gallery" />
+      {gallery.map((g) => (
+        <div key={g.id}>
+          <div className={style.text}>
+            <p>{g.heading}</p>
+          </div>
+          <Slider images={g.images} />
+        </div>
+      ))}
+      <br />
+      <br />
+      <br />
       <div className={footerStyles.footer}>
         <div className={footerStyles.footerLogo}>
           <img src="/logos/footerLogo.svg" alt="footer logo" />

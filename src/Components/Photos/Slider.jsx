@@ -1,4 +1,5 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useCallback } from "react";
+import { Icon } from "@iconify/react";
 
 import Card from "./ImageCard";
 
@@ -12,12 +13,13 @@ const Slider = ({ images }) => {
     track.current.dataset.mouseDownAt = e.clientX;
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleOnUp = () => {
     track.current.dataset.mouseDownAt = "0";
     track.current.dataset.prevPercentage = track.current.dataset.percentage;
   };
 
-  const handleOnMove = (e) => {
+  const handleOnMove = useCallback((e) => {
     if (track.current.dataset.mouseDownAt === "0") return;
 
     const mouseDelta = parseFloat(track.current.dataset.mouseDownAt) - e.clientX;
@@ -29,6 +31,11 @@ const Slider = ({ images }) => {
       parseFloat(track.current.dataset.prevPercentage) + percentage;
     const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
 
+    track.current.dataset.percentage = nextPercentage;
+    moveImages(nextPercentage);
+  }, []);
+
+  const moveImages = (nextPercentage) => {
     track.current.dataset.percentage = nextPercentage;
 
     track.current.animate(
@@ -61,7 +68,7 @@ const Slider = ({ images }) => {
 
       container.current.ontouchmove = (e) => handleOnMove(e.touches[0]);
     }
-  }, []);
+  }, [handleOnMove]);
 
   return (
     <div className={style["slider-container"]} ref={container}>
@@ -71,9 +78,33 @@ const Slider = ({ images }) => {
         data-mouse-down-at="0"
         data-prev-percentage="0"
       >
+        <button
+          onClick={() => {
+            moveImages(-15);
+          }}
+        >
+          <Icon
+            icon="material-symbols:arrow-back-ios-new-rounded"
+            color="white"
+            width={24}
+            height={24}
+          />
+        </button>
         {images.map((image) => {
           return <Card src={image.src} key={image.id} />;
         })}
+        <button
+          onClick={() => {
+            moveImages(0);
+          }}
+        >
+          <Icon
+            icon="material-symbols:arrow-forward-ios-rounded"
+            color="white"
+            width={24}
+            height={24}
+          />
+        </button>
       </div>
     </div>
   );

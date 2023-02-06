@@ -1,11 +1,10 @@
 import {
   SponsorsCur,
-  Navbar,
-  SponsorsHero,
   SponsorsWhy,
   Footer,
   SponsorCont,
   SponsorPrev,
+  MainHero,
 } from "../../Components";
 
 import style from "./Sponsors.module.scss";
@@ -13,8 +12,7 @@ import style from "./Sponsors.module.scss";
 const Sponsors = () => {
   return (
     <div className={style.sponsors}>
-      <Navbar />
-      <SponsorsHero />
+      <MainHero name="Sponsor Us" />
       <SponsorsWhy />
       <SponsorsCur />
       <SponsorPrev />

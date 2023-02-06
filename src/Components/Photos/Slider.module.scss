@@ -7,10 +7,19 @@
     display: flex;
     gap: 4vmin;
     position: absolute;
-    left: 50%;
+    left: 30%;
     top: 50%;
     transform: translate(0%, -50%);
     user-select: none;
+
+    button {
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+    }
 
     .image-container {
       width: 40vmin;
