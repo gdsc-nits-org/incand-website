@@ -19,6 +19,7 @@ import Loader from "./Loader/Loader";
 import Slider from "./Photos/Slider";
 import EventHero from "./EventHero/EventHero";
 import EventSection from "./EventsSection/EventSection";
+import ScrollToTop from "./ScrollToTop/ScrollToTop";
 
 export {
   SponsorsHero,
@@ -42,4 +43,5 @@ export {
   Slider,
   EventHero,
   EventSection,
+  ScrollToTop,
 };
