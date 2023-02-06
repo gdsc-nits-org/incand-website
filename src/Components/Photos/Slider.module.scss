@@ -1,0 +1,48 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 60vmin;
+
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    user-select: none;
+
+    button {
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+    }
+
+    .image-container {
+      width: 40vmin;
+      height: 56vmin;
+      border-radius: 1rem;
+      user-select: none;
+      cursor: pointer;
+      transition: width 600ms ease-in-out;
+
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+        object-position: 100% center;
+        filter: grayscale(100%);
+      }
+    }
+  }
+}
+
+.image-clicked {
+  width: 80vmin !important;
+  filter: grayscale(0%) !important;
+  transition: width 600ms ease-in-out;
+}
