@@ -1,19 +1,27 @@
-import "./slider.css";
 import { useState } from "react";
+
+import style from "./Slider.module.scss";
+
 const Card = ({ src }) => {
   const [active, setActive] = useState(false);
-  const handleClick = (e) => {
+  const handleClick = () => {
     setActive((prev) => {
       return !prev;
     });
   };
   return (
     <div
-      className={active === true ? "image-container image-clicked" : "image-container"}
+      onClick={handleClick}
+      className={
+        active === true
+          ? `${style["image-container"]} ${style["image-clicked"]}`
+          : `${style["image-container"]}`
+      }
     >
       <img
-        onClick={handleClick}
-        className={active === true ? "image image-clicked" : "image"}
+        className={
+          active === true ? `${style.image} ${style["image-clicked"]}` : `${style.image}`
+        }
         src={src}
         draggable="false"
         alt="pictures"

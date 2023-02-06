@@ -1,26 +1,33 @@
-import Card from "./ImageCard";
-import "./slider.css";
-import { images } from "./Images";
 import { useRef, useEffect } from "react";
-const Slider = () => {
+
+import Card from "./ImageCard";
+
+import style from "./Slider.module.scss";
+
+const Slider = ({ images }) => {
   const container = useRef(null);
   const track = useRef(null);
-  const handleOnDown = (e) => (track.current.dataset.mouseDownAt = e.clientX);
 
-  const handleOnUp = (e) => {
+  const handleOnDown = (e) => {
+    track.current.dataset.mouseDownAt = e.clientX;
+  };
+
+  const handleOnUp = () => {
     track.current.dataset.mouseDownAt = "0";
     track.current.dataset.prevPercentage = track.current.dataset.percentage;
   };
+
   const handleOnMove = (e) => {
     if (track.current.dataset.mouseDownAt === "0") return;
 
-    const mouseDelta = parseFloat(track.current.dataset.mouseDownAt) - e.clientX,
-      maxDelta = window.innerWidth / 2;
+    const mouseDelta = parseFloat(track.current.dataset.mouseDownAt) - e.clientX;
 
-    const percentage = (mouseDelta / maxDelta) * -100,
-      nextPercentageUnconstrained =
-        parseFloat(track.current.dataset.prevPercentage) + percentage,
-      nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
+    const maxDelta = window.innerWidth / 2;
+
+    const percentage = (mouseDelta / maxDelta) * -100;
+    const nextPercentageUnconstrained =
+      parseFloat(track.current.dataset.prevPercentage) + percentage;
+    const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
 
     track.current.dataset.percentage = nextPercentage;
 
@@ -39,6 +46,7 @@ const Slider = () => {
       );
     }
   };
+
   useEffect(() => {
     if (container && container.current) {
       container.current.onmousedown = (e) => handleOnDown(e);
@@ -54,9 +62,15 @@ const Slider = () => {
       container.current.ontouchmove = (e) => handleOnMove(e.touches[0]);
     }
   }, []);
+
   return (
-    <div className="slider-container" ref={container}>
-      <div id="image-track" ref={track} data-mouse-down-at="0" data-prev-percentage="0">
+    <div className={style["slider-container"]} ref={container}>
+      <div
+        id={style["image-track"]}
+        ref={track}
+        data-mouse-down-at="0"
+        data-prev-percentage="0"
+      >
         {images.map((image) => {
           return <Card src={image.src} key={image.id} />;
         })}
