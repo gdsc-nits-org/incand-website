@@ -1,21 +1,26 @@
 @font-face {
   font-family: Batsand;
-  src: url(/fonts/Batsand.ttf);
+  src: url("/fonts/Batsand.ttf");
 }
 
 @font-face {
   font-family: Elianto;
-  src: url(/fonts/Elianto-Regular.ttf);
+  src: url("/fonts/Elianto-Regular.ttf");
 }
 
 @font-face {
   font-family: KenedyItalic;
-  src: url(/fonts/KenedyItalic.ttf);
+  src: url("/fonts/KenedyItalic.ttf");
 }
 
 @font-face {
   font-family: Kenedy;
-  src: url(/fonts/Kenedy.ttf);
+  src: url("/fonts/Kenedy.ttf");
+}
+
+@font-face {
+  font-family: Rakkas;
+  src: url("/fonts/Rakkas-Regular.ttf");
 }
 
 .CardsOfEvents {
@@ -30,17 +35,18 @@
   .Card_body {
     .Card_header {
       font-family: "Bitter";
+      font-size: 3rem;
     }
 
     .Card_subheader {
       font-family: kenedy;
-      font-size: 15px;
+      font-size: 1.2rem;
       width: 80%;
     }
 
     .Card_text {
       font-family: "Rakkas";
-      font-size: 15px;
+      font-size: 1.2rem;
     }
   }
 
@@ -62,7 +68,7 @@
 
       img {
         margin: 2rem 4rem;
-        height: 150px;
+        width: 30vh;
       }
     }
   }
@@ -95,11 +101,23 @@
 
 @media only screen and (max-width: 759px) {
   .CardsOfEvents {
+    .Card_body {
+      .Card_header {
+        font-size: 2rem;
+      }
+
+      .Card_subheader {
+        font-size: 1rem;
+      }
+
+      .Card_text {
+        font-size: 0.8rem;
+      }
+    }
     .Card_body_2 {
       .Card_images {
         img {
           margin: 1rem;
-          height: 100px;
         }
       }
     }
@@ -114,13 +132,12 @@
   }
 }
 @media only screen and (max-width: 540px) {
-  .CardsOfEvents{
+  .CardsOfEvents {
     padding: 0.5rem 0.5rem;
-    .Card_body_2{
-      .Card_images{
+    .Card_body_2 {
+      .Card_images {
         img {
           margin: 0.2rem;
-          height: 100px;
         }
       }
     }
@@ -133,5 +150,4 @@
   p {
     font-size: 5px;
   }
-
 }
