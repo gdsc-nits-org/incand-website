@@ -23,18 +23,21 @@ const CardsOfEvents = ({
           ))}
         </div>
       </div>
-      {registrationLink.length !== 0 && (
-        <div className={styles.buttonSec}>
-          <a
-            href={registrationLink}
-            target="_blank"
-            rel="noreferrer"
-            className={styles.eventButton}
-          >
-            Register Now!
-          </a>
-        </div>
-      )}
+      <div className={styles.regLinks}>
+        {registrationLink.length !== 0 &&
+          registrationLink.map((r) => (
+            <div className={styles.buttonSec} key={r.name}>
+              <a
+                href={r.link}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.eventButton}
+              >
+                {r.name}
+              </a>
+            </div>
+          ))}
+      </div>
     </div>
   );
 };

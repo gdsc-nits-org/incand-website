@@ -74,28 +74,29 @@
   }
 }
 
-.buttonSec {
+.regLinks {
   display: flex;
-  align-items: flex-end;
   justify-content: flex-end;
-  .eventButton {
-    height: 3rem;
-    width: 7.5rem;
-    background-color: rgb(22, 42, 65);
-    border: 1px solid white;
-    border-radius: 0.5rem;
-    padding: 0.3rem 0.15rem;
-    color: white;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:hover {
-      background-color: #04102f;
+  .buttonSec {
+    .eventButton {
+      height: 3rem;
+      background-color: rgb(22, 42, 65);
+      border: 1px solid white;
+      border-radius: 0.5rem;
+      padding: 0.3rem 0.9rem;
+      margin: 0 0.2rem;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background-color: #04102f;
+      }
     }
   }
 }
