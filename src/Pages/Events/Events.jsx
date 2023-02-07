@@ -1,12 +1,11 @@
-import { Navbar, Footer, EventHero, EventSection } from "../../Components";
+import { Footer, EventSection, MainHero } from "../../Components";
 
 import style from "./Events.module.scss";
 
 const Events = () => {
   return (
     <div className={style.events}>
-      <Navbar />
-      <EventHero />
+      <MainHero name="Event" />
       <EventSection />
       <Footer />
     </div>

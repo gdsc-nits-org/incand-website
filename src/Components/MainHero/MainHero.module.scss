@@ -17,6 +17,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: 100vh;
 
@@ -38,12 +39,12 @@
   }
 
   .heroAnim {
-    margin-top: 5%;
     position: relative;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+
     img {
       padding: 1.6em;
       background: linear-gradient(
@@ -84,7 +85,7 @@
     display: none !important;
   }
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 800px) {
   .heroSection {
     height: 70vh;
   }
@@ -101,8 +102,15 @@
     display: none !important;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 550px){
   .heroSection {
-    height: 40vh;
+    height: 50vh;
+  }
+  .mainText {
+    font-size: 3.2rem !important;
+  }
+
+  .heroAnim > img {
+    width: 20rem;
   }
 }

@@ -19,7 +19,7 @@ const CardsOfEvents = ({
         <h1 className={styles.Card_header_2}>{header2}</h1>
         <div className={styles.Card_images}>
           {imgUrls.map((img, idx) => (
-            <img src={img} alt={`${header}-${idx}`} />
+            <img key={img} src={img} alt={`${header}-${idx}`} />
           ))}
         </div>
       </div>
