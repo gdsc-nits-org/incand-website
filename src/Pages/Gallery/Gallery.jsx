@@ -16,11 +16,8 @@ const Gallery = () => {
             <p>{g.heading}</p>
           </div>
           <Slider images={g.images} />
-          <div
-            className={style.text}
-            style={{ justifyContent: "flex-end", margin: "1.5rem" }}
-          >
-            <p style={{ fontSize: "1rem" }}>Drag for more...</p>{" "}
+          <div className={`${style.text} ${style.alert}`} style={{ margin: "1.5rem" , justifyContent : "center"}}>
+            <p style={{ fontSize: "1.5rem" }}>Drag for more...</p>
             <img
               src="/public/logos/drag.svg"
               style={{ height: "4rem", width: "8rem" }}
