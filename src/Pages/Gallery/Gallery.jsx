@@ -1,3 +1,5 @@
+import dragon from "../../../public/logos/drag.svg";
+
 import { MainHero, Slider } from "../../Components";
 
 import gallery from "../../Data/Gallery.json";
@@ -16,6 +18,14 @@ const Gallery = () => {
             <p>{g.heading}</p>
           </div>
           <Slider images={g.images} />
+          <div className={style.text} style={{justifyContent: "flex-end" , margin : "1.5rem"}}>
+            <p style={{ fontSize: "1rem"}}>Drag for more...</p>{" "}
+            <img
+              src={dragon}
+              style={{ height: "4rem", width: "8rem"}}
+              alt="butterfly"
+            />
+          </div>
         </div>
       ))}
       <br />
