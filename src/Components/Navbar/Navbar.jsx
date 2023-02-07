@@ -48,6 +48,11 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={navStyles.navBtn}>
+          <Link to="/gallery" className={navStyles.navLink}>
+            GALLERY
+          </Link>
+        </div>
+        <div className={navStyles.navBtn}>
           <Link to="/events" className={navStyles.navLink}>
             EVENTS
           </Link>

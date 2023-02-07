@@ -1,0 +1,15 @@
+.main {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+.text {
+  display: flex;
+  justify-content: flex-start;
+  /* width: 80%; */
+  margin-left: 10vw;
+
+  p {
+    font-family: kenedyItalic;
+    font-size: 2rem;
+  }
+}
