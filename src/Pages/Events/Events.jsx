@@ -5,7 +5,7 @@ import style from "./Events.module.scss";
 const Events = () => {
   return (
     <div className={style.events}>
-      <MainHero name="Event" />
+      <MainHero name="Events" />
       <EventSection />
       <Footer />
     </div>
