@@ -22,7 +22,7 @@ const Gallery = () => {
           >
             <p style={{ fontSize: "1.5rem" }}>Drag for more...</p>
             <img
-              src="/public/logos/drag.svg"
+              src="/logos/drag.svg"
               style={{ height: "4rem", width: "8rem" }}
               alt="butterfly"
             />
