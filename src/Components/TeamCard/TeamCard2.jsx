@@ -18,19 +18,19 @@ const TeamCard = () => {
           <div className={style.socialMedia}>
             <div className={style.SocialLogo}>
               <a href={data.fb} label="#">
-                <FaFacebook size={35} />
+                <FaFacebook size={40} />
               </a>
             </div>
             <div className={style.SocialLogo}>
               {" "}
               <a href={data.linkedln} label="#">
-                <FaLinkedin size={35} />
+                <FaLinkedin size={40} />
               </a>
             </div>
             <div className={style.SocialLogo}>
               {" "}
               <a href={data.git} label="#">
-                <BsGithub size={35} />
+                <BsGithub size={40} />
               </a>
             </div>
           </div>

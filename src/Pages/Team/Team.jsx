@@ -1,11 +1,11 @@
-import { TeamHero, Footer, TeamTab } from "../../Components";
+import { MainHero, Footer, TeamTab } from "../../Components";
 
 import style from "./Team.module.scss";
 
 const Team = () => {
   return (
     <div className={style.team}>
-      <TeamHero />
+      <MainHero name="Our Team" />
       <TeamTab />
       <Footer />
     </div>

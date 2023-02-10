@@ -8,7 +8,6 @@ import SponsorsWhy from "./SponsorsWhy/SponsorsWhy";
 import SponsorsCur from "./SponsorsCur/SponsorsCur";
 import SponsorCont from "./SponsorCont/SponsorCont";
 import SponsorPrev from "./SponsorPrev/SponsorPrev";
-import TeamHero from "./TeamHero/TeamHero";
 import TeamCard2 from "./TeamCard/TeamCard2";
 import TeamCard3 from "./TeamCard/TeamCard3";
 import TeamCard4 from "./TeamCard/TeamCard4";
@@ -31,7 +30,6 @@ export {
   Navbar,
   Hero,
   About,
-  TeamHero,
   TeamCard2,
   TeamCard3,
   TeamCard4,
