@@ -5,16 +5,35 @@
   text-align: center;
   color: white;
 }
-.iframess {
-  width: 50%;
-  height: 25rem;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 90%;
+    height: 35rem;
+    border-radius: 2rem;
+  }
 }
 @media only screen and (max-width: 500px) {
   .sliders {
     margin-inline: 2rem;
   }
-  .iframess {
-    width: unset;
+  .container {
+    img {
+      height: 20rem;
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .sliders {
+    margin-inline: 4rem;
+  }
+  .container {
+    img {
+      height: 20rem;
+    }
   }
 }
 .buttonContainer {

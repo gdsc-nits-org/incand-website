@@ -20,9 +20,8 @@ const Merchandise = () => {
     <>
       <div className={styles.sliders}>
         <Slider {...settings1}>
-          <Slides />
-          <Slides />
-          <Slides />
+          <Slides src="https://res.cloudinary.com/resyfer/image/upload/v1676050617/Incand/thunder_march_23_tshirt_mockup_x84t1q.png" />
+          <Slides src="https://res.cloudinary.com/resyfer/image/upload/v1676050690/Incand/VFinB_h6vnmu.png" />
         </Slider>
       </div>
       <div className={styles.buttonContainer}>
