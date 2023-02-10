@@ -20,7 +20,7 @@ import Slider from "./Photos/Slider";
 import EventHero from "./EventHero/EventHero";
 import EventSection from "./EventsSection/EventSection";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
-
+import Merchandise from "./Merchandise/Merchandise";
 export {
   MainHero,
   SponsorsWhy,
@@ -44,4 +44,5 @@ export {
   EventHero,
   EventSection,
   ScrollToTop,
+  Merchandise,
 };
