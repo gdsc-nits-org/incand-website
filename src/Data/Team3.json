@@ -1,83 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
+    "name": "Pratik Majumdar",
+    "rank": "Website Co-Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/Pratik_Majumdar_-_CSE_005_Pratik_Majumdar_jissds.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100010061770737",
+    "linkedln": "https://www.linkedin.com/in/codadept",
+    "git": "https://www.github.com/codadept"
   },
   {
     "id": 2,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
+    "name": "Saurav Pal",
+    "rank": "Cloud & DevOps Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/pfp_-_CSE_039_Saurav_Pal_cupanf.jpg",
+    "fb": "https://www.facebook.com/resyfer.dev/",
+    "linkedln": "https://www.linkedin.com/in/resyfer/",
+    "git": "https://github.com/resyfer"
   },
   {
     "id": 3,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
+    "name": "Jyotishka Bhattacharjee ",
+    "rank": "Web Co Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055883/Incand/Team%20Page/2nd%20and%203rd%20year/copy_durga_puja_22_Sagarika_sofa_g4vtym.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100005647038947",
+    "linkedln": "https://www.linkedin.com/in/jyotishka-b-32995712b/",
+    "git": "https://github.com/jyotishka747"
   },
   {
     "id": 4,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
+    "name": "Bhaskar Wary",
+    "rank": "UI Prop Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/Wary_Bhaskar_Profile_-_CSE_067_BHASKAR_WARY_lok6ot.jpg",
+    "fb": "https://www.facebook.com/bhaskar.wary.100/",
+    "linkedln": "https://www.linkedin.com/in/bhaskar-wary/",
+    "git": "https://www.behance.net/bhaskarwary"
   },
   {
     "id": 5,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
+    "name": "Vinayak Das",
+    "rank": "Senior Developer",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055690/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230207_213202_-_EI88_Vinayak_Das_fsvkzf.jpg",
+    "fb": "http://www.facebook.com/phenyloder",
+    "linkedln": "http://www.linkedin.com/in/phenyloder",
+    "git": "http://www.github.com/phenyloder"
   },
   {
     "id": 6,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
+    "name": "Biju Borah",
+    "rank": "Technical Member",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/IMG-20221208-WA0012_-_EE-A_056_Biju_Borah_afwt1y.jpg",
     "fb": "#",
-    "linkdln": "#",
-    "git": "#"
-  },
-  {
-    "id": 7,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
-  },
-  {
-    "id": 8,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
-  },
-  {
-    "id": 9,
-    "name": "Name 3rd",
-    "rank": "Designation",
-    "image": "https://www.linkpicture.com/q/Photo_1.png",
-    "fb": "#",
-    "linkdln": "#",
-    "git": "#"
+    "linkedln": "https://www.linkedin.com/in/biju-borah-1bb78620a",
+    "git": "https://github.com/biju-borah"
   }
 ]
