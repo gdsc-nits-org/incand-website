@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import navStyles from "./Navbar.module.scss";
 
@@ -18,15 +18,7 @@ const Navbar = () => {
       };
     });
   }
-
-  const changeToggle = () => {
-    if (window.scrollY >= 90 && window.innerWidth > 1000) {
-      setToggle(true);
-    } else {
-      setToggle(false);
-    }
-  };
-  useEvent("scroll", changeToggle);
+  useEvent("scroll");
   return (
     <div
       className={
@@ -43,29 +35,64 @@ const Navbar = () => {
       </button>
       <div className={navStyles.navRight}>
         <div className={navStyles.navBtn}>
-          <Link to="/" className={navStyles.navLink}>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive
+                ? `${navStyles.navLink} ${navStyles.active}`
+                : `${navStyles.navLink}`
+            }
+          >
             HOME
-          </Link>
+          </NavLink>
         </div>
         <div className={navStyles.navBtn}>
-          <Link to="/gallery" className={navStyles.navLink}>
+          <NavLink
+            to="/gallery"
+            className={({ isActive }) =>
+              isActive
+                ? `${navStyles.navLink} ${navStyles.active}`
+                : `${navStyles.navLink}`
+            }
+          >
             GALLERY
-          </Link>
+          </NavLink>
         </div>
         <div className={navStyles.navBtn}>
-          <Link to="/events" className={navStyles.navLink}>
+          <NavLink
+            to="/events"
+            className={({ isActive }) =>
+              isActive
+                ? `${navStyles.navLink} ${navStyles.active}`
+                : `${navStyles.navLink}`
+            }
+          >
             EVENTS
-          </Link>
+          </NavLink>
         </div>
         <div className={navStyles.navBtn}>
-          <Link to="/sponsors" className={navStyles.navLink}>
+          <NavLink
+            to="/sponsors"
+            className={({ isActive }) =>
+              isActive
+                ? `${navStyles.navLink} ${navStyles.active}`
+                : `${navStyles.navLink}`
+            }
+          >
             SPONSORS
-          </Link>
+          </NavLink>
         </div>
         {/* <div className={navStyles.navBtn}>
-          <Link to="/team" className={navStyles.navLink}>
+          <NavLink
+            to="/team"
+            className={({ isActive }) =>
+              isActive
+                ? `${navStyles.navLink} ${navStyles.active}`
+                : `${navStyles.navLink}`
+            }
+          >
             TEAM
-          </Link>
+          </NavLink>
         </div> */}
       </div>
     </div>

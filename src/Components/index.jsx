@@ -17,7 +17,6 @@ import EventTimeline from "./Timeline/EventTimeline";
 import ConcertTimeline from "./Timeline/ConcertTimeline";
 import Loader from "./Loader/Loader";
 import Slider from "./Photos/Slider";
-import EventHero from "./EventHero/EventHero";
 import EventSection from "./EventsSection/EventSection";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import Merchandise from "./Merchandise/Merchandise";
@@ -41,7 +40,6 @@ export {
   ConcertTimeline,
   Loader,
   Slider,
-  EventHero,
   EventSection,
   ScrollToTop,
   Merchandise,

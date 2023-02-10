@@ -1,5 +1,4 @@
 import { useRef, useEffect, useCallback } from "react";
-import { Icon } from "@iconify/react";
 
 import Card from "./ImageCard";
 
@@ -78,33 +77,9 @@ const Slider = ({ images }) => {
         data-mouse-down-at="0"
         data-prev-percentage="0"
       >
-        <button
-          onClick={() => {
-            moveImages(-15);
-          }}
-        >
-          <Icon
-            icon="material-symbols:arrow-back-ios-new-rounded"
-            color="white"
-            width={24}
-            height={24}
-          />
-        </button>
         {images.map((image) => {
           return <Card src={image.src} key={image.id} />;
         })}
-        <button
-          onClick={() => {
-            moveImages(0);
-          }}
-        >
-          <Icon
-            icon="material-symbols:arrow-forward-ios-rounded"
-            color="white"
-            width={24}
-            height={24}
-          />
-        </button>
       </div>
     </div>
   );
