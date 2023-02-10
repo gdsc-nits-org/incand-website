@@ -90,7 +90,8 @@
   .navBar.expanded .navRight {
     @include flexDisplay(center, column);
     width: 100%;
-    top: 7.5rem;
+    top: 5rem;
+    bottom: 5rem;
     left: 0;
     opacity: 1;
     padding: 2%;
