@@ -18,15 +18,7 @@ const Navbar = () => {
       };
     });
   }
-
-  const changeToggle = () => {
-    if (window.scrollY >= 90 && window.innerWidth > 1000) {
-      setToggle(true);
-    } else {
-      setToggle(false);
-    }
-  };
-  useEvent("scroll", changeToggle);
+  useEvent("scroll");
   return (
     <div
       className={
