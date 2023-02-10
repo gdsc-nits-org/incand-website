@@ -62,13 +62,15 @@
 
     .Card_images {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
 
       img {
         margin: 2rem 4rem;
-        width: 30vh;
+        width: 30%;
+        height: 30%;
+       
       }
     }
   }
