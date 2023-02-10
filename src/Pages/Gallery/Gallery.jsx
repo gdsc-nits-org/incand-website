@@ -16,6 +16,17 @@ const Gallery = () => {
             <p>{g.heading}</p>
           </div>
           <Slider images={g.images} />
+          <div
+            className={`${style.text} ${style.alert}`}
+            style={{ margin: "1.5rem", justifyContent: "center" }}
+          >
+            <p style={{ fontSize: "1.5rem" }}>Drag for more...</p>
+            <img
+              src="/logos/drag.svg"
+              style={{ height: "4rem", width: "8rem" }}
+              alt="butterfly"
+            />
+          </div>
         </div>
       ))}
       <br />
