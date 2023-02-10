@@ -1,0 +1,33 @@
+.main {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+.text {
+  display: flex;
+  justify-content: flex-start;
+  /* width: 80%; */
+  margin-left: 10vw;
+
+  p {
+    font-family: kenedyItalic;
+    font-size: 2rem;
+  }
+}
+
+.alert {
+  animation-name: slidein;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 60%;
+  }
+
+  to {
+    margin-left: 70%;
+  }
+}

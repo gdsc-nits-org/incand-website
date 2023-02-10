@@ -71,6 +71,10 @@
   border: none;
 }
 
+.active {
+  border-bottom: 2px solid rgb(198, 198, 198);
+}
+
 @media (max-width: 1200px) {
   .navBar {
     transition: 0.5s all ease-in-out;

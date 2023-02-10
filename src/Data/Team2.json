@@ -1,86 +1,65 @@
 [
-    {
-        "id": 1,
-        "name": "Name 2nd",
-        "rank": "Designation",
-        "image": "https://www.linkpicture.com/q/Photo_1.png",
-        "fb": "#",
-        "linkdln": "#",
-        "git": "#"
-    },
-    {
-       "id": 2,
-       "name": "Name 2nd",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
- 
-    },
-    {
-       "id": 3,
-       "name": "Name 2nd",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
-    },
-    {
-        "id": 4,
-        "name": "Name 2nd",
-        "rank": "Designation",
-        "image": "https://www.linkpicture.com/q/Photo_1.png",
-        "fb": "#",
-        "linkdln": "#",
-        "git": "#"
-    },
-    {
-       "id": 5,
-       "name": "Name 2nd",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
- 
-    },
-    {
-       "id": 6,
-       "name": "Name 2nd",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
-    },
-    {
-        "id": 7,
-        "name": "Name 2nd",
-        "rank": "Designation",
-        "image": "https://www.linkpicture.com/q/Photo_1.png",
-        "fb": "#",
-        "linkdln": "#",
-        "git": "#"
-    },
-    {
-       "id": 8,
-       "name": "Name 2nd",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
- 
-    },
-    {
-       "id": 9,
-       "name": "Name 2nd",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
-    }
- ]
+  {
+    "id": 1,
+    "name": "Aditya Kumar ",
+    "rank": "Junior Developer",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055685/Incand/Team%20Page/2nd%20and%203rd%20year/transparent-20221023_224056-removebg-preview_-_Aditya_Kumar_nsclud.png",
+    "fb": "https://www.facebook.com/profile.php?id=100071791456601",
+    "linkedln": "https://www.linkedin.com/in/adityakr31",
+    "git": "https://github.com/31adityakumar"
+  },
+  {
+    "id": 2,
+    "name": "Adhiraj Dutta",
+    "rank": "Junior Developer",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055681/Incand/Team%20Page/2nd%20and%203rd%20year/1655697483876_-_ECE_183_Adhiraj_Dutta_vxlvww.jpg",
+    "fb": "https://www.facebook.com/byte.head.12/",
+    "linkedln": "https://linkedin.com/in/byt3h3ad",
+    "git": "https://github.com/byt3h3ad"
+  },
+  {
+    "id": 3,
+    "name": "Masoom Sahu",
+    "rank": "Junior Developer",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055690/Incand/Team%20Page/2nd%20and%203rd%20year/IMG20230107120545k_-_CE021_masoom_sahu_qakzlp.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100065692891679",
+    "linkedln": "http://linkedin.com/in/masoom-sahu-09a469230",
+    "git": "https://github.com/smasoom"
+  },
+  {
+    "id": 4,
+    "name": "Rajdristant Ghose ",
+    "rank": "Design Member",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230102_160505_-_Rajdristant_Ghose_zagwhp.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100076066695970&mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/rajdristant-ghose-286061231",
+    "git": "https://github.com/Raj217"
+  },
+  {
+    "id": 5,
+    "name": "Rohan Jha",
+    "rank": "Junior Developer",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055686/Incand/Team%20Page/2nd%20and%203rd%20year/Screenshot_2023-02-07_115343_-_ECE_056_Rohan_Jha_g5bj5y.png",
+    "fb": "https://www.facebook.com/profile.php?id=100010061770737",
+    "linkedln": "https://www.linkedin.com/in/rohan-jha-ab635322b/",
+    "git": "https://github.com/Rohan-108"
+  },
+  {
+    "id": 6,
+    "name": "Bipangshu Saha",
+    "rank": "Junior Developer ",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055685/Incand/Team%20Page/2nd%20and%203rd%20year/Bipangshu_Saha_-_67_Bipangshu_Saha_qrjxwb.png",
+    "fb": "https://www.facebook.com/ronny.kumar.7186896",
+    "linkedln": "http://linkedin.com/in/bipangshu-saha-2aab9b228/",
+    "git": "https://github.com/BIPS8812"
+  },
+  {
+    "id": 7,
+    "name": "Hrishikesh Borah",
+    "rank": "Junior Developer ",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20221220_221219_-_21_Hrishikesh__Borah_lyqep7.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100067302155229&mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/hrishikeshborah",
+    "git": "https://github.com/HrishB16"
+  }
+]

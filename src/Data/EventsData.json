@@ -9,7 +9,8 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550032/Incand/14_dkpdyh.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674549944/Incand/16_ab7pl4.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674549938/Incand/15_zvs8rs.png"
-    ]
+    ],
+    "registrationLink": []
   },
   {
     "id": 2,
@@ -21,6 +22,12 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550109/Incand/28_d8qs31.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550800/Incand/29_j5lak4.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550790/Incand/30_pmgjbz.png"
+    ],
+    "registrationLink": [
+      {
+        "name": "Register",
+        "link": "https://unstop.com/o/0ZBVFdt?lb=YUKB612Follow"
+      }
     ]
   },
   {
@@ -33,7 +40,8 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550024/Incand/22_kwojnx.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550116/Incand/24_pjsi9z.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550140/Incand/23_wptgsh.png"
-    ]
+    ],
+    "registrationLink": []
   },
   {
     "id": 4,
@@ -44,7 +52,8 @@
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1674550775/Incand/10_dqmsoa.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550804/Incand/9_voh3ua.png"
-    ]
+    ],
+    "registrationLink": []
   },
   {
     "id": 5,
@@ -52,7 +61,8 @@
     "subheader": "",
     "text": "We dance for laughter, we dance for tears, we dance for madness, we dance for fears, we dance for hopes, we dance for screams, we are the dancers, we create the dreams.\nIncandescence 2023 brings to you a flash mob wherein  a group of people suddenly gather in a bustling public place like mall etc, typically for a brief period of time, to perform a pre-arranged dance routine and performances with the intention to surprise and delight unsuspecting observers, creating a memorable event as well as promoting the cause of event.\nSo put on your dancing sneakers on  and get ready  to have fun swaying to the energetic beats.",
     "header2": "",
-    "imgUrls": []
+    "imgUrls": [],
+    "registrationLink": []
   },
   {
     "id": 6,
@@ -64,6 +74,12 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550760/Incand/6_btqck9.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550681/Incand/5_bbdvpu.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550780/Incand/7_zokz4j.png"
+    ],
+    "registrationLink": [
+      {
+        "name": "Register",
+        "link": "https://docs.google.com/forms/d/1kmlRbDNC_Y6Rbau9o6RF270HRmYV5Au5mLV3Qn_cL7A/viewform?fbclid=IwAR3aRwq1z7LkhSLqPHBvcYv-3fI4CNCOIJ4CLS4yP_wuvcjCc5LHCh1chR8&edit_requested=true"
+      }
     ]
   },
   {
@@ -74,6 +90,78 @@
     "header2": "",
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1674549971/Incand/17_mwc8fo.png"
+    ],
+    "registrationLink": [
+      {
+        "name": "Register",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSdAQleDXTN5XlicbJAKxEy6zpB-r2sqMBfwvYRCzbWHQF4Vow/viewform"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "header": "Mr. NIT",
+    "subheader": "\"What is the point of being on this Earth if you are going to be like everyone else?\" - Arnold Schwarzenegger",
+    "text": "We introduce to you another chapter of “Mr. NIT”,  one of the most popular events under Incandescence, put forth by The Gymnasium and Athletics Club of NIT Silchar. Mr NIT is a bodybuilding competition for all the tirelessly dedicated fitness freaks out there to showcase their hard work and sincerity. The winners will be presented with handsome amount of cash prizes too! ",
+    "header2": "Let’s set the stage of Nirvana on fire with all the flaunting physiques!",
+    "imgUrls": [],
+    "registrationLink": []
+  },
+  {
+    "id": 9,
+    "header": "Deprador 13.0",
+    "subheader": "Free speech and debate are essential in our search for the truth.",
+    "text": "Incandescence is back with its ever-so-iconic event, Deprador. An event that will put your debating skills to the test. It is an honour to announce that this year’s Deprador will be judged by Sundari Venkatraman. Sundari Venkatraman is an Indie Author who has 62 books to her credit. These books have consistently featured in the Top 100 Bestseller Lists on Amazon India, Amazon USA, Amazon UK, Amazon Canada and Amazon Australia in both romance as well as Asian Drama categories. So put your grey cells to work, and bring out your best arguments with exceptional oratory skills to outwit your opposing debater and get ready to witness some fiery rebuttals and fruitful discussions.",
+    "header2": "",
+    "imgUrls": [],
+    "registrationLink": [
+      {
+        "name": "Register",
+        "link": "https://forms.gle/Xx6jP44GqTk931Gj9"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "header": "Glitterati",
+    "subheader": "\"Trendy is the last stage before tacky.\" — Karl Lagerfeld",
+    "text": "Incandescence is presenting its glamorous module Glitterati for those enticed by the sparkles of the fashion world. With glitz in the air and fashionistas walking down the ramp, the glitterati will make you feel no less than any Milan fashion week. It's a call for the Voguish to showcase their unique fashion sense. An evening brightened by the trendspotters, with crowds gathering to experience a dazzle in the arena glitterati, is the centre of attraction of the great gala Incandescence '23.",
+    "header2": "Make paparazzi follow you!!",
+    "imgUrls": [],
+    "registrationLink": []
+  },
+  {
+    "id": 11,
+    "header": "CARNIVAL OF BITES",
+    "subheader": "Laughter is the brightest where food is good",
+    "text": "We don't say i love you very often, but we do say I'll bring you food, and I believe somewhere there is a language where those two mean the same thing.Be it the sizzling aroma of Makhni or the scrumptious taste of  Kaju Katli, where words fail, food speaks. Food captures the heart and soul of a person  igniting the senses with their aromas and textures. National Institute Of Technology, Silchar brings to you  \"Carnival of Bites\" that lets your relish your inner foodie , whether it's the sweetness of the glaze on a donut or the spicy flavor of wasabi on a sushi roll, we have it all. Let's dive into this carnival of delicacies!",
+    "header2": "",
+    "imgUrls": [],
+    "registrationLink": []
+  },
+  {
+    "id": 12,
+    "header": "The Director’s Cut",
+    "subheader": "",
+    "text": "With the bustling lifestyle, one usually finds it difficult to commit to feature length films and so we have short films. Short films are a great way to tell a story in a condensed amount of time. They are much shorter than a feature length film, but they can still be impactful and emotionally engaging. So for all the film buffs out here, Incandescence 2023 presents to you “The Director’s Cut”, the perfect opportunity for you to turn your dream into a reality. Under this module participants will get hands-on experience at learning film making and also compete head on to show the masterpiece they create from scratch.",
+    "header2": "So are you all ready to express yourself artistically and amaze the cinephiles with your talent?",
+    "imgUrls": [],
+    "registrationLink": [
+      { "name": "Register", "link": "https://forms.gle/kvtEisfZ2RZ8cbR9A" }
+    ]
+  },
+  {
+    "id": 13,
+    "header": "Frames",
+    "subheader": "Photographers don't take pictures. They create images.",
+    "text": "Obietteivo in alliance with Incandescence '23 is back with FRAMES, this edition being bigger and better, welcoming all soaring lensmen to capture exhilarating beauty in the form of architecture, travel, and night.",
+    "header2": "Time to shine shutterbugs!!",
+    "imgUrls": [],
+    "registrationLink": [
+      {
+        "name": "Learn More",
+        "link": "https://www.facebook.com/incandescence.nits/posts/pfbid02r1qV8GMBJJNZv7Kv3bcjvK7pZ2cXcXGmAWd4vAzMMniFBEZPSa1b9dmKM1JK4f4Cl"
+      }
     ]
   }
 ]

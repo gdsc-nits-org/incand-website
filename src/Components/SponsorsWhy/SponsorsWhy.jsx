@@ -1,4 +1,5 @@
 import styles from "./SponsorsWhy.module.scss";
+
 const SponsorsWhy = () => {
   return (
     <section className={styles.container}>

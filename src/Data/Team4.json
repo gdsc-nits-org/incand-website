@@ -1,86 +1,313 @@
 [
-   {
-       "id": 1,
-       "name": "Name 4th",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
-   },
-   {
-      "id": 2,
-      "name": "Name 4th",
-      "rank": "Designation",
-      "image": "https://www.linkpicture.com/q/Photo_1.png",
-      "fb": "#",
-      "linkdln": "#",
-      "git": "#"
+  {
+    "id": 1,
+    "name": "Hemdutt Mishra ",
+    "rank": "Convenor",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035662/Incand/Team%20Page/IMG_20221107_190132_-_Hem_Dutt_Mishra_otbhmr.jpg",
+    "fb": "https://www.facebook.com/hemduttmishra21?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/hemduttmishra21/",
+    "git": "#"
+  },
+  {
+    "id": 2,
+    "name": "Anindya Sundar Saikia  ",
+    "rank": "Convenor",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035663/Incand/Team%20Page/IMG_20221223_085418_795_-_Anindya_Sundar_Saikia_ifmcgu.jpg",
+    "fb": "https://www.facebook.com/anindya.saikia.3?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/anindya-sundar-saikia-963877192/",
+    "git": "#"
+  },
+  {
+    "id": 3,
+    "name": "Nilotpal Roy",
+    "rank": "Chief Coordinator",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035663/Incand/Team%20Page/20221219_135901_1_-_Mech_071_NILOTPAL_ROY_wwixzl.jpg",
+    "fb": "https://www.facebook.com/nabanibesh.roy?mibextid=ZbWKwL",
+    "linkedln": "#",
+    "git": "#"
+  },
+  {
+    "id": 4,
+    "name": "Milind Barman ",
+    "rank": "Executive Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035676/Incand/Team%20Page/milind-barman_-_Milind_Barman_lulz9e.jpg",
+    "fb": "https://www.facebook.com/milind.barman.7?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/milind-barman-729958166/",
+    "git": "#"
 
-   },
-   {
-      "id": 3,
-      "name": "Name 4th",
-      "rank": "Designation",
-      "image": "https://www.linkpicture.com/q/Photo_1.png",
-      "fb": "#",
-      "linkdln": "#",
-      "git": "#"
-   },
-   {
-       "id": 4,
-       "name": "Name 4th",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
-   },
-   {
-      "id": 5,
-      "name": "Name 4th",
-      "rank": "Designation",
-      "image": "https://www.linkpicture.com/q/Photo_1.png",
-      "fb": "#",
-      "linkdln": "#",
-      "git": "#"
+  },
+  {
+    "id": 5,
+    "name": "Md. Arshad Ahmed",
+    "rank": "Executive Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056141/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20221024_210350796_2_ck1o2v.jpg",
+    "fb": "https://www.facebook.com/sayantan.das.3720?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/sayantan-das-0513a8174/",
+    "git": "#"
+  },
+  {
+    "id": 6,
+    "name": "Robin Paul",
+    "rank": "Executive Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056311/Incand/Team%20Page/2nd%20and%203rd%20year/38d9bdbc-bfa7-48f0-b204-90315f636b49_vbvszb.jpg",
+    "fb": "https://www.facebook.com/anas.ahamed.5454?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/anas-ahamed-0b90a6202/",
+    "git": "#"
+  },
+  {
+    "id": 7,
+    "name": "Arkadeep Kashyap ",
+    "rank": "Co-Web Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035659/Incand/Team%20Page/IMG_20220520_154734_303_-_Arkadeep_Kashyap_ha3azm.webp",
+    "fb": "https://www.facebook.com/arko.kashyap?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/kashyaparka/",
+    "git": "https://github.com/kashyaparka"
+  },
+  {
+    "id": 8,
+    "name": "Debojyoti Das ",
+    "rank": "Co-Web Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056138/Incand/Team%20Page/2nd%20and%203rd%20year/6e829862-e520-4a4d-bc0e-4f6a63059719_iwultp.jpg",
+    "fb": "#",
+    "linkedln": "https://www.linkedin.com/in/debojyotidas1915001/",
+    "git": "https://github.com/Debojyoti1915001"
+  },
+  {
+    "id": 9,
+    "name": "Jyotimoy Kashyap ",
+    "rank": "Co-Web Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056137/Incand/Team%20Page/2nd%20and%203rd%20year/7c3f3d08-f66b-4bf2-87cc-b9969ce47152_drfrd7.jpg",
+    "fb": "#",
+    "linkedln": "#",
+    "git": "https://github.com/JyotimoyKashyap"
+  },
+  {
+    "id": 10,
+    "name": "Soumya Ranjan Mohapatro",
+    "rank": "Design Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035656/Incand/Team%20Page/2_-_Copy_-_Soumya_Ranjan_Mohapatro_zyetyw.jpg",
+    "fb": "https://www.facebook.com/soumyaranjan.mohapatro.3?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
+    "git": "#"
+  },
+  {
+    "id": 11,
+    "name": "Mugdha Thakuria  ",
+    "rank": "Design Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035665/Incand/Team%20Page/IMG_20221230_191123_747_-_Mugdha_Thakuria_uk0ktw.jpg",
+    "fb": "https://www.facebook.com/jubaraj.kakati.146?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/mugdha-thakuria-0578751b7/",
+    "git": "#"
+  },
+  {
+    "id": 12,
+    "name": "Nitish Mohanty  ",
+    "rank": "Design Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035670/Incand/Team%20Page/IMG_20230204_132052_-_Nitish_Mohanty_lpzoxd.jpg",
+    "fb": "https://www.facebook.com/nitish.mohanty4?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/nitishmohanty/",
+    "git": "#"
+  },
+  {
+    "id": 13,
+    "name": "Rajanya Kashyap Gogoi ",
+    "rank": "Marketing Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035685/Incand/Team%20Page/SAVE_20220518_222617_-_Rajanya_Kashyap_Gogoi_iusgqq.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100007507729293&mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/rajanya-kashyap-gogoi/",
+    "git": "#"
+  },
+  {
+    "id": 14,
+    "name": "Saurav H Das ",
+    "rank": "Marketing Head ",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035665/Incand/Team%20Page/IMG_20221231_113410_-_Saurav_Das_avj29u.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100008447206879&mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/saurav-h-das-19742b187/",
+    "git": "#"
+  },
+  {
+    "id": 15,
+    "name": "Mrinmoi Borah",
+    "rank": "Head of Marketing",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035658/Incand/Team%20Page/B2DDE2A0-D82B-4F75-AE2B-81CE712ECE97_-_Mrinmoi_Borah_xuncvl.jpg",
+    "fb": "https://www.facebook.com/mrinmoi.borah.9?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/mrinmoi-borah-3a1938153/",
+    "git": "#"
+  },
+  {
+    "id": 16,
+    "name": "Satyik Pritam Yogi  ",
+    "rank": "Public Relations ",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035669/Incand/Team%20Page/IMG_20230127_212541_-_Satyik_pritam_Yogi_fkdtkn.jpg",
+    "fb": "https://www.facebook.com/satyikpritam.yogi?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/satyik-pritam-yogi-a6a49019a/",
+    "git": "#"
+  },
+  {
+    "id": 17,
+    "name": "Sayantan Das",
+    "rank": "PR Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035674/Incand/Team%20Page/IMG-20230126-WA0005_-_Sayantan_Das_hnotci.jpg",
+    "fb": "https://www.facebook.com/sayantan.das.3720?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/sayantan-das-0513a8174/",
+    "git": "#"
+  },
+  {
+    "id": 18,
+    "name": "Afsana Yasmin ",
+    "rank": "PR and Collaboration Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056138/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230119_141018_-_Afsana_Yasmin_n6qjmg.jpg",
+    "fb": "https://www.facebook.com/afsanayasmin.37?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/afsanayasmin1502/",
+    "git": "#"
+  },
+  {
+    "id": 19,
+    "name": "Subhradeep Gogoi",
+    "rank": "Content Team Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035673/Incand/Team%20Page/IMG-20221228-WA0070_-_Subhradeep_Gogoi_nk5rjt.jpg",
+    "fb": "https://www.facebook.com/subhradeep.gogoi.58?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/himangan-sarma-511115210/",
+    "git": "#"
+  },
+  
+  
+  {
+    "id": 20,
+    "name": "Santanu Baruah ",
+    "rank": "Sokratik Module Head, Content Team Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035679/Incand/Team%20Page/Santa_-_Santanu_Baruah_teku6l.jpg",
+    "fb": "https://www.facebook.com/santanu.shino.someone?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/santanu-baruah-84a6321a0/",
+    "git": "#"
+  },
+  {
+    "id": 21,
+    "name": "Ruchir Bhattacharyya",
+    "rank": "Event Management Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035658/Incand/Team%20Page/20230122_192300_2_-_006_RUCHIR_BHATTACHARYYA_xbw6kw.jpg",
+    "fb": "https://www.facebook.com/ruchir.bhatta?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/ruchirbhattacharyya/",
+    "git": "#"
+    
+  },
+  {
+    "id": 22,
+    "name": "Avinash Kumar Jha ",
+    "rank": "Security Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035672/Incand/Team%20Page/IMG_20230209_104302_-_Avinash_jha_gzpi4x.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100003660467689&mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/avinash-kumar-jha-98779620a/",
+    "git": "#"
+  },
 
-   },
-   {
-      "id": 6,
-      "name": "Name 4th",
-      "rank": "Designation",
-      "image": "https://www.linkpicture.com/q/Photo_1.png",
-      "fb": "#",
-      "linkdln": "#",
-      "git": "#"
-   },
-   {
-       "id": 7,
-       "name": "Name 4th",
-       "rank": "Designation",
-       "image": "https://www.linkpicture.com/q/Photo_1.png",
-       "fb": "#",
-       "linkdln": "#",
-       "git": "#"
-   },
-   {
-      "id": 8,
-      "name": "Name 4th",
-      "rank": "Designation",
-      "image": "https://www.linkpicture.com/q/Photo_1.png",
-      "fb": "#",
-      "linkdln": "#",
-      "git": "#"
-
-   },
-   {
-      "id": 9,
-      "name": "Name 4th",
-      "rank": "Designation",
-      "image": "https://www.linkpicture.com/q/Photo_1.png",
-      "fb": "#",
-      "linkdln": "#",
-      "git": "#"
-   }
+  {
+    "id": 23,
+    "name": "Anas Ahamed SJ",
+    "rank": "Logistics- Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035683/Incand/Team%20Page/WhatsApp_Image_2023-02-09_at_12.36.01_PM_-_Anas_Ahamed_umf0xs.jpg",
+    "fb": "https://www.facebook.com/anas.ahamed.5454?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/anas-ahamed-0b90a6202/",
+    "git": "#"
+  },
+  {
+    "id": 24,
+    "name": "Manash Protim Goswami",
+    "rank": "Hospitality Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035657/Incand/Team%20Page/1674801690921_-_Manash_Goswami_vadfi2.jpg",
+    "fb": "https://www.facebook.com/manashprotim.goswami.3?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/manash-goswami-2bbb76217/",
+    "git": "#"
+  },
+  {
+    "id": 25,
+    "name": " Chandraa Gogoi ",
+    "rank": "Hospitality head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035660/Incand/Team%20Page/IMG_20221002_144727_869_-_ME_B_128_fjzfm7.webp",
+    "fb": "https://www.facebook.com/chandraa.gogoi.5?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/chandraa-gogoi-37b6aa204/",
+    "git": "#"
+  },
+  {
+    "id": 26,
+    "name": "Rishiraj Kalita",
+    "rank": "Hospitality Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035680/Incand/Team%20Page/Rishiraj_Kalita_ProfilePhoto_-_Rishiraj_Kalita_bntmnn.jpg",
+    "fb": "https://www.facebook.com/rishirajkalita41?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/rishiraj-kalita-5946511a0/",
+    "git": "#"
+  },
+  {
+    "id": 27,
+    "name": "Nishad Tasneem ",
+    "rank": "Decoration Head ",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035676/Incand/Team%20Page/IMG-20230203-WA0027_-_Diksha_Kakati_co05ca.jpg",
+    "fb": "https://www.facebook.com/nishad.tasnim.92?mibextid=ZbWKwL",
+    "linkedln": "#",
+    "git": "#"
+  },
+  {
+    "id": 28,
+    "name": "Debanga Choudhury ",
+    "rank": "Decoration Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035663/Incand/Team%20Page/IMG_20221031_150020_275_-_Debanga_Choudhury_scddwv.jpg",
+    "fb": "https://www.facebook.com/debanga.choudhury?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/debanga-choudhury-3b6b131b6/",
+    "git": "#"
+  },
+  {
+    "id": 29,
+    "name": "Diksha kakati ",
+    "rank": "Decoration Head ",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035668/Incand/Team%20Page/IMG_20230203_220951_450_-_Diksha_Kakati_ugjplx.jpg",
+    "fb": "https://www.facebook.com/diksha.kakatis?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/diksha-kakati-2239091bb/",
+    "git": "#"
+  },
+  {
+    "id": 30,
+    "name": "Jubaraj Kakati  ",
+    "rank": "Module head, Nirvana",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056137/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230203_201714_-_moiuing_thongbam_pouiyu.jpg",
+    "fb": "https://www.facebook.com/jubaraj.kakati.146?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/jubarajkakati/",
+    "git": "#"
+  },
+  {
+    "id": 31,
+    "name": "Joysankar Saikia ",
+    "rank": "Indie Unplugged ",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035670/Incand/Team%20Page/IMG_20230207_154442_-_Joysankar_Saikia_u3qnct.jpg",
+    "fb": "https://www.facebook.com/joy.sanks?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/joysankar-saikia-7688ba209/",
+    "git": "#"
+  },
+  {
+    "id": 32,
+    "name": "Darina Mahanta ",
+    "rank": "Indie unplugged Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035672/Incand/Team%20Page/IMG-20220821-WA0023_-_Darina_Mahanta_z47gnr.jpg",
+    "fb": "https://www.facebook.com/darina.mahanta?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/darina-mahanta/",
+    "git": "#"
+  },
+  {
+    "id": 33,
+    "name": "Abhinav Kumar Gupta  ",
+    "rank": "Kavi Sammelan Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035658/Incand/Team%20Page/20221025_174847_-_ABHINAV_KUMAR_GUPTA_j19sxg.jpg",
+    "fb": "https://www.facebook.com/profile.php?id=100003660467689&mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/abhinav-gupta-8512bb239/",
+    "git": "#"
+  },  
+  {
+    "id": 34,
+    "name": "Himangan Sarma",
+    "rank": "Sokratic Module Head",
+    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035680/Incand/Team%20Page/WhatsApp_Image_2023-02-03_at_6.30.18_PM_-_Himangan_Sarma_icogab.jpg",
+    "fb": "https://www.facebook.com/himangan.sarma?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/himangan-sarma-511115210/",
+    "git": "#"
+  }
 ]
