@@ -138,5 +138,30 @@
     "header2": "",
     "imgUrls": [],
     "registrationLink": []
+  },
+  {
+    "id": 12,
+    "header": "The Director’s Cut",
+    "subheader": "",
+    "text": "With the bustling lifestyle, one usually finds it difficult to commit to feature length films and so we have short films. Short films are a great way to tell a story in a condensed amount of time. They are much shorter than a feature length film, but they can still be impactful and emotionally engaging. So for all the film buffs out here, Incandescence 2023 presents to you “The Director’s Cut”, the perfect opportunity for you to turn your dream into a reality. Under this module participants will get hands-on experience at learning film making and also compete head on to show the masterpiece they create from scratch.",
+    "header2": "So are you all ready to express yourself artistically and amaze the cinephiles with your talent?",
+    "imgUrls": [],
+    "registrationLink": [
+      { "name": "Register", "link": "https://forms.gle/kvtEisfZ2RZ8cbR9A" }
+    ]
+  },
+  {
+    "id": 13,
+    "header": "Frames",
+    "subheader": "Photographers don't take pictures. They create images.",
+    "text": "Obietteivo in alliance with Incandescence '23 is back with FRAMES, this edition being bigger and better, welcoming all soaring lensmen to capture exhilarating beauty in the form of architecture, travel, and night.",
+    "header2": "Time to shine shutterbugs!!",
+    "imgUrls": [],
+    "registrationLink": [
+      {
+        "name": "Learn More",
+        "link": "https://www.facebook.com/incandescence.nits/posts/pfbid02r1qV8GMBJJNZv7Kv3bcjvK7pZ2cXcXGmAWd4vAzMMniFBEZPSa1b9dmKM1JK4f4Cl"
+      }
+    ]
   }
 ]
