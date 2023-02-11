@@ -11,7 +11,7 @@ const Footer = (props) => {
       <div className={footerStyles.buttons}>
         <div className={footerStyles.btn1}>
           <a
-            href="https://drive.google.com/file/d/1wIqo4KKqjLbHMHFyT46_0gnIZbfuXWdV/view"
+            href="https://drive.google.com/file/d/1PGRaYeAsc3Kxbo5VMlrHAtL4D7G_C_as/view?usp=sharing"
             className={footerStyles.brochureLink}
           >
             <div className={footerStyles.btn1son}>Download Brochure</div>
