@@ -53,7 +53,11 @@
     "subheader": "If you tried to give rock and roll another name, you might call it ‘Chuck Berry’. - John Lennon",
     "text": "Incandescence proudly presents 'Battle of Bands' providing a platform to all rising metal and rock bands across the country to fight this rumble and prove themselves as the ultimate conqueror of the crown for the 'best band'.",
     "header2": "Time to assemble your squad and bring on the roar and thunder!",
-    "imgUrls": [],
+    "imgUrls": [
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057788/Incand/Incnad/DSC_0173_lk0haw.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057773/Incand/Incnad/IMG_0084_galeoo.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057771/Incand/Incnad/DSC_0422-2_pergzb.jpg"
+    ],
     "registrationLink": []
   },
   {
