@@ -136,22 +136,31 @@
     "text": "Incandescence is presenting its glamorous module Glitterati for those enticed by the sparkles of the fashion world. With glitz in the air and fashionistas walking down the ramp, the glitterati will make you feel no less than any Milan fashion week. It's a call for the Voguish to showcase their unique fashion sense. An evening brightened by the trendspotters, with crowds gathering to experience a dazzle in the arena glitterati, is the centre of attraction of the great gala Incandescence '23.",
     "header2": "Make paparazzi follow you!!",
     "imgUrls": [
-       "https://res.cloudinary.com/resyfer/image/upload/v1676034097/Incand/Event%20Photos/DSC_0025_efehoj.jpg",
-       "https://res.cloudinary.com/resyfer/image/upload/v1676033964/Incand/Event%20Photos/IMG_0032_kjycjp.jpg",
-       "https://res.cloudinary.com/resyfer/image/upload/v1676033965/Incand/Event%20Photos/IMG_0071_hju1ch.jpg"],
+      "https://res.cloudinary.com/resyfer/image/upload/v1676034097/Incand/Event%20Photos/DSC_0025_efehoj.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676033964/Incand/Event%20Photos/IMG_0032_kjycjp.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676125946/Incand/Incnad/pics%20001/IMG_9653_oy9gwl.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676125975/Incand/Incnad/pics%20001/IMG_0565_bgpbfa.jpg"
+    ],
     "registrationLink": []
   },
   {
     "id": 11,
-    "header": "CARNIVAL OF BITES",
+    "header": "Zayka Breaking Diets",
     "subheader": "Laughter is the brightest where food is good",
-    "text": "We don't say i love you very often, but we do say I'll bring you food, and I believe somewhere there is a language where those two mean the same thing.Be it the sizzling aroma of Makhni or the scrumptious taste of  Kaju Katli, where words fail, food speaks. Food captures the heart and soul of a person  igniting the senses with their aromas and textures. National Institute Of Technology, Silchar brings to you  \"Carnival of Bites\" that lets your relish your inner foodie , whether it's the sweetness of the glaze on a donut or the spicy flavor of wasabi on a sushi roll, we have it all. Let's dive into this carnival of delicacies!",
+    "text": "We don't say I love you very often, but we do say I'll bring you food, and I believe somewhere there is a language where those two mean the same thing.Be it the sizzling aroma of Makhni or the scrumptious taste of  Kaju Katli, where words fail, food speaks. Food captures the heart and soul of a person  igniting the senses with their aromas and textures. National Institute Of Technology, Silchar brings to you  \"Zayka Breaking Diets\" that lets your relish your inner foodie , whether it's the sweetness of the glaze on a donut or the spicy flavor of wasabi on a sushi roll, we have it all. Let's dive into this carnival of delicacies!",
     "header2": "",
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1676057945/Incand/Incnad/carnival%20of%20foods/DSC_0210-2_vbj7ve.jpg",
-      "https://res.cloudinary.com/resyfer/image/upload/v1676057904/Incand/Incnad/carnival%20of%20foods/DSC_0198-2_llf0cl.jpg"
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057904/Incand/Incnad/carnival%20of%20foods/DSC_0198-2_llf0cl.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676125890/Incand/Incnad/pics%20001/IMG_0009_yazxp7.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676125840/Incand/Incnad/pics%20001/IMG_0023_wt2mh5.jpg"
     ],
-    "registrationLink": []
+    "registrationLink": [
+      {
+        "name": "Register",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScifqxgLhcDj56nXbJXVWpTvonW3jg44P6F-NYvzrpoWlL7kA/viewform"
+      }
+    ]
   },
   {
     "id": 12,
@@ -161,7 +170,10 @@
     "header2": "So are you all ready to express yourself artistically and amaze the cinephiles with your talent?",
     "imgUrls": [],
     "registrationLink": [
-      { "name": "Register", "link": "https://forms.gle/kvtEisfZ2RZ8cbR9A" }
+      {
+        "name": "Register",
+        "link": "https://forms.gle/kvtEisfZ2RZ8cbR9A"
+      }
     ]
   },
   {
@@ -189,7 +201,6 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1676059077/Incand/Incnad/Ground%20Zero/IMG_0044_gbnjsa.jpg",
       "https://res.cloudinary.com/resyfer/image/upload/v1676058735/Incand/Incnad/Ground%20Zero/IMG_0034_akkue3.jpg",
       "https://res.cloudinary.com/resyfer/image/upload/v1676058734/Incand/Incnad/Ground%20Zero/IMG_0040_kfdjog.jpg"
-
     ],
     "registrationLink": [
       {
@@ -223,31 +234,12 @@
     "header2": "",
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1676059429/Incand/Incnad/Voice%20of%20Incand/DSC_0262_jt4aby.jpg",
-      "https://res.cloudinary.com/resyfer/image/upload/v1676059436/Incand/Incnad/Voice%20of%20Incand/IMG_9991_whymrw.jpg",
       "https://res.cloudinary.com/resyfer/image/upload/v1676059461/Incand/Incnad/Voice%20of%20Incand/DSC_0137_lfevpx.jpg"
-
     ],
     "registrationLink": []
   },
   {
     "id": 17,
-    "header": "BREAKING DIETS",
-    "subheader": "Food is a universal language that connects us all, and when shared it can bring joy and win hearts.",
-    "text": "Food is a unique commonality that can bring people from all walks of life together. The simple act of sharing a meal can create a bond between strangers, while a collective experience of savoring the same food can draw different cultures closer. Breaking Diets is the National Institute of Technology, Silchar's food carnival that lets you unleash your inner foodie. Enjoy the sweetness of a donut glaze or the spiciness of wasabi on a sushi roll - there's something for everyone! With food, words can sometimes fail - but the aromas and textures still capture the heart and soul.",
-    "header2": "",
-    "imgUrls": [
-      "https://res.cloudinary.com/resyfer/image/upload/v1676057825/Incand/Incnad/breaking%20diets/DSC_0235-2_rlsxsq.jpg",
-      "https://res.cloudinary.com/resyfer/image/upload/v1676057851/Incand/Incnad/breaking%20diets/DSC_0239-2_hpqj6u.jpg"
-    ],
-    "registrationLink": [
-      {
-        "name": "Register",
-        "link": "https://docs.google.com/forms/d/e/1FAIpQLScifqxgLhcDj56nXbJXVWpTvonW3jg44P6F-NYvzrpoWlL7kA/viewform"
-      }
-    ]
-  },
-  {
-    "id": 18,
     "header": "Kaladarshan",
     "subheader": "Art is the expression of the soul.",
     "text": "Come to the art exhibition - Kaladarshan and celebrate the joy of art with us. Whether you prefer classical painting approaches or are more inclined towards modern forms, this is a platform where you can share your individual expression with an open heart. Showcase your artistry in any form you desire - sketches, paintings, crafts, or digital art - and be ready to be received with applause. Let’s get artsy!",
@@ -262,5 +254,14 @@
         "link": "https://www.facebook.com/incandescence.nits/posts/pfbid0yYExHMAkVZhNKJj2D2yYdhy3tTa55HkdNsutwktfVJodLyrn65LqEFbp66UCJi5Ll"
       }
     ]
+  },
+  {
+    "id": 18,
+    "header": "Prom Night",
+    "subheader": "Never miss a chance to dance",
+    "text": "Incandescence 2023 brings to you a glorious and magical night -a night filled with amazing food, music, dance and love in the air. Prom Night’23 is about to be a grand success and we cannot wait for all the gorgeous couples to set the night ablaze.",
+    "header2": "",
+    "imgUrls": [],
+    "registrationLink": []
   }
 ]
