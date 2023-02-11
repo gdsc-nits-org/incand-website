@@ -69,7 +69,7 @@
   },
   {
     "id": 6,
-    "header": "Sokratic",
+    "header": "Sokratik",
     "subheader": "Nothing stimulates the young brain more than a good set of a quiz.",
     "text": "Sokratik', the quizzing module of Incandescence '23 is here with a MELA and a General Quiz so as to test your wits and the reach of your brain cells. Formerly hosted by some of the notable quizmasters of the country like Bhushan Patel, Somnath Chanda and Abhra Das, we prepare the best platform for the sharpest minds of the nation to reap the fruits of their curiosity.\nUnsure and sure pounces, guesses and fundas flying around and ruthless quizzers fighting for the podium, everything and more await you at Sokratik. So get your pens and hippocampus ready to strive for the holy grail of quizzing!",
     "header2": "",
@@ -260,6 +260,20 @@
     "header": "Prom Night",
     "subheader": "Never miss a chance to dance",
     "text": "Incandescence 2023 brings to you a glorious and magical night -a night filled with amazing food, music, dance and love in the air. Prom Night’23 is about to be a grand success and we cannot wait for all the gorgeous couples to set the night ablaze.",
+    "header2": "",
+    "imgUrls": [],
+    "registrationLink": [
+      {
+        "name": "Register",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSc-rZUUEqn-UspgNV2o6jCxT9SA3-lakrFANRz_m-g2yL-Ahg/viewform"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "header": "Darpan",
+    "subheader": "To photograph: it is to put on the same line of sight the head, the eye and the heart.",
+    "text": "Set on the lakeside near Indie, this is a photograph exhibition under the banner of Incandescence 23. There's a display of some of the best photographs and the event itself exudes a scenic aesthetic, providing an escape from the enthralling atmosphere of the carnival.",
     "header2": "",
     "imgUrls": [],
     "registrationLink": []
