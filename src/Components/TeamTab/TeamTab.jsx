@@ -1,56 +1,39 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from "react";
 import styles from "./TeamTab.module.scss";
-import TeamCard2 from "../TeamCard/TeamCard2";
 import TeamCard3 from "../TeamCard/TeamCard3";
 import TeamCard4 from "../TeamCard/TeamCard4";
+
 const TeamTab = () => {
-  const [active, setActive] = useState("2nd Years");
+  const [active, setActive] = useState("Core Team");
   return (
     <>
       <div className={styles.tab_main}>
         <div
           className={`${
-            active === "2nd Years"
+            active === "Core Team"
               ? `${styles.links} ${styles.active_link}`
               : styles.links
           }`}
           onClick={() => {
-            setActive("2nd Years");
+            setActive("Core Team");
           }}
         >
-          2nd Years
+          Core Team
         </div>
         <div
           className={`${
-            active === "3rd Years"
-              ? `${styles.links} ${styles.active_link}`
-              : styles.links
+            active === "Web Team" ? `${styles.links} ${styles.active_link}` : styles.links
           }`}
           onClick={() => {
-            setActive("3rd Years");
+            setActive("Web Team");
           }}
         >
-          3rd Years
-        </div>
-        <div
-          className={`${
-            active === "4th Years"
-              ? `${styles.links} ${styles.active_link}`
-              : styles.links
-          }`}
-          onClick={() => {
-            setActive("4th Years");
-          }}
-        >
-          4th Years
+          Web Team
         </div>
       </div>
       <div className="cardContainer">
-        {active === "2nd Years" && <TeamCard2 />}
-        {active === "3rd Years" && <TeamCard3 />}
-        {active === "4th Years" && <TeamCard4 />}
+        {active === "Core Team" && <TeamCard4 />}
+        {active === "Web Team" && <TeamCard3 />}
       </div>
     </>
   );

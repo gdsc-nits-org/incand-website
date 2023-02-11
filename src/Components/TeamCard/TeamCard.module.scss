@@ -1,169 +1,211 @@
-.teamSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 4rem;
+@font-face {
+  font-family: Elianto;
+  src: url("/fonts/Elianto-Regular.ttf");
 }
 
-.teamCard {
+.teamSection {
+  margin: 5% 7%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
   justify-content: center;
-  align-items: center;
+}
+.teamCard {
+  background-color: rgb(234, 234, 234);
+  height: 25rem;
+  width: 20rem;
+  left: 1.25rem;
+  top: 1.25rem;
+  border-radius: 10px;
+  gap: 0.75rem;
+  border: 0.5px solid #b0aaaa;
+  box-sizing: border-box;
   overflow: hidden;
-  cursor: pointer;
-  transition: all 0.2s ease-in;
-  background-color: white;
-  width: 30%;
-  height: 75vh;
-  border-radius: 0.5rem;
-  margin: 5rem 1rem;
 }
 .teamCard:hover {
   background-color: rgb(190, 235, 235);
 }
-.cardImages img {
-  vertical-align: middle;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  transition: all 0.2s ease-in;
+
+.heading {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: Elianto, sans-serif;
 }
-.teamCard:hover img {
+
+.cardImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardImages img {
+  width: 100%;
+  height: 20rem;
+  top: 0px;
+}
+.teamCard:hover .cardImages img {
+  margin-top: 1rem;
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
+  transition: all 0.2s ease-in;
 }
 .teamTitle {
-  text-align: center;
-  font-size: 1.9rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-top: 2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  color: #232323;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 .core_mem_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   visibility: hidden;
   transition: all 0.3s ease-in;
 }
-
 .teamCard:hover .core_mem_text {
   visibility: visible;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0em;
   text-align: center;
-  margin: 0.1rem;
   color: #232323;
+  margin: 1rem;
 }
-
+.body {
+  width: 100%;
+}
 .socialMedia {
   visibility: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0.5rem;
 }
 
 .teamCard:hover .socialMedia {
   visibility: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
-
+.SocialLogo {
+  color: #232323 !important;
+  top: 0px;
+  border-radius: 0px;
+  position: relative;
+  align-items: center;
+  gap: 0.75rem;
+}
 .SocialLogo svg {
   color: #232323 !important;
   padding: 0 2rem;
 }
-@media only screen and (max-width: 836px) {
-  .teamCard {
-    width: 45%;
-    height: 80vh;
+@media only screen and (max-width: 1200px) {
+  .teamSection {
+    overflow: hidden;
+    gap: 0.3rem;
   }
-
+  .teamCard {
+    height: 22rem;
+    width: 17rem;
+    transition-duration: 0.3 sec;
+  }
   .cardImages img {
     width: 100%;
+    height: 17rem;
+  }
+  .teamCard:hover .cardImages img {
+    height: 12rem;
+    width: 12rem;
+    margin-top: 0.5rem;
+  }
+  .teamTitle {
+    font-size: 1.1rem;
   }
 }
-@media only screen and (max-width: 704px) {
-  .teamCard {
-    width: 40%;
-    height: 65vh;
+@media only screen and (max-width: 975px) {
+  .teamSection {
+    gap: 0.5rem;
   }
-  .teamCard:hover img {
+  .teamCard {
+    height: 18rem;
+    width: 13rem;
+    transition-duration: 0.3 sec;
+  }
+  .cardImages img {
+    width: 100%;
+    height: 13rem;
+  }
+
+  .teamCard:hover .cardImages img {
     height: 8rem;
     width: 8rem;
   }
-  .teamTitle {
-    margin-top: 3rem;
-  }
-  .socialMedia {
-    margin: 0.3rem;
-  }
-  .teamCard:hover .teamTitle {
-    margin-top: 1rem;
-  }
   .SocialLogo svg {
-    padding: 1rem;
+    padding: 0 0.5rem;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 750px) {
   .teamSection {
-    margin: 1rem;
-  }
-  .teamCard {
-    height: 50vh;
-  }
-  .teamTitle {
-    margin-top: 3rem;
-    font-size: 1.4rem;
-  }
-  .teamCard:hover .core_mem_text {
-    font-size: 1rem;
-  }
-  .teamCard:hover .teamTitle {
-    margin-top: 0.5rem;
+    margin: 5% 3%;
   }
 }
-@media only screen and (max-width: 500px) {
-  .teamSection {
-    margin: 0.2rem;
-  }
+@media only screen and (max-width: 685px) {
   .teamCard {
-    width: 80%;
-    height: 40vh;
+    height: 20rem;
+    width: 15rem;
   }
-  .teamCard:hover img {
-    height: 12rem;
-    width: 12rem;
-  }
-  .teamTitle {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-  }
-  .teamCard:hover .core_mem_text {
-    font-size: 1.2rem;
-  }
-  .socialMedia {
-    margin: 0.3rem;
-  }
-  .teamCard:hover .teamTitle {
-    margin-top: 1rem;
-  }
-  .SocialLogo svg {
-    padding: 1.2rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .teamSection {
-    margin: 0.5rem;
-  }
-  .teamCard {
-    width: 80%;
-    height: 30vh;
-    margin: 1rem;
+  .cardImages img {
+    height: 15rem;
   }
 
-  .teamCard:hover img {
+  .teamCard:hover .cardImages img {
+    height: 9rem;
+    width: 9rem;
+  }
+  .SocialLogo svg {
+    padding: 0 1rem;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .teamCard {
+    height: 18rem;
+    width: 13rem;
+  }
+  .cardImages img {
+    height: 13rem;
+  }
+
+  .teamCard:hover .cardImages img {
     height: 7rem;
     width: 7rem;
   }
+  .SocialLogo svg {
+    padding: 0 0.5rem;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .teamCard {
+    height: 14rem;
+    width: 10rem;
+  }
+  .cardImages img {
+    height: 10rem;
+  }
   .teamTitle {
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    margin-top: 0.5rem;
+  }
+  .teamCard:hover .core_mem_text {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 0.8rem;
+    margin: 0.4rem;
   }
 }
