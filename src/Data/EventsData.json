@@ -236,6 +236,11 @@
     "text": "Incandescence 2023 brings to you a glorious and magical night -a night filled with amazing food, music, dance and love in the air. Prom Night’23 is about to be a grand success and we cannot wait for all the gorgeous couples to set the night ablaze.",
     "header2": "",
     "imgUrls": [],
-    "registrationLink": []
+    "registrationLink": [
+      {
+        "name": "Register",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSc-rZUUEqn-UspgNV2o6jCxT9SA3-lakrFANRz_m-g2yL-Ahg/viewform"
+      }
+    ]
   }
 ]
