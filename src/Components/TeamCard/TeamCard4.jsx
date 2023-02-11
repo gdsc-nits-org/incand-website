@@ -18,21 +18,27 @@ const TeamCard = () => {
           </div>
           <div className={style.core_mem_text}>{data.rank}</div>
           <div className={style.socialMedia}>
-            <div className={style.SocialLogo}>
-              <a href={data.fb} target="_blank" label="#">
-                <FaFacebook size={35} />
-              </a>
-            </div>
-            <div className={style.SocialLogo}>
-              <a href={data.linkedln} target="_blank" label="#">
-                <FaLinkedin size={35} />
-              </a>
-            </div>
-            <div className={style.SocialLogo}>
-              <a href={data.git} target="_blank" label="#">
-                <BsGithub size={35} />
-              </a>
-            </div>
+            {data.fb && (
+              <div className={style.SocialLogo}>
+                <a href={data.fb} target="_blank" label="#">
+                  <FaFacebook size={35} />
+                </a>
+              </div>
+            )}
+            {data.linkedln && (
+              <div className={style.SocialLogo}>
+                <a href={data.linkedln} target="_blank" label="#">
+                  <FaLinkedin size={35} />
+                </a>
+              </div>
+            )}
+            {data.git && (
+              <div className={style.SocialLogo}>
+                <a href={data.git} target="_blank" label="#">
+                  <BsGithub size={35} />
+                </a>
+              </div>
+            )}
           </div>
         </div>
       ))}
