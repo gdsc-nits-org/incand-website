@@ -19,17 +19,17 @@ const TeamCard = () => {
           <div className={style.core_mem_text}>{data.rank}</div>
           <div className={style.socialMedia}>
             <div className={style.SocialLogo}>
-              <a href={data.fb} label="#">
+              <a href={data.fb} target="_blank" label="#">
                 <FaFacebook size={35} />
               </a>
             </div>
             <div className={style.SocialLogo}>
-              <a href={data.linkedln} label="#">
+              <a href={data.linkedln} target="_blank" label="#">
                 <FaLinkedin size={35} />
               </a>
             </div>
             <div className={style.SocialLogo}>
-              <a href={data.git} label="#">
+              <a href={data.git} target="_blank" label="#">
                 <BsGithub size={35} />
               </a>
             </div>
