@@ -11,7 +11,7 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550253/Incand/38_bimzuz.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550183/Incand/35_aw8mie.png"
     ],
-    "registrationLink": ""
+    "registrationLink": []
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550229/Incand/39_cz5uly.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550804/Incand/41_chuh8x.png"
     ],
-    "registrationLink": ""
+    "registrationLink": []
   },
   {
     "id": 3,
@@ -36,6 +36,37 @@
       "https://res.cloudinary.com/resyfer/image/upload/v1674550795/Incand/27_sb6pey.png",
       "https://res.cloudinary.com/resyfer/image/upload/v1674550800/Incand/25_cjx9jm.png"
     ],
-    "registrationLink": ""
+    "registrationLink": []
+  },
+  {
+    "id": 4,
+    "header": "NIRVANA",
+    "subheader": "",
+    "text": "The showstopper event of the INCANDESCENCE 2023 is none other than Nirvana. A night full of music, shayari or poetry in kavi sammelan, stand up comedy in comedy night or to be precise a night full of art is indeed what makes our monotonous lives filled with tremendous glee. With the likes of comics like Karunesh Talwar, Akash Gupta and Aakash Mehta in the comedy night and the legendary Dr. Rahat Indori in kavi sammelan has already graced us with their presence. Also it is a tradition to end the nirvana night with a musical performance and hip hop artist Penny Plan and AsWeKeepSearching, a post-rock/experimental band have made their presence felt with their marvellous performances in the past.",
+    "header2": "",
+    "imgUrls": [],
+    "registrationLink": []
+  },
+  {
+    "id": 5,
+    "header": "Battle Of Bands",
+    "subheader": "If you tried to give rock and roll another name, you might call it ‘Chuck Berry’. - John Lennon",
+    "text": "Incandescence proudly presents 'Battle of Bands' providing a platform to all rising metal and rock bands across the country to fight this rumble and prove themselves as the ultimate conqueror of the crown for the 'best band'.",
+    "header2": "Time to assemble your squad and bring on the roar and thunder!",
+    "imgUrls": [
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057788/Incand/Incnad/DSC_0173_lk0haw.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057773/Incand/Incnad/IMG_0084_galeoo.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057771/Incand/Incnad/DSC_0422-2_pergzb.jpg"
+    ],
+    "registrationLink": []
+  },
+  {
+    "id": 5,
+    "header": "The DJ Night",
+    "subheader": "Every day brings a chance for you to draw in a breath, kick off your shoes, and dance.",
+    "text": "It’s time to tap to the beats of groovy and electrifying EDMs as Incandescence brings to you ‘Ecstasy: The DJ Night’. Time to break free and sway away to progressive and dynamic music as you head bop to crazy reverberates. So, NIT Silchar are you ready to feel the electricity and get into a mood of celebration while enjoying a taste of the fun and happening college life that you were promised?",
+    "header2": "A night dedicated to playing exhilarating music and highly stimulating beats.",
+    "imgUrls": [],
+    "registrationLink": []
   }
 ]
