@@ -1,56 +1,152 @@
 [
-  {
-    "id": 1,
-    "name": "Pratik Majumdar",
-    "rank": "Website Co-Head",
-    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/Pratik_Majumdar_-_CSE_005_Pratik_Majumdar_jissds.jpg",
-    "fb": "https://www.facebook.com/profile.php?id=100010061770737",
-    "linkedln": "https://www.linkedin.com/in/codadept",
-    "git": "https://www.github.com/codadept"
-  },
-  {
-    "id": 2,
-    "name": "Saurav Pal",
-    "rank": "Cloud & DevOps Head",
-    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/pfp_-_CSE_039_Saurav_Pal_cupanf.jpg",
-    "fb": "https://www.facebook.com/resyfer.dev/",
-    "linkedln": "https://www.linkedin.com/in/resyfer/",
-    "git": "https://github.com/resyfer"
-  },
-  {
-    "id": 3,
-    "name": "Jyotishka Bhattacharjee ",
-    "rank": "Web Co Head",
-    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055883/Incand/Team%20Page/2nd%20and%203rd%20year/copy_durga_puja_22_Sagarika_sofa_g4vtym.jpg",
-    "fb": "https://www.facebook.com/profile.php?id=100005647038947",
-    "linkedln": "https://www.linkedin.com/in/jyotishka-b-32995712b/",
-    "git": "https://github.com/jyotishka747"
-  },
-  {
-    "id": 4,
-    "name": "Bhaskar Wary",
-    "rank": "UI Prop Head",
-    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/Wary_Bhaskar_Profile_-_CSE_067_BHASKAR_WARY_lok6ot.jpg",
-    "fb": "https://www.facebook.com/bhaskar.wary.100/",
-    "linkedln": "https://www.linkedin.com/in/bhaskar-wary/",
-    "git": "https://www.behance.net/bhaskarwary"
-  },
-  {
-    "id": 5,
-    "name": "Vinayak Das",
-    "rank": "Senior Developer",
-    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055690/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230207_213202_-_EI88_Vinayak_Das_fsvkzf.jpg",
-    "fb": "http://www.facebook.com/phenyloder",
-    "linkedln": "http://www.linkedin.com/in/phenyloder",
-    "git": "http://www.github.com/phenyloder"
-  },
-  {
-    "id": 6,
-    "name": "Biju Borah",
-    "rank": "Technical Member",
-    "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/IMG-20221208-WA0012_-_EE-A_056_Biju_Borah_afwt1y.jpg",
-    "fb": "#",
-    "linkedln": "https://www.linkedin.com/in/biju-borah-1bb78620a",
-    "git": "https://github.com/biju-borah"
-  }
+  [
+    {
+      "id": 7,
+      "name": "Arkadeep Kashyap ",
+      "rank": "Web Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093434/Incand/4th%20year%20team%20page/IMG_20220520_154734_303_-_Arkadeep_Kashyap_lkwfyv.jpg",
+      "fb": "https://www.facebook.com/arko.kashyap?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/kashyaparka/",
+      "git": "https://github.com/kashyaparka"
+    },
+    {
+      "id": 8,
+      "name": "Debojyoti Das ",
+      "rank": "Web Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056138/Incand/Team%20Page/2nd%20and%203rd%20year/6e829862-e520-4a4d-bc0e-4f6a63059719_iwultp.jpg",
+      "fb": "https://www.facebook.com/debojyoti.das.52206",
+      "linkedln": "https://www.linkedin.com/in/debojyotidas1915001/",
+      "git": "https://github.com/Debojyoti1915001"
+    },
+    {
+      "id": 9,
+      "name": "Jyotimoy Kashyap ",
+      "rank": "Web Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056137/Incand/Team%20Page/2nd%20and%203rd%20year/7c3f3d08-f66b-4bf2-87cc-b9969ce47152_drfrd7.jpg",
+      "fb": "https://www.facebook.com/jyotimoy.kashyap.33",
+      "linkedln": "https://www.linkedin.com/in/jyotimoykashyap",
+      "git": "https://github.com/JyotimoyKashyap"
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "name": "Pratik Majumdar",
+      "rank": "Senior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/Pratik_Majumdar_-_CSE_005_Pratik_Majumdar_jissds.jpg",
+      "fb": "https://www.facebook.com/itspratikmaj",
+      "linkedln": "https://www.linkedin.com/in/codadept",
+      "git": "https://www.github.com/codadept"
+    },
+    {
+      "id": 2,
+      "name": "Saurav Pal",
+      "rank": "Senior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/pfp_-_CSE_039_Saurav_Pal_cupanf.jpg",
+      "fb": "https://www.facebook.com/resyfer.dev/",
+      "linkedln": "https://www.linkedin.com/in/resyfer/",
+      "git": "https://github.com/resyfer"
+    },
+    {
+      "id": 3,
+      "name": "Jyotishka Bhattacharjee ",
+      "rank": "Senior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055883/Incand/Team%20Page/2nd%20and%203rd%20year/copy_durga_puja_22_Sagarika_sofa_g4vtym.jpg",
+      "fb": "https://www.facebook.com/profile.php?id=100005647038947",
+      "linkedln": "https://www.linkedin.com/in/jyotishka-b-32995712b/",
+      "git": "https://github.com/jyotishka747"
+    },
+    {
+      "id": 4,
+      "name": "Bhaskar Wary",
+      "rank": "Senior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/Wary_Bhaskar_Profile_-_CSE_067_BHASKAR_WARY_lok6ot.jpg",
+      "fb": "https://www.facebook.com/bhaskar.wary.100/",
+      "linkedln": "https://www.linkedin.com/in/bhaskar-wary/",
+      "git": "https://www.behance.net/bhaskarwary"
+    },
+    {
+      "id": 5,
+      "name": "Vinayak Das",
+      "rank": "Senior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055690/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230207_213202_-_EI88_Vinayak_Das_fsvkzf.jpg",
+      "fb": "http://www.facebook.com/phenyloder",
+      "linkedln": "http://www.linkedin.com/in/phenyloder",
+      "git": "http://www.github.com/phenyloder"
+    },
+    {
+      "id": 6,
+      "name": "Biju Borah",
+      "rank": "Senior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/IMG-20221208-WA0012_-_EE-A_056_Biju_Borah_afwt1y.jpg",
+      "fb": "#",
+      "linkedln": "https://www.linkedin.com/in/biju-borah-1bb78620a",
+      "git": "https://github.com/biju-borah"
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "name": "Aditya Kumar ",
+      "rank": "Junior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055685/Incand/Team%20Page/2nd%20and%203rd%20year/transparent-20221023_224056-removebg-preview_-_Aditya_Kumar_nsclud.png",
+      "fb": "https://www.facebook.com/profile.php?id=100071791456601",
+      "linkedln": "https://www.linkedin.com/in/adityakr31",
+      "git": "https://github.com/31adityakumar"
+    },
+    {
+      "id": 2,
+      "name": "Adhiraj Dutta",
+      "rank": "Junior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055681/Incand/Team%20Page/2nd%20and%203rd%20year/1655697483876_-_ECE_183_Adhiraj_Dutta_vxlvww.jpg",
+      "fb": "https://www.facebook.com/byte.head.12/",
+      "linkedln": "https://linkedin.com/in/byt3h3ad",
+      "git": "https://github.com/byt3h3ad"
+    },
+    {
+      "id": 3,
+      "name": "Masoom Sahu",
+      "rank": "Junior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055690/Incand/Team%20Page/2nd%20and%203rd%20year/IMG20230107120545k_-_CE021_masoom_sahu_qakzlp.jpg",
+      "fb": "https://www.facebook.com/profile.php?id=100065692891679",
+      "linkedln": "http://linkedin.com/in/masoom-sahu-09a469230",
+      "git": "https://github.com/smasoom"
+    },
+    {
+      "id": 4,
+      "name": "Rajdristant Ghose ",
+      "rank": "Design Member",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230102_160505_-_Rajdristant_Ghose_zagwhp.jpg",
+      "fb": "https://www.facebook.com/profile.php?id=100076066695970&mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/rajdristant-ghose-286061231",
+      "git": "https://github.com/Raj217"
+    },
+    {
+      "id": 5,
+      "name": "Rohan Jha",
+      "rank": "Junior Developer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055686/Incand/Team%20Page/2nd%20and%203rd%20year/Screenshot_2023-02-07_115343_-_ECE_056_Rohan_Jha_g5bj5y.png",
+      "fb": "https://www.facebook.com/profile.php?id=100010061770737",
+      "linkedln": "https://www.linkedin.com/in/rohan-jha-ab635322b/",
+      "git": "https://github.com/Rohan-108"
+    },
+    {
+      "id": 6,
+      "name": "Bipangshu Saha",
+      "rank": "Junior Developer ",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055685/Incand/Team%20Page/2nd%20and%203rd%20year/Bipangshu_Saha_-_67_Bipangshu_Saha_qrjxwb.png",
+      "fb": "https://www.facebook.com/ronny.kumar.7186896",
+      "linkedln": "http://linkedin.com/in/bipangshu-saha-2aab9b228/",
+      "git": "https://github.com/BIPS8812"
+    },
+    {
+      "id": 7,
+      "name": "Hrishikesh Borah",
+      "rank": "Junior Developer ",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20221220_221219_-_21_Hrishikesh__Borah_lyqep7.jpg",
+      "fb": "https://www.facebook.com/profile.php?id=100067302155229&mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/hrishikeshborah",
+      "git": "https://github.com/HrishB16"
+    }
+  ]
 ]

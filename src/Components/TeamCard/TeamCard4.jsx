@@ -6,9 +6,9 @@ import Data from "../../Data/Team4.json";
 import style from "./TeamCard.module.scss";
 
 const TeamCard = () => {
-  return (
+  return Data.map((d) => (
     <div className={style.teamSection}>
-      {Data.map((data) => (
+      {d.map((data) => (
         <div className={style.teamCard} key={data.id}>
           <div className={style.body}>
             <div className={style.cardImages}>
@@ -37,7 +37,7 @@ const TeamCard = () => {
         </div>
       ))}
     </div>
-  );
+  ));
 };
 
 export default TeamCard;
