@@ -42,6 +42,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             HOME
           </NavLink>
@@ -54,6 +55,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             GALLERY
           </NavLink>
@@ -66,6 +68,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             EVENTS
           </NavLink>
@@ -78,11 +81,12 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             SPONSORS
           </NavLink>
         </div>
-        {/* <div className={navStyles.navBtn}>
+        <div className={navStyles.navBtn}>
           <NavLink
             to="/team"
             className={({ isActive }) =>
@@ -90,10 +94,11 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             TEAM
           </NavLink>
-        </div> */}
+        </div>
       </div>
     </div>
   );
