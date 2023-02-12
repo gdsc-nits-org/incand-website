@@ -172,5 +172,152 @@
       "linkedln": "https://www.linkedin.com/in/nitishmohanty/",
       "git": ""
     }
+  ],
+  [
+    {
+      "id": 22,
+      "name": "Ruchir Bhattacharyya",
+      "rank": "Event Management Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093419/Incand/4th%20year%20team%20page/20230122_192300_2_-_006_RUCHIR_BHATTACHARYYA_wwfh7q.jpg",
+      "fb": "https://www.facebook.com/ruchir.bhatta?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/ruchirbhattacharyya/",
+      "git": "#"
+    },
+    {
+      "id": 24,
+      "name": "Anas Ahamed SJ",
+      "rank": "Logistics - Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093385/Incand/4th%20year%20team%20page/WhatsApp_Image_2023-02-09_at_12.36.01_PM_-_Anas_Ahamed_ywmqgq.jpg",
+      "fb": "https://www.facebook.com/anas.ahamed.5454?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/anas-ahamed-0b90a6202/",
+      "git": "#"
+    }
+  ],
+  [
+    {
+      "id": 25,
+      "name": "Manash Protim Goswami",
+      "rank": "Hospitality Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093443/Incand/4th%20year%20team%20page/1674801690921_-_Manash_Goswami_rwdrad.jpg",
+      "fb": "https://www.facebook.com/manashprotim.goswami.3?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/manash-goswami-2bbb76217/",
+      "git": "#"
+    },
+    {
+      "id": 26,
+      "name": " Chandraa Gogoi ",
+      "rank": "Hospitality head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093441/Incand/4th%20year%20team%20page/IMG_20221002_144727_869_-_ME_B_128_u9qat4.jpg",
+      "fb": "https://www.facebook.com/chandraa.gogoi.5?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/chandraa-gogoi-37b6aa204/",
+      "git": "#"
+    },
+    {
+      "id": 27,
+      "name": "Rishiraj Kalita",
+      "rank": "Hospitality Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035680/Incand/Team%20Page/Rishiraj_Kalita_ProfilePhoto_-_Rishiraj_Kalita_bntmnn.jpg",
+      "fb": "https://www.facebook.com/rishirajkalita41?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/rishiraj-kalita-5946511a0/",
+      "git": "#"
+    }
+  ],
+  [
+    {
+      "id": 23,
+      "name": "Nilanjan Das",
+      "rank": "Security Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676137041/Incand/4th%20year%20team%20page/20221217_121024_1_hge4uq.jpg",
+      "fb": "https://www.facebook.com/nilanjan.das.9250595?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/nilanjan--das",
+      "git": "#"
+    },
+    {
+      "id": 36,
+      "name": "Jajjalya Kashyap",
+      "rank": "Security Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676137572/Incand/4th%20year%20team%20page/IMG_20221105_225912_187_1_g3hwfo.jpg",
+      "fb": "https://www.facebook.com/profile.php?id=100006731528641&mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/jajjalya-kashyap-9a24a523b",
+      "git": ""
+    }
+  ],
+  [
+    {
+      "id": 28,
+      "name": "Nishad Tasneem ",
+      "rank": "Decoration Head ",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093385/Incand/4th%20year%20team%20page/IMG-20230203-WA0027_-_Diksha_Kakati_t8g9nr.jpg",
+      "fb": "https://www.facebook.com/nishad.tasnim.92?mibextid=ZbWKwL",
+      "linkedln": "#",
+      "git": "#"
+    },
+    {
+      "id": 29,
+      "name": "Debanga Choudhury ",
+      "rank": "Decoration Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093392/Incand/4th%20year%20team%20page/IMG_20221031_150020_275_-_Debanga_Choudhury_oaylae.jpg",
+      "fb": "https://www.facebook.com/debanga.choudhury?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/debanga-choudhury-3b6b131b6/",
+      "git": "#"
+    },
+    {
+      "id": 30,
+      "name": "Diksha kakati ",
+      "rank": "Decoration Head ",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676035668/Incand/Team%20Page/IMG_20230203_220951_450_-_Diksha_Kakati_ugjplx.jpg",
+      "fb": "https://www.facebook.com/diksha.kakatis?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/diksha-kakati-2239091bb/",
+      "git": "#"
+    }
+  ],
+  [
+    {
+      "id": 31,
+      "name": "Jubaraj Kakati  ",
+      "rank": "Module Head, Nirvana",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093367/Incand/4th%20year%20team%20page/IMG_20230203_201714_-_moiuing_thongbam_cc119q.jpg",
+      "fb": "https://www.facebook.com/jubaraj.kakati.146?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/jubarajkakati/",
+      "git": "#"
+    },
+    {
+      "id": 35,
+      "name": "Himangan Sarma",
+      "rank": "Sokratic Module Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093437/Incand/4th%20year%20team%20page/WhatsApp_Image_2023-02-03_at_6.30.18_PM_-_Himangan_Sarma_i79f9y.jpg",
+      "fb": "https://www.facebook.com/himangan.sarma?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/himangan-sarma-511115210/",
+      "git": "#"
+    },
+    {
+      "id": 34,
+      "name": "Abhinav Kumar Gupta  ",
+      "rank": "Kavi Sammelan Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093430/Incand/4th%20year%20team%20page/20221025_174847_-_ABHINAV_KUMAR_GUPTA_vo6ep8.jpg",
+      "fb": "https://www.facebook.com/profile.php?id=100003660467689&mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/abhinav-gupta-8512bb239/",
+      "git": "#"
+    }
+  ],
+  [
+    {
+      "id": 33,
+      "name": "Darina Mahanta ",
+      "rank": "Indie Unplugged Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093387/Incand/4th%20year%20team%20page/IMG-20220821-WA0023_-_Darina_Mahanta_rt1mhn.jpg",
+      "fb": "https://www.facebook.com/darina.mahanta?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/darina-mahanta/",
+      "git": "#"
+    },
+    {
+      "id": 32,
+      "name": "Joysankar Saikia ",
+      "rank": "Indie Unplugged ",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093419/Incand/4th%20year%20team%20page/IMG_20230207_154442_-_Joysankar_Saikia_hmotft.jpg",
+      "fb": "https://www.facebook.com/joy.sanks?mibextid=ZbWKwL",
+      "linkedln": "https://www.linkedin.com/in/joysankar-saikia-7688ba209/",
+      "git": "#"
+    }
   ]
 ]
