@@ -52,7 +52,7 @@
     {
       "id": 6,
       "name": "Robin Paul",
-      "rank": "Executive Head",
+      "rank": "Executive Head Indie Unplugged",
       "image": "https://res.cloudinary.com/resyfer/image/upload/v1676056311/Incand/Team%20Page/2nd%20and%203rd%20year/38d9bdbc-bfa7-48f0-b204-90315f636b49_vbvszb.jpg",
       "fb": "https://www.facebook.com/robin.paul.562117",
       "linkedln": "https://www.linkedin.com/in/robin-paul-820b2b217",
@@ -220,7 +220,9 @@
       "fb": "#",
       "linkedln": "#",
       "git": "#"
-    },
+    }
+  ],
+  [
     {
       "id": 27,
       "name": "Anas Ahamed SJ",
@@ -238,7 +240,9 @@
       "fb": "https://www.facebook.com/anas.ahamed.5454?mibextid=ZbWKwL",
       "linkedln": "https://www.linkedin.com/in/anas-ahamed-0b90a6202/",
       "git": "#"
-    },
+    }
+  ],
+  [
     {
       "id": 29,
       "name": "Saurav Jyoti Deka",
