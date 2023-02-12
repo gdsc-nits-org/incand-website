@@ -17,7 +17,7 @@ import Loader from "./Loader/Loader";
 import Slider from "./Photos/Slider";
 import EventSection from "./EventsSection/EventSection";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
-
+import Merchandise from "./Merchandise/Merchandise";
 export {
   MainHero,
   SponsorsWhy,
@@ -38,4 +38,5 @@ export {
   Slider,
   EventSection,
   ScrollToTop,
+  Merchandise,
 };
