@@ -42,6 +42,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             HOME
           </NavLink>
@@ -54,6 +55,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             GALLERY
           </NavLink>
@@ -66,6 +68,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             EVENTS
           </NavLink>
@@ -78,6 +81,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             SPONSORS
           </NavLink>
@@ -90,6 +94,7 @@ const Navbar = () => {
                 ? `${navStyles.navLink} ${navStyles.active}`
                 : `${navStyles.navLink}`
             }
+            onClick={() => setToggle(false)}
           >
             TEAM
           </NavLink>
