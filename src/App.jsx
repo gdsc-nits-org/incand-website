@@ -34,7 +34,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/team" element={<Team />} />
+          {/* <Route path="/team" element={<Team />} /> */}
           <Route path="/events" element={<Events />} />
         </Routes>
       </ScrollToTop>
