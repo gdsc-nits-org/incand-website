@@ -57,18 +57,19 @@
     align-items: center;
 
     .Card_header_2 {
-      font-family: Elianto, sans-serif;
+      font-family: "Rakkas", sans-serif;
+      font-size: 1.2rem;
     }
 
     .Card_images {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
 
       img {
         margin: 2rem 4rem;
-        width: 30vh;
+        width: 30%;
       }
     }
   }
@@ -113,6 +114,10 @@
       }
 
       .Card_text {
+        font-size: 0.8rem;
+      }
+
+      .Card_header_2 {
         font-size: 0.8rem;
       }
     }

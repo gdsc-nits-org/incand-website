@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "header": "Thunder March",
-    "subheader": "Someone aptly said “If heavy metal bands ruled the world, we had be a lot better off.” and we cannot headbang to it more!",
+    "header": "Thundermarch",
+    "subheader": "Someone aptly said \"If heavy metal bands ruled the world, we had be a lot better off.\" and we cannot headbang to it more!",
     "text": "Incandescence 2023 brings you one of the most awaited and biggest metal fests of the country, 'Thundermarch'.\nThe culmination of face-melting strums, trembling, thunders, and death growls, as the top-notch metal bands across the nation fight it out to the way to ultimate glory.\nGet ready to scream at the top of your lungs, cry out all the pent-up anger,  frustration, and suppressed feelings and witness the royal demons of rhythm slaughter their path to grandeur.",
     "header2": "Heaven and Hell",
     "imgUrls": [
@@ -29,7 +29,7 @@
     "id": 3,
     "header": "Indie Unplugged",
     "subheader": "",
-    "text": "To welcome someone into the melodic world of Indie, all you need is a ukulele and your singing voice.\nINCANDESCENCE 2023 offers you a night with your favourite independent musicians. In the company of your loved ones, experience the incredible aura for yourself. With a cool breeze blowing in your face, we have the ideal talents to drop you into a vibrant and soulful sundowner by the lake. the presence of virtuosos like Prateek Kuhad, Tejas Menon, and Dhruv Vishwanath in the past. You will remember Indie Unplugged for the rest of your lives, without a doubt.",
+    "text": "To welcome someone into the melodic world of Indie, all you need is a ukulele and your singing voice.\nIncandescence 2023 offers you a night with your favourite independent musicians. In the company of your loved ones, experience the incredible aura for yourself. With a cool breeze blowing in your face, we have the ideal talents to drop you into a vibrant and soulful sundowner by the lake. the presence of virtuosos like Prateek Kuhad, Tejas Menon, and Dhruv Vishwanath in the past. You will remember Indie Unplugged for the rest of your lives, without a doubt.",
     "header2": "",
     "imgUrls": [
       "https://res.cloudinary.com/resyfer/image/upload/v1674550579/Incand/3_zbwqit.png",
@@ -40,9 +40,9 @@
   },
   {
     "id": 4,
-    "header": "NIRVANA",
+    "header": "Nirvana",
     "subheader": "",
-    "text": "The showstopper event of the INCANDESCENCE 2023 is none other than Nirvana. A night full of music, shayari or poetry in kavi sammelan, stand up comedy in comedy night or to be precise a night full of art is indeed what makes our monotonous lives filled with tremendous glee. With the likes of comics like Karunesh Talwar, Akash Gupta and Aakash Mehta in the comedy night and the legendary Dr. Rahat Indori in kavi sammelan has already graced us with their presence. Also it is a tradition to end the nirvana night with a musical performance and hip hop artist Penny Plan and AsWeKeepSearching, a post-rock/experimental band have made their presence felt with their marvellous performances in the past.",
+    "text": "The showstopper event of the Incandescence 2023 is none other than Nirvana. A night full of music, shayari or poetry in Kavi Sammelan, stand up comedy in Comedy Night or to be precise a night full of art is indeed what makes our monotonous lives filled with tremendous glee. With the likes of comics like Karunesh Talwar, Akash Gupta and Aakash Mehta in the Comedy Night and the legendary Dr. Rahat Indori in Kavi Sammelan have already graced us with their presence. Also it is a tradition to end the Nirvana night with a musical performance and hip hop artist Penny Plan and AsWeKeepSearching, a post-rock/experimental band have made their presence felt with their marvellous performances in the past.",
     "header2": "",
     "imgUrls": [],
     "registrationLink": []
@@ -50,17 +50,21 @@
   {
     "id": 5,
     "header": "Battle Of Bands",
-    "subheader": "If you tried to give rock and roll another name, you might call it ‘Chuck Berry’. - John Lennon",
-    "text": "Incandescence proudly presents 'Battle of Bands' providing a platform to all rising metal and rock bands across the country to fight this rumble and prove themselves as the ultimate conqueror of the crown for the 'best band'.",
+    "subheader": "If you tried to give rock and roll another name, you might call it 'Chuck Berry'. - John Lennon",
+    "text": "Incandescence proudly presents 'Battle of Bands' providing a platform to all rising metal and rock bands across the country to fight this rumble and prove themselves as the ultimate conqueror of the crown for the \"BEST BAND\".",
     "header2": "Time to assemble your squad and bring on the roar and thunder!",
-    "imgUrls": [],
+    "imgUrls": [
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057788/Incand/Incnad/DSC_0173_lk0haw.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057773/Incand/Incnad/IMG_0084_galeoo.jpg",
+      "https://res.cloudinary.com/resyfer/image/upload/v1676057771/Incand/Incnad/DSC_0422-2_pergzb.jpg"
+    ],
     "registrationLink": []
   },
   {
     "id": 5,
     "header": "The DJ Night",
     "subheader": "Every day brings a chance for you to draw in a breath, kick off your shoes, and dance.",
-    "text": "It’s time to tap to the beats of groovy and electrifying EDMs as Incandescence brings to you ‘Ecstasy: The DJ Night’. Time to break free and sway away to progressive and dynamic music as you head bop to crazy reverberates. So, NIT Silchar are you ready to feel the electricity and get into a mood of celebration while enjoying a taste of the fun and happening college life that you were promised?",
+    "text": "It's time to tap to the beats of groovy and electrifying EDMs as Incandescence brings to you 'Ecstasy: The DJ Night'. Time to break free and sway away to progressive and dynamic music as you head bop to crazy reverberates. So, NIT Silchar are you ready to feel the electricity and get into a mood of celebration while enjoying a taste of the fun and happening college life that you were promised?",
     "header2": "A night dedicated to playing exhilarating music and highly stimulating beats.",
     "imgUrls": [],
     "registrationLink": []
