@@ -82,7 +82,7 @@ const Navbar = () => {
             SPONSORS
           </NavLink>
         </div>
-        <div className={navStyles.navBtn}>
+        {/* <div className={navStyles.navBtn}>
           <NavLink
             to="/team"
             className={({ isActive }) =>
@@ -93,7 +93,7 @@ const Navbar = () => {
           >
             TEAM
           </NavLink>
-        </div>
+        </div> */}
       </div>
     </div>
   );
