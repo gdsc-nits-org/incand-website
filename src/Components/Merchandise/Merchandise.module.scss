@@ -31,7 +31,7 @@ a {
   }
   .container {
     .imgContainer > img {
-      height: 20rem;
+      height: 8rem;
     }
   }
 }
@@ -40,8 +40,8 @@ a {
     margin-inline: 4rem;
   }
   .container {
-    img {
-      height: 20rem;
+    .imgContainer > img {
+      height: 10rem;
     }
   }
 }
