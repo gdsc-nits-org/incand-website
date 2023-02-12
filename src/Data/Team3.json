@@ -19,13 +19,21 @@
       "git": "https://github.com/Debojyoti1915001"
     },
     {
-      "id": 7,
+      "id": 10,
       "name": "Arkadeep Kashyap ",
       "rank": "Website Head",
       "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093434/Incand/4th%20year%20team%20page/IMG_20220520_154734_303_-_Arkadeep_Kashyap_lkwfyv.jpg",
       "fb": "https://www.facebook.com/arko.kashyap?mibextid=ZbWKwL",
       "linkedln": "https://www.linkedin.com/in/kashyaparka/",
       "git": "https://github.com/kashyaparka"
+    },
+    {
+      "id": 9,
+      "name": "Soumya Ranjan Mohapatro",
+      "rank": "UI Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676093419/Incand/4th%20year%20team%20page/2_-_Copy_-_Soumya_Ranjan_Mohapatro_vlhrob.jpg",
+      "linkedln": "https://www.linkedin.com/in/soumyarmohapatro/",
+      "git": ""
     }
   ],
   [
@@ -59,7 +67,7 @@
     {
       "id": 4,
       "name": "Bhaskar Wary",
-      "rank": "Website Co-Head",
+      "rank": "UI/UX Co-Head",
       "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055683/Incand/Team%20Page/2nd%20and%203rd%20year/Wary_Bhaskar_Profile_-_CSE_067_BHASKAR_WARY_lok6ot.jpg",
       "fb": "https://www.facebook.com/bhaskar.wary.100/",
       "linkedln": "https://www.linkedin.com/in/bhaskar-wary/",
@@ -82,6 +90,15 @@
       "fb": "",
       "linkedln": "https://www.linkedin.com/in/biju-borah-1bb78620a",
       "git": "https://github.com/biju-borah"
+    },
+    {
+      "id": 14,
+      "name": "Diya Karmakar",
+      "rank": "UI/UX Co-Head",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676183946/Incand/Team%20Page/2nd%20and%203rd%20year/7cp9lo_-_Diya_Karmakar_gcfzri.jpg",
+      "fb": "https://www.facebook.com/diya.karmakar.37625",
+      "linkedln": "https://in.linkedin.com/in/diya-karmakar",
+      "git": "https://github.com/diyakarmakar779"
     }
   ],
   [
@@ -115,7 +132,7 @@
     {
       "id": 4,
       "name": "Rajdristant Ghose ",
-      "rank": "Design Member",
+      "rank": "UI/UX Designer",
       "image": "https://res.cloudinary.com/resyfer/image/upload/v1676055682/Incand/Team%20Page/2nd%20and%203rd%20year/IMG_20230102_160505_-_Rajdristant_Ghose_zagwhp.jpg",
       "fb": "https://www.facebook.com/profile.php?id=100076066695970&mibextid=ZbWKwL",
       "linkedln": "https://www.linkedin.com/in/rajdristant-ghose-286061231",
@@ -147,6 +164,15 @@
       "fb": "https://www.facebook.com/profile.php?id=100067302155229&mibextid=ZbWKwL",
       "linkedln": "https://www.linkedin.com/in/hrishikeshborah",
       "git": "https://github.com/HrishB16"
+    },
+    {
+      "id": 13,
+      "name": "Maharnav Deka",
+      "rank": "UI/UX Designer",
+      "image": "https://res.cloudinary.com/resyfer/image/upload/v1676182241/Incand/Team%20Page/2nd%20and%203rd%20year/268578183_101717982381396_1088801179447275072_n_3_-_ECE_B_176_Maharnav_Deka_hymntq.jpg",
+      "fb": "https://www.facebook.com/profile.php?id=100076295825121",
+      "linkedln": "https://in.linkedin.com/in/maharnav-deka-06742815a",
+      "git": "https://github.com/mdekaa"
     }
   ]
 ]

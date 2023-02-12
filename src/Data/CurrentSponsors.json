@@ -1,1 +1,55 @@
-[{ "imgUrl": "/logos/unstop.png", "text": "Online Hosting Partner" }]
+[
+  { "imgUrl": "/logos/unstop.png", "text": "Online Hosting Partner" },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181328/Incand/sponsors/vector-coca-cola_dicy2e.jpg",
+    "text": "Official Beverage Pertner "
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181083/Incand/sponsors/Clovia_logo_PNG1_cgmkqp.png",
+    "text": "Gliteratti sponsor"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181085/Incand/sponsors/Bauli-01_q3dgek.png",
+    "text": "Powered By"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181410/Incand/sponsors/Amul_official_logo.svg_vhdzwt.png",
+    "text": "Frozen Partner"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181083/Incand/sponsors/WhatsApp_Image_2023-02-09_at_12.49.13_tec5ru.jpg",
+    "text": "Official Style partner"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181083/Incand/sponsors/Cubelelo_Logo_for_Light_Background_grhcvo.png",
+    "text": "Official Cubing partner"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181410/Incand/sponsors/interviewbuddy_32973_logo_1626770030_e7aht_qkifgq.webp",
+    "text": "Interview Partner"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181410/Incand/sponsors/elm-short-logo_ngerpe.png",
+    "text": "Learning Partner"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181083/Incand/sponsors/PNG_Format_New_Logo_Light_Background_ytuujb.png",
+    "text": "Deprador Sponsor "
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181410/Incand/sponsors/Savage-Humans-logo_unhek1.png",
+    "text": "Social Media Partner"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181579/Incand/sponsors/Screenshot_520_em5o2i.png",
+    "text": "Deprador Sponsor"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181409/Incand/sponsors/vw7b70wr0sxxtfh4yfyi_gbvyub.jpg",
+    "text": "Official Ecosystem Partner"
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/resyfer/image/upload/v1676181084/Incand/sponsors/WhatsApp_Image_2023-02-11_at_01.06.44-removebg-preview_g3o0oh.png",
+    "text": "Official Edutainment Partner "
+  }
+]
