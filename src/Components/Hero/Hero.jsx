@@ -74,6 +74,11 @@ const Hero = (props) => {
               <img src="/logos/instagram.svg" alt="instagram" />
             </a>
           </div>
+          <div className={heroStyles.socialIcon}>
+            <a href="https://www.youtube.com/@incandescencenitsilchar/" target="_blank">
+              <img src="/logos/youtube.svg" alt="youtube" />
+            </a>
+          </div>
           <div className={heroStyles.verticalLine}></div>
         </div>
 

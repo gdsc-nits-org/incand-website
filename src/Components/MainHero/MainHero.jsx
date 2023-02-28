@@ -19,6 +19,11 @@ const SponsorsHero = ({ name }) => {
             <img src="/logos/instagram.svg" alt="instagram" />
           </a>
         </div>
+        <div className={style.socialIcon}>
+          <a href="https://www.youtube.com/@incandescencenitsilchar/" target="_blank">
+            <img src="/logos/youtube.svg" alt="youtube" />
+          </a>
+        </div>
         <div className={style.verticalLine}></div>
       </div>
 
